@@ -7,17 +7,17 @@ http://www.cocoontech.com/wiki/Premise
 This module, named ViziaRF, is meant to be fully compatible with the native home and device classes used by Premise.  
 
 _*It includes support for z-wave devices such as:*_
-1. Switches
-2. Dimmers
-3. Humidity and Temperature sensors (Tested: HM-TS001)
-3. Motion sensors (Tested: ZIR000, HSM100)
-4. Door sensors (Tested: HM-DW001, HRDS1, SM103)
-5. Flood sensor (Tested: HM-FS001)
-6. Thermostats (Tested: TZEMT400)
-7. Controllers (Tested: VRCZ04-M0, VRCZ04-MR)
-8. Locks (only supported on VRC0Pv3. The VRC0Pv3 has a +3 on written on it's back.)
+<p>1. Switches</p>
+<p>2. Dimmers</p>
+<p>Humidity and Temperature sensors (Tested: HM-TS001)</p>
+<p>3. Motion sensors (Tested: ZIR000, HSM100)</p>
+<p>4. Door sensors (Tested: HM-DW001, HRDS1, SM103)</p>
+<p>5. Flood sensor (Tested: HM-FS001)</p>
+<p>6. Thermostats (Tested: TZEMT400)</p>
+<p>7. Controllers (Tested: VRCZ04-M0, VRCZ04-MR)</p>
+<p>8. Locks (only supported on VRC0Pv3. The VRC0Pv3 has a +3 on written on it's back.)</p>
 
-Further, if the device supports hailing, full two way control is included.
+Further, if a device supports hailing, full two way control will work with Premise.  This allows adevice to show instant updates in Premise Builder.
 
 = Details =
 This project contains an XDO file that is meant for use with Premise Builder.
