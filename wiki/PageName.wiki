@@ -4,6 +4,8 @@
 This module is built for a free and very powerful home automation program called Motorola Premise.  Motorola Premise is completely object oriented and also has an SDK.  More information about Premise, including download links for Premise is found here:
 http://www.cocoontech.com/wiki/Premise
 
+The module only works with the VRC0P or VRC0Pv3 (aka +3).  It will not work generically with the Zensys Serial API used by other serial and USB controllers as the Zensys Serial API is proprietary and would have required us to sign a Non-disclosure Agreement.  Consequently, since an open easily modifiable module was the goal, the VRC0P controller was chosen.
+
 This module, named ViziaRF, is meant to be fully compatible with the native home and device classes used by Premise.  
 
 _*This project adds support to Premise for these z-wave devices:*_
@@ -37,3 +39,9 @@ This project contains an XDO file that is meant for use with Premise Builder.  P
  # Set the NodeID for the VRC0P that is connected to Premise. This is very important. This is the only NodeID that will not be automatically obtained. This NodeID can be found via your primary z-wave controller.
  # Now navigate to Devices->CustomDevices->ViziaRF->Devices and toggle "Discover Devices."  You should ensure that you see packets being sent back and forth between Premise and the VRC0P. From the task bar, navigate to View->Port Spy.
  # When Discovery completes, initialization will automatically start. For each device, initialization gets the z-wave name and location, the model and version information, and lastly any current associations. It is recommended to wait until the Initializing boolean found under Devices.CustomDevices->ViziaRF->Devices is false before proceeding.
+
+=About the VRC0P secondary Z-Wave controller=
+There are to date three versions of the controller: RZC0P, VRC0P and VRC0P+3.  Only the VRC0P+3 supports beaming (e.g. locks) as it is newest version.  All three versions of this device will work with the ViziaRF Premise module.
+
+=Where to find help with the Premise Z-Wave driver?=
+Visit http://www.cocoontech.com/forums/index.php?showforum=51 for help with Premise and the VRC0P driver.
