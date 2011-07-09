@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Background and general information on how to get started.
 
 = Introduction =
 This module is built for a free and very powerful home automation program called Motorola Premise.  Motorola Premise is completely object oriented and also has an SDK.  More information about Premise, including download links for Premise is found here:
@@ -16,7 +16,7 @@ _*This project adds support to Premise for these z-wave devices:*_
  * Door sensors (Tested: HM-DW001, HRDS1, SM103)
  * Flood sensor (Tested: HM-FS001)
  * Thermostats (Tested: TZEMT400)
- * Controllers (Tested: VRCZ04-M0, VRCZ04-MR)
+ * Controllers (allows buttons to trigger events in Premise.  Tested: VRCZ04-M0, VRCZ04-MR)
  * Locks (only supported on VRC0Pv3. The VRC0Pv3 has a +3 on written on it's back.  Kwikset locks have been verified to work and give two way status)
 
 Further, if a device supports hailing, full two way control will work with Premise.  This allows a device to give instant updates to Premise when a user manually actuates it.
