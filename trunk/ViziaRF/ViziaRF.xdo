@@ -1,9 +1,9 @@
 <!-- Premise Systems Sys Schema Version 2.1 Build 15117 -->
-<!-- Premise Systems Sys Schema XML Version 2.0.11 -->
+<!-- Premise Systems Sys Schema XML Version 2.0.15 -->
 <Object ID="{8D692EC9-EB74-4155-9D83-315872AC9800}" Name="Premise SYS" Flags="0x120000" Class="sys://Schema/System/Object" Description="IP Camera REQUIRES IP CAMERAS EXTENSION" >
 	<Object ID="{05B46F0B-A745-4B03-81C9-624D3B3E9CD7}" Name="Schema" Flags="0x52FA0000" Class="sys://Schema/System/Schema" >
 		<Object ID="{79B9225F-8A86-42B2-9B31-78C8A2893404}" Name="Modules" Flags="0x40FA0000" Class="sys://Schema/System/ModuleFolder" Description="User-defined object types" DisplayName="Modules Folder" >
-			<Object ID="{EF6B933B-C97F-4C95-8E89-90E1ECA54527}" Name="Leviton" Class="sys://Schema/System/Module" Version="2.0.11" >
+			<Object ID="{EF6B933B-C97F-4C95-8E89-90E1ECA54527}" Name="Leviton" Class="sys://Schema/System/Module" Version="2.0.15" >
 				<Object ID="{D028F14A-A83E-4399-889C-C2A48A6339FF}" Name="Classes" Flags="0x120000" Class="sys://Schema/System/ClassFolder" >
 					<Object ID="{E0C4BD97-EAAF-4A35-8A8A-E85986FA8087}" Name="ViziaRF" Class="sys://Schema/System/Class" Icon="AgAAADYQAAAAAAEAAgAQEAAAAAAAAGgDAAAmAAAAICAAAAAAAACoDAAAjgMAACgAAAAQAAAAIAAAAAEAGAAAAAAAQAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADp+/ukoaOrqq2rqq2rqq2rqq2rqq2rqq2rqq2rqq2koaPp+/sAAAAAAAAAAAAAAAChnZ5pZFlPPCBQORxSPyRQORxSPyRQORxSPyRONRhpZFmhnZ4AAAAAAAAAAAAAAACEho1AIABUWTZrpZRRTylrpZRRTylrpZRRTyltqZk+GgCDho0AAAAAAAAAAADX5OVRUUpOKABLHABSSCBLGQBSSCBLGQBSSCBLGQBSSCBLGwBWU0rX5OUAAAAAAACqp6tPOhxSVCxxzs5PRRtxzs5PRRtxzs5PRRtxzs5PRRtxz85MMA+qp6sAAAAAAACTk5VsZVhPPB9QNhhSPyRQNhhSPyRQNhhSPyRQNhhSPyRNMhNsZViTk5UAAAAAAAC5vLyWlZecm56bmp2bmp2bmp2bmp2bmp2bmp2bmp2bmp2cm56WlZe5vLwAAAAAAAAAAACcm56RkJKFhoaFhoaFhoaFhoaFhoaFhoaFhoaFhoaRkJKcm54AAAAAAAAAAAAAAAAAAACcm56cm56cm56cm56cm56cm56cm56cm56cm56cm54AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AADAAwAAwAMAAMADAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD//wAA//8AAP//AAD//wAAKAAAACAAAABAAAAAAQAYAAAAAACADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v6SgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v6SgoICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSgoLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgKSgoAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgG5vblAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAG5vboCAgKSgoMTf3wAAAAAAAAAAAAAAAAAAAAAAALS/v4+NjXh4eD84IFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAD84IHh4eI+NjbS/vwAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgF1eXVAyAFAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAFAyAF1eXYCAgKSgoAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgENDOFAyAFAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAENDOICAgKSgoMTf3wAAAAAAAAAAAAAAALS/v4+NjW5ubkI0E1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAE05FW5ubo+NjbS/vwAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAI+NjYCAgHNzc1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAHNzc4CAgI+NjQAAAAAAAAAAAAAAAICAgICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgICAgAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAALS/v6SgoKSgoI+NjaSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoI+NjaSgoKSgoLS/vwAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////AAAA/wAAAP8AAAD+AAAAfgAAAH4AAAB8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAD4AAAB/AAAA/4AAAf////////////////////////////////////////////////" Description="Base class for the ViziaRF driver." >
 						<Object ID="{4DE7E201-5754-4D5E-BEFC-F3060B080346}" Name="OnChangeOnNewData" Class="sys://Schema/Scripting/ClassProperty" Property="{540A5FD4-C733-417F-B8B3-96CF4A82ED14}" >
@@ -102,6 +102,7 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 				sMsg = "Node Light Level. Node: " & aParms(0) & _
 					", Brightness: " & aParms(1)
 				this.Devices.SetLightLevel aParms(0), aParms(1)
+				this.Jobs.ShortenJobDelayTimer
 				
 			case 12: ' Node General (<N :) or <n :
 				sMsg = "Node General. Node: " & aParms(0)
@@ -109,7 +110,7 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 				for iParm = 1 to iParms - 1
 					sMsg = sMsg & " (" & iParm & "):" & aParms(iParm)
 				next
-				
+				this.Jobs.ShortenJobDelayTimer
 				parms = gViziaArgsPack( aParms, iParms )
 				
 				select case aParms(1)
@@ -243,12 +244,12 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 				sMsg = "Node Name. Node: " & aParms(0) & _
 					", Name: " & aParms(1)
 					this.Devices.SetDeviceName aParms(0), aParms(1)
-					
+					this.Jobs.ShortenJobDelayTimer
 			case 14: ' Node Location Name (<N ')
 				sMsg = "Node Location Name. Node: " & aParms(0) & _
 					", Location: " & aParms(1)
 					this.Devices.SetDeviceLocation aParms(0), aParms(1)
-					
+					this.Jobs.ShortenJobDelayTimer
 			case -1:
 				sMsg = "Bad <Error State> packet"
 			case -2:
@@ -576,7 +577,7 @@ if sysevent.newVal = true then
 	this.JobQueue.JobTimeout = 60
 	this.JobQueue.AddDelayForNextJob = true
 else
-	this.JobQueue.JobTimeout = 10
+	this.JobQueue.JobTimeout = 20
 	this.JobQueue.AddDelayForNextJob = false
 end if]]>
 						</Object>
@@ -1756,16 +1757,8 @@ if this.InDiscoveryMode = true then
 			' No more Controllers. Quit and reset.
 			this.DeleteOrphanDevices
 			this.ResetDiscovery
-			this.ImportDeviceNames
-			this.ImportModel
-			this.ImportVersion
 			this.InitializeDevices
-			
-			' Poll all Devices unless Polling is already enabled
-			if this.PollingInterval = 0 then 
-				this.PollDevices
-			end if
-									
+												
 			'reset device counters
 			this.ResetFailedJobs
 			this.ResetLocalManipulations	
@@ -1907,16 +1900,27 @@ end if
 <![CDATA[
 Script=
 '
+this.Initializing = true
+
+this.ImportDeviceNames
+this.ImportModel
+this.ImportVersion
+
+' Poll all Devices unless Polling is already enabled
+if this.PollingInterval = 0 then 
+	this.PollDevices
+end if
+
 for each oDevice in this.GetObjectsByType(Schema.Modules.Leviton.Classes.Device.Path)
 	'Skip devices of type Wakeup, as those devices are asleep and/or often don't support device naming
 	if oDevice.IsOfExplicitType(Schema.Modules.Leviton.Classes.Wakeup.Path) = false then
 		' set individual parameters for each device
-		system.addTimer iInterval, "on error resume next: " & gDotPath(oDevice.path) & ".SetInit", 1, "SetInit_" & oDevice.NodeID & "_" & oDevice.ObjectID
-		iInterval = iInterval + 8
+		oDevice.SetInit
 	end if
 next]]>
 						</Object>
 						<Object ID="{D038DF0D-29D5-47EE-9219-04FAB64F4CE3}" Name="iCount" Flags="0x900" Class="sys://Schema/System/Number" />
+						<Object ID="{CD76003D-17F8-414A-AD49-5B7F3644491B}" Name="Initializing" Flags="0x900" Class="sys://Schema/System/Boolean" Description="Initializing devices..." ReadOnly="-1" />
 					</Object>
 					<Object ID="{7FD4DC2D-07D4-43C5-8FCA-8706ADC665B8}" Name="Device" Class="sys://Schema/System/Class" Description="Base class for all Z-Wave devices." Virtual="-1" Transformable="-1" Icon="AgAAAD4BAAAAAAEAAQAQEBAAAAAAACgBAAAWAAAAKAAAABAAAAAgAAAAAQAEAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAFUFUAAAAABVVQVVUAAAVVVVBVVVUABVVVUFVVVQAFVVVQVVVVAAVVVVBVVVUABVVQBQBVVQAFUAVVVQBVAAAFVVVVVQAABVVVVVVVVQAABVVVVVUAAAAABVVVAAAAAAAABQAAAAAAAAAAAAAAAP7/AAD4PwAA4A8AAIADAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAIADAADgDwAA+D8AAP7/AAA=" >
 						<Object ID="{A861A3EF-1753-4D4E-9AFC-E917611EB868}" Name="Binding" Class="sys://Schema/System/SuperClass" LinkObject="{65311CA4-A02B-41D5-B8C0-156A1325BA6A}" />
@@ -1925,10 +1929,6 @@ next]]>
 						<Object ID="{E6EAB02E-A558-4E0B-9F28-1B2173C381A9}" Name="MaxFailedJobs" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="5" Description="Failed jobs below this count will not result in an event being set." />
 						<Object ID="{1C526416-07DF-439F-AFE9-DBE8FF4E0F81}" Name="ReceivingUpdate" Flags="0x900" Class="sys://Schema/System/Boolean" ReadOnly="-1" Browsable="0" />
 						<Object ID="{B184A806-A40D-49ED-882A-EF53F9B0BB1E}" Name="OneWay" Flags="0x900" Class="sys://Schema/System/Boolean" Description="This Device does not automatically report its status and needs to be polled." />
-						<Object ID="{909908E3-4533-4163-9463-5BC600D69CE3}" Name="GetName" Flags="0x500" Class="sys://Schema/System/Boolean" Momentary="-1" Persistent="0" />
-						<Object ID="{16131B3E-D404-4114-82C7-9B5C18B86F62}" Name="SetName" Flags="0x500" Class="sys://Schema/System/Boolean" Momentary="-1" Persistent="0" />
-						<Object ID="{49AD67EE-9E5B-494B-B97F-2C3506CD01E0}" Name="SetRoute" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
-						<Object ID="{ACDDD5A8-0C04-4B5E-995D-848034C6D353}" Name="AssociateWithVRC0P" Flags="0x500" Class="sys://Schema/System/Boolean" Description="Associates device with VRC0P.  Note: you MUST first input a node id for the VRC0P." Persistent="0" Momentary="-1" />
 						<Object ID="{F132B9A0-F355-4FC6-BB0A-512BEBC30107}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" Description="Received as part of MANUFACTURER_SPECIFIC command class" DisplayName="Manufacturer" ReadOnly="-1" />
 						<Object ID="{305BCA9E-4EF6-4947-8A2A-DE81C94C3D7F}" Name="CodeProductType" Flags="0x900" Class="sys://Schema/System/Number" Description="Received as part of MANUFACTURER_SPECIFIC command class" DisplayName="Product Type" ReadOnly="-1" />
 						<Object ID="{64910D18-DF7A-4D43-BF25-41C744DAFFDD}" Name="CodeProductID" Flags="0x900" Class="sys://Schema/System/Number" Description="Received as part of MANUFACTURER_SPECIFIC command class" DisplayName="Product ID" ReadOnly="-1" />
@@ -1936,52 +1936,6 @@ next]]>
 						<Object ID="{61E3524E-317E-4B89-B262-281547D0AA4A}" Name="VersionZwaveProtocol" Flags="0x900" Class="sys://Schema/System/Text" ReadOnly="-1" />
 						<Object ID="{A34D1378-BD75-4EF8-903F-34DB7CF28D49}" Name="VersionApplication" Flags="0x900" Class="sys://Schema/System/Text" ReadOnly="-1" />
 						<Object ID="{27D6A89C-DD8F-4E93-9E2F-1D4CBF636665}" Name="DeviceModelDetails" Flags="0x900" Class="sys://Schema/System/ObjectRef" Location="{F55D3197-6B59-4D76-B5BB-3A60E10081CC}" />
-						<Object ID="{79DDEE15-8C5A-43DA-BF15-E540A57529E2}" Name="SendCmd_AssociateWithController" Class="sys://Schema/Scripting/ClassFunction" >
-<![CDATA[
-Script=
-'Example:
-'associate controller (48) with lock (49)
-'>N49SS133,1,1,48
-
-sSendType = "SE"
-
-if this.IsOfExplicitType(Schema.Modules.Leviton.Classes.Secure.Path) and this.Parent.Parent.VRC0Pv3 = true then
-	sSendType = "SS"
-end if
-
-if method.NodeID <> 0 then
-	command = ">N" & this.NodeID & sSendType & "133,1," & method.ButtonNumber & "," & method.NodeID
-	this.Parent.Parent.SendCommand command, true, 995
-	if gViziaIsDebugOn(2) then debugout "SendCmd_AssociateWithController(): ASSOCIATE node=" & this.NodeID & " with controller node=" & method.NodeID
-else
-	if gViziaIsDebugOn(0) then debugout "SendCmd_SetWakeupInterval(): ERROR ViziaRF.VRC0PNodeID is not set!!!"
-	set oEvent = Events.CreateObject(Schema.System.Event.Path, "VRC0P NodeID not set")
-	with oEvent
-		.Description = this.Name & " VRC0P NodeID is not set." & VbCrLf &_
-			"Using Premise Builder, set ViziaRF.VRC0PNodeID to the NodeID of the VRC0P."
-		.Severity = 90
-		.EventTime = Now
-		.LinkObject = this
-	end with
-	set oEvent = nothing
-end if
-
-
-
-
-
-
-
-
-
-
-
-
-
-]]>
-							<Object ID="{583D835A-B3A0-4CBA-9573-19A5AB59C367}" Name="NodeID" Flags="0x900" Class="sys://Schema/System/Number" Description="NodeID of controller." ReadOnly="-1" />
-							<Object ID="{28C8A83A-631F-4A1A-BBC6-8117A2D137B8}" Name="ButtonNumber" Flags="0x900" Class="sys://Schema/System/Number" Description="NodeID of controller." ReadOnly="-1" DefaultValue="1" />
-						</Object>
 						<Object ID="{D19D8A3F-9F78-4878-B582-734FB740C8BA}" Name="SendCmd_GetManufacturerSpecific" Class="sys://Schema/Scripting/ClassFunction" >
 <![CDATA[
 Script=
@@ -1996,25 +1950,6 @@ this.Parent.Parent.SendCommand command, true, 995
 if gViziaIsDebugOn(2) then debugout "SendCmd_GetManufacturerSpecific(): MANUFACTURER_SPECIFIC GET from node=" & this.NodeID
 ]]>
 						</Object>
-						<Object ID="{38AEC7CA-5EA1-4682-BA29-27D424E72A0D}" Name="SendCmd_ClearRoutes" Class="sys://Schema/Scripting/SimpleClassMethod" >
-<![CDATA[
-Script=
-' if device does not have a direct RF connection with VRC0P, we must set a route.
-' this is usually done within the primary controller's software.
-' however, for locks, this is not implemented yet in the RF Installer Tool
-' it is recommended to clear routes before setting them
-
-' EXAMPLE:
-' >RO2,0; delete all routes for the routing slave node 2.
-' >RO2,10; setup up to 4 valid routes for node 2 to node 10.
-
-command = ">RO" & this.NodeID & ",0"
-
-' clear routes
-this.Parent.Parent.SendCommand command, true, this.NodeID ' High-priority
-
-if gViziaIsDebugOn(2) then debugout "SendCmd_SetLockState(): SET ROUTES command=" & command]]>
-						</Object>
 						<Object ID="{8CAE93D8-D7BE-45C3-9F9B-3D08A75169BC}" Name="SendCmd_GetVersion" Class="sys://Schema/Scripting/ClassFunction" >
 <![CDATA[
 Script=
@@ -2024,47 +1959,6 @@ command = ">N" & this.NodeID & "SE134,17"
 this.Parent.Parent.SendCommand command, true, 995
 
 if gViziaIsDebugOn(2) then debugout "SendCmd_GetVersion(): VERSION GET from node=" & this.NodeID
-]]>
-						</Object>
-						<Object ID="{2F4866AA-D176-4075-AC47-54D649D7B1F0}" Name="SendCmd_GetName" Class="sys://Schema/Scripting/ClassFunction" >
-<![CDATA[
-Script=
-'Set the name for the device
-
-command = ">N" & this.NodeID & "?NN"
-this.Parent.Parent.SendCommand command, true, 995
-
-if gViziaIsDebugOn(2) then debugout "SendCmd_SetName(): NAME GET from node=" & this.NodeID
-]]>
-						</Object>
-						<Object ID="{20B53978-83BC-4330-8808-22840F170DEB}" Name="SendCmd_SetRoutes" Class="sys://Schema/Scripting/SimpleClassMethod" >
-<![CDATA[
-Script=
-'
-' if device does not have a direct RF connection with VRC0P, we must set a route.
-' this is usually done within the primary controller's software.
-' however, for locks, this is not implemented yet in the RF Installer Tool
-
-' EXAMPLE:
-' >RO2,0; delete all routes for the routing slave node 2.
-' >RO2,10; setup up to 4 valid routes for node 2 to node 10.
-
-command = ">RO" & this.NodeID & "," & this.Parent.Parent.VRC0PNodeID
-
-' clear routes
-this.Parent.Parent.SendCommand command, true, this.NodeID ' High-priority
-
-if gViziaIsDebugOn(2) then debugout "SendCmd_SetLockState(): SET ROUTES command=" & command]]>
-						</Object>
-						<Object ID="{40FF4258-686A-48CD-9CB3-4902F6BD2295}" Name="SendCmd_SetName" Class="sys://Schema/Scripting/ClassFunction" >
-<![CDATA[
-Script=
-'Set the name for the device
-
-command = ">N" & this.NodeID & "NN" & this.Name
-this.Parent.Parent.SendCommand command, true, 995
-
-if gViziaIsDebugOn(2) then debugout "SendCmd_SetName(): NAME SET for node=" & this.NodeID
 ]]>
 						</Object>
 						<Object ID="{AF9B5538-267A-4F8E-92B4-EF2B3610C6C0}" Name="ConfigureDevice" Class="sys://Schema/Scripting/ClassFunction" >
@@ -2167,29 +2061,6 @@ next
 							<Object ID="{8249A5F3-B19E-4D35-BC62-ECAAA37E7C9D}" Name="Path" Flags="0x900" Class="sys://Schema/System/Text" />
 							<Object ID="{7F2A9967-71D5-40A9-B6B4-8BB79CD93D97}" Name="Result" Flags="0x900" Class="sys://Schema/System/Boolean" />
 						</Object>
-						<Object ID="{E9C451A0-ED1E-4EBA-BFD2-68C5DA405FF9}" Name="OnChangeAssociateWithVRC0P" Class="sys://Schema/Scripting/ClassProperty" Property="{ACDDD5A8-0C04-4B5E-995D-848034C6D353}" >
-<![CDATA[
-Script=
-'
-if this.Parent.Parent.VRC0PNodeID <> 0 then
-	this.SendCmd_AssociateWithController this.Parent.Parent.VRC0PNodeID, 1
-	
-	if this.IsOfExplicitType(Modules.Leviton.Classes.Associations.Path) then
-		this.SendCmd_GetAssociations 1
-	end if
-	
-end if]]>
-						</Object>
-						<Object ID="{79E8E192-64D5-405A-9544-13836EFF7A60}" Name="OnChangeSetName" Class="sys://Schema/Scripting/ClassProperty" Property="{16131B3E-D404-4114-82C7-9B5C18B86F62}" >
-<![CDATA[
-Script=
-this.SendCmd_SetName]]>
-						</Object>
-						<Object ID="{228C04AA-2129-48EB-9A41-66EC65338511}" Name="OnChangeGetName" Class="sys://Schema/Scripting/ClassProperty" Property="{909908E3-4533-4163-9463-5BC600D69CE3}" >
-<![CDATA[
-Script=
-this.SendCmd_GetName]]>
-						</Object>
 						<Object ID="{7DC568BF-B262-47E4-886D-EF5CADAEB504}" Name="OnChangeFailedJobs" Class="sys://Schema/Scripting/ClassProperty" Property="{C8AEA3D2-56FA-4A31-9063-C004BDACA918}" >
 <![CDATA[
 Script=
@@ -2203,13 +2074,6 @@ Script=
 if sysevent.newVal >= this.MaxFailedJobs then
 	this.Parent.SetEventNotification this.NodeID, 70, "", "has failed to respond " & this.Parent.Parent.JobQueue.MaxConsecutiveFailedJobs * this.FailedJobs & " times."
 end if]]>
-						</Object>
-						<Object ID="{1F0CADCB-56AF-493B-9C3D-C44604B9C343}" Name="OnChangeSetRoute" Class="sys://Schema/Scripting/ClassProperty" Property="{49AD67EE-9E5B-494B-B97F-2C3506CD01E0}" >
-<![CDATA[
-Script=
-'
-this.SendCmd_ClearRoutes
-system.addTimer 5,"this.SendCmd_SetRoutes",1,"SetRoutes_1" & this.ObjectID]]>
 						</Object>
 						<Object ID="{9285F9FE-11CC-4682-906E-AB0652104263}" Name="SetInit" Class="sys://Schema/Scripting/SimpleClassMethod" Description="Runs following discovery." >
 <![CDATA[
@@ -2229,13 +2093,14 @@ if this.IsOfExplicitType(Schema.Modules.Leviton.Classes.Wakeup.Path) = false the
 		system.addTimer 6, "on error resume next:this.SendCmd_GetNumUsers",1,"GetNumUsers_" & this.ObjectID
 		system.addTimer 8, "on error resume next:this.SendCmd_GetTamperProof",1,"GetTamperProof_" & this.ObjectID
 		' ensure lock is associated with VRC0P
-		system.addTimer 10, "on error resume next:this.SendCmd_AssociateWithController this.Parent.Parent.VRC0PNodeID,1",1,"Associate_" & this.ObjectID
+		system.addTimer 10, "on error resume next:this.AssociateWithVRC0P = true",1,"Associate_" & this.ObjectID
 	elseif this.IsOfExplicitType(modules.Leviton.Classes.Controller.Path) then
 		' send  proprietary command to enable use of the control buttons by a third party device...
 		this.SendCmd_SetManufacturerProprietaryThridPartyControl
 	end if
 end if]]>
 						</Object>
+						<Object ID="{D4CB703B-99DC-4FBD-9B41-BAF0C09C3AAE}" Class="sys://Schema/System/SuperClass" LinkObject="{FD07A77F-F9C8-4917-9A57-99804075D751}" />
 					</Object>
 					<Object ID="{783E650E-B3FD-4CBD-BD40-398D731C65E9}" Name="Secure" Class="sys://Schema/System/Class" Description="Base class for devices that use secure commands.  VRC0Pv3 is required." Icon="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6eno6unp6unuAO7/5OLi5OLk5OLl5OTl5OXl5Ofl5eflB+bl6AcH6Afo6Afp6Ojp6Onp6Orp6eruAO7//+Ti4uTi5OTi5eTk5eTl5eTn5eUH5QcH5egHB+gH6OgH6ejo6ejp6ejq6enuAO7/4v/k4uLk4uTk4uXk5OXk5eXkB+XlB+UHB+XoBwfoB+joB+no6Ono6eno6unuAO7/4uL/5OLi5OLk5OLl5OTl5OXl5Afl5QflBwfl6AcH6Afo6Afp6Ojp6Onp6OruAO7/4uLi/+Ti4uTi5OTi5eTk5eTl5eQH5eUH5QcH5egHB+gH6OgH6ejo6ejp6ejuAO7////////////////////////////////////////////////////////////uAO7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7uAADu/+L/4uLi/+Ti4uTi5OTi5eTk5eTl5e4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7v/i/+Li4v/k4uLk4uTk4uXk5OXk7gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO7/4v/i4uL/5OLi5OLk5OLl5OTuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADu/+L/4uLi/+Ti4uTi5OTi5e4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7v/i/+Li4v/k4uLk4uTk7gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO7////////////////uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADu7u7u7u7u7u7u7u4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////////////8AAD///////gAAH//////+AAAP//////4AAAf//////gAAB//////+AAAH///AAAAAAAB//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAf//gAAAP//////AAAB//////+AAAP//////8AAB///////4AAP///////wAB////////gAP/////////////////w==" Virtual="-1" />
 					<Object ID="{A9DE68F7-3EAA-4ACB-9CBC-49C828D5F39F}" Name="Alarm" Class="sys://Schema/System/Class" Virtual="-1" Icon="AgAAAH4FAAAAAAEAAQAQEAAAAAAAAGgFAAAWAAAAKAAAABAAAAAgAAAAAQAIAAAAAABAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAwNzAAPDKpgDU8P8AseL/AI7U/wBrxv8ASLj/ACWq/wAAqv8AAJLcAAB6uQAAYpYAAEpzAAAyUADU4/8Ascf/AI6r/wBrj/8ASHP/ACVX/wAAVf8AAEncAAA9uQAAMZYAACVzAAAZUADU1P8AsbH/AI6O/wBra/8ASEj/ACUl/wAAAP8AAADcAAAAuQAAAJYAAABzAAAAUADj1P8Ax7H/AKuO/wCPa/8Ac0j/AFcl/wBVAP8ASQDcAD0AuQAxAJYAJQBzABkAUADw1P8A4rH/ANSO/wDGa/8AuEj/AKol/wCqAP8AkgDcAHoAuQBiAJYASgBzADIAUAD/1P8A/7H/AP+O/wD/a/8A/0j/AP8l/wD/AP8A3ADcALkAuQCWAJYAcwBzAFAAUAD/1PAA/7HiAP+O1AD/a8YA/0i4AP8lqgD/AKoA3ACSALkAegCWAGIAcwBKAFAAMgD/1OMA/7HHAP+OqwD/a48A/0hzAP8lVwD/AFUA3ABJALkAPQCWADEAcwAlAFAAGQD/1NQA/7GxAP+OjgD/a2sA/0hIAP8lJQD/AAAA3AAAALkAAACWAAAAcwAAAFAAAAD/49QA/8exAP+rjgD/j2sA/3NIAP9XJQD/VQAA3EkAALk9AACWMQAAcyUAAFAZAAD/8NQA/+KxAP/UjgD/xmsA/7hIAP+qJQD/qgAA3JIAALl6AACWYgAAc0oAAFAyAAD//9QA//+xAP//jgD//2sA//9IAP//JQD//wAA3NwAALm5AACWlgAAc3MAAFBQAADw/9QA4v+xANT/jgDG/2sAuP9IAKr/JQCq/wAAktwAAHq5AABilgAASnMAADJQAADj/9QAx/+xAKv/jgCP/2sAc/9IAFf/JQBV/wAASdwAAD25AAAxlgAAJXMAABlQAADU/9QAsf+xAI7/jgBr/2sASP9IACX/JQAA/wAAANwAAAC5AAAAlgAAAHMAAABQAADU/+MAsf/HAI7/qwBr/48ASP9zACX/VwAA/1UAANxJAAC5PQAAljEAAHMlAABQGQDU//AAsf/iAI7/1ABr/8YASP+4ACX/qgAA/6oAANySAAC5egAAlmIAAHNKAABQMgDU//8Asf//AI7//wBr//8ASP//ACX//wAA//8AANzcAAC5uQAAlpYAAHNzAABQUADy8vIA5ubmANra2gDOzs4AwsLCALa2tgCqqqoAnp6eAJKSkgCGhoYAenp6AG5ubgBiYmIAVlZWAEpKSgA+Pj4AMjIyACYmJgAaGhoADg4OAPD7/wCkoKAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAAAAAAAAAAAAAAAAAAAIiIiIyMjJCQlJSYmACsAAAAAAAAAAAAAAAAAAAAqKwAAAAAiIiIjIyMkJCUAKiorAAAAAAAAAAAAAAAAACorACIiIiMjIyQkJSUmJgArAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAACIAKAAiAAAAAAAAAAAAAAAAIyojAAAAAAAAAAAAACQiKComKigiJAAAAAAAAAAAAAAjKiMAAAAAAAAAAAAAAAAiACgAIgAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAA//8AAAALAAD/+QAA4AgAAP/5AAAACwAA//8AAPf/AAD3/wAA1f8AAOP/AAAAfwAA4/8AANX/AAD3/wAA9/8AAA==" >
@@ -2819,6 +2684,7 @@ this.SendCmd_GetTamperProof]]>
 						</Object>
 					</Object>
 					<Object ID="{47A6B906-747D-4430-A142-924A7BF4169C}" Name="Associations" Class="sys://Schema/System/Class" Icon="AgAAAH4DAAAAAAEAAQAQEAAAAAAAAGgDAAAWAAAAKAAAABAAAAAgAAAAAQAYAAAAAABAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKWSc/+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Oa/+Oa/+OawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Oa/+Oa/+Oa/+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+Oa/+Oa/+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+Oa/+Oa/+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+Oa/+Oa/+OawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Oa/+Oa/+OawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytaWScwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD/jwAA//MAAP/7AAD/xwAA/4cAAP8PAAD/nwAA+f8AAPD/AADh/wAA4/8AAN//AADP/wAA8f8AAP//AAA=" Virtual="-1" Description="Device level association commands and properties." >
+						<Object ID="{C345FF94-FC77-4EC6-A0AF-7FD404D8DDBD}" Name="GetNumberSupportedAssociations" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
 						<Object ID="{AE73676F-5E90-4E3F-8D14-77C20D17231C}" Name="Groups" Flags="0x900" Class="sys://Schema/System/Number" Description="Maximum number of supported groups.  Corresponds to the number of buttons on a zone/scene controller." ReadOnly="-1" />
 						<Object ID="{1666DAD8-4E31-4E46-B93B-969991581218}" Name="SendCmd_GetSupportedAssociations" Class="sys://Schema/Scripting/ClassFunction" Description="Gets the number of possible group ids for a device." >
 <![CDATA[
@@ -2857,7 +2723,7 @@ if method.GroupID <= this.Groups and method.GroupID <> 0 then
 	' refresh outstanding associations
 	this.SendCmd_GetAssociations method.GroupID
 		
-	if gViziaIsDebugOn(2) then debugout "SendCmd_AssociateWithController(): remove all ASSOCIATIONS for group=" & method.GroupID & " from controller node=" & this.NodeID
+	if gViziaIsDebugOn(2) then debugout "SendCmd_RemoveAssociations(): remove all ASSOCIATIONS for group=" & method.GroupID & " from controller node=" & this.NodeID
 end if]]>
 							<Object ID="{135B4ACF-50E9-4AAE-A8D8-77101E43C678}" Name="GroupID" Flags="0x900" Class="sys://Schema/System/Number" />
 						</Object>
@@ -2884,7 +2750,7 @@ if method.NodeID <> 0 and method.GroupID <= this.Groups  and method.GroupID <> 0
 	' refresh outstanding associations
 	this.SendCmd_GetAssociations method.GroupID
 	
-	if gViziaIsDebugOn(2) then debugout "SendCmd_AssociateWithController(): remove ASSOCIATION for node=" & method.NodeID & " from controller node=" & this.NodeID & " GroupID=" & method.GroupID
+	if gViziaIsDebugOn(2) then debugout "SendCmd_RemoveAssociation(): remove ASSOCIATION for node=" & method.NodeID & " from controller node=" & this.NodeID & " GroupID=" & method.GroupID
 end if]]>
 							<Object ID="{4F6D803E-DA4A-42C7-8C15-5410E71345D2}" Name="NodeID" Flags="0x900" Class="sys://Schema/System/Number" Description="NodeID of controller." ReadOnly="-1" />
 							<Object ID="{4E899D9D-3031-45E5-8153-1F23038DC50E}" Name="GroupID" Flags="0x900" Class="sys://Schema/System/Number" />
@@ -2912,7 +2778,7 @@ if method.NodeID <> 0 and method.GroupID <= this.Groups  and method.GroupID <> 0
 	' refresh outstanding associations
 	this.SendCmd_GetAssociations method.GroupID
 	
-	if gViziaIsDebugOn(2) then debugout "SendCmd_AssociateWithController(): ASSOCIATE node=" & method.NodeID & " with controller node=" & this.NodeID & " GroupID=" & method.GroupID
+	if gViziaIsDebugOn(2) then debugout "SendCmd_SetAssociation(): ASSOCIATE node=" & method.NodeID & " with controller node=" & this.NodeID & " GroupID=" & method.GroupID
 end if]]>
 							<Object ID="{4D052C85-8E4A-4A9C-97D9-7DE18F3FBDE3}" Name="NodeID" Flags="0x900" Class="sys://Schema/System/Number" Description="NodeID of controller." ReadOnly="-1" />
 							<Object ID="{37AC2ACF-BF7C-42F0-B67E-D3BEBBAF2DBF}" Name="GroupID" Flags="0x900" Class="sys://Schema/System/Number" ReadOnly="-1" DefaultValue="1" />
@@ -2943,15 +2809,32 @@ if this.IsOfExplicitType(Modules.Leviton.Classes.GroupAssociation.Path) then
 	this.GroupID = 1
 end if]]>
 						</Object>
+						<Object ID="{B2BBE806-D08B-4CA4-97E8-C4B3CEAA326F}" Name="OnChangeGetNumberSupportedAssociations" Class="sys://Schema/Scripting/ClassProperty" Property="{C345FF94-FC77-4EC6-A0AF-7FD404D8DDBD}" >
+<![CDATA[
+Script=
+'
+this.SendCmd_GetSupportedAssociations]]>
+						</Object>
 					</Object>
 					<Object ID="{657D6703-E52E-4BD1-BB78-FB2321AEA9FD}" Name="GroupAssociation" Class="sys://Schema/System/Class" Description="Group level association commands and properties.  An object inheriting from this class should have a parent inheriting from Associations or inherit from Associations also." Icon="AgAAAH4DAAAAAAEAAQAQEAAAAAAAAGgDAAAWAAAAKAAAABAAAAAgAAAAAQAYAAAAAABAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKWSc/+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Oa/+Oa/+OawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Oa/+Oa/+Oa/+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+Oa/+Oa/+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+Oa/+Oa/+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+Oa/+Oa/+OawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Oa/+Oa/+OawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytaWScwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD/jwAA//MAAP/7AAD/xwAA/4cAAP8PAAD/nwAA+f8AAPD/AADh/wAA4/8AAN//AADP/wAA8f8AAP//AAA=" Virtual="-1" >
 						<Object ID="{B0B1BF2A-E91D-441B-99E5-E69ED8826214}" Name="GroupID" Flags="0x900" Class="sys://Schema/System/Number" ReadOnly="-1" Description="Group identifier for button." />
 						<Object ID="{32400324-FFB7-4738-9537-2F6106126C3D}" Name="Associations" Flags="0x900" Class="sys://Schema/System/Text" Description="Current associations for group by nodeID." ReadOnly="-1" />
 						<Object ID="{F3AD711A-0E24-4240-8326-71B9AFC41435}" Name="AssociateWithNodeID" Flags="0x900" Class="sys://Schema/System/Number" Description="NodeID of device to associate button with." />
 						<Object ID="{F34CBA89-A4FA-4A20-B3BD-11AF245DCC93}" Name="SetAssociation" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
+						<Object ID="{3EABD2BD-D41A-4C0C-977D-79F03B79437D}" Name="GetAssociation" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
 						<Object ID="{ED43EAE0-AAFD-41A3-AD49-FF1CFCF8BBA8}" Name="RemoveAssociation" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
 						<Object ID="{CD309DDB-7F72-4590-A684-C43CDDAAFBB5}" Name="RemoveAllAssociations" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
 						<Object ID="{C528F812-4CF4-45A4-AF40-07D8873D4C08}" Name="MaxNodesSupported" Flags="0x900" Class="sys://Schema/System/Number" Description="Maximum number of nodes supported for this group." />
+						<Object ID="{150A9199-5A73-4528-90AC-831EE9381BC2}" Name="OnChangeGetAssociation" Class="sys://Schema/Scripting/ClassProperty" Property="{3EABD2BD-D41A-4C0C-977D-79F03B79437D}" >
+<![CDATA[
+Script=
+'
+if this.Parent.IsOfExplicitType(Modules.Leviton.Classes.Associations.Path) then
+	this.Parent.SendCmd_GetAssociations this.GroupID
+elseif this.IsOfExplicitType(Modules.Leviton.Classes.Associations.Path) then
+	this.SendCmd_GetAssociations this.GroupID
+end if]]>
+						</Object>
 						<Object ID="{DE1D7040-B1BD-49BA-907B-B81F5F68390A}" Name="OnChangeSetAssociation" Class="sys://Schema/Scripting/ClassProperty" Property="{F34CBA89-A4FA-4A20-B3BD-11AF245DCC93}" >
 <![CDATA[
 Script=
@@ -3101,6 +2984,8 @@ end if
 						<Object ID="{AAD8F23E-2250-4C65-8533-8819F2F6F78D}" Name="LocallyManipulated" Flags="0xB00" Class="sys://Schema/System/Boolean" Description="Toggles as a switch or dimmer is locally manipulated.  Only applies to Vizia RF and RF+ switches and dimmers." Bindable="-1" ReadOnly="-1" />
 						<Object ID="{D7A394C0-81A7-4E94-AE82-2768A5F4A48D}" Name="LocalManipulations" Flags="0xB00" Class="sys://Schema/System/Number" Bindable="-1" ReadOnly="-1" />
 						<Object ID="{B3D3795A-10E7-4043-841B-405F2674DCBC}" Name="PowerStateChanging" Flags="0x900" Class="sys://Schema/System/Boolean" ReadOnly="-1" Browsable="0" />
+						<Object ID="{8328FBDC-4A53-4046-84F8-564E2AB81D56}" Class="sys://Schema/System/SuperClass" LinkObject="{47A6B906-747D-4430-A142-924A7BF4169C}" />
+						<Object ID="{042C418B-1C43-4C2E-AA0C-8EE493ECBBD5}" Class="sys://Schema/System/SuperClass" LinkObject="{657D6703-E52E-4BD1-BB78-FB2321AEA9FD}" />
 					</Object>
 					<Object ID="{AB7FA3E9-D2BA-4C94-A228-2376FA5793FB}" Name="Dimmer" Class="sys://Schema/System/Class" Description="Device with brightness control." >
 						<Object ID="{3858CFAF-9EB3-423B-A705-FA89D6F942AC}" Class="sys://Schema/System/SuperClass" LinkObject="{DEB24C93-9143-4030-86FF-29C7626BC9E3}" />
@@ -3132,6 +3017,8 @@ if this.ReceivingUpdate = false and this.BrightnessChanging = false and this.Pow
 	this.BrightnessChanging = false
 end if]]>
 						</Object>
+						<Object ID="{9EA832FB-9F03-417C-8BBC-083F45381ACC}" Class="sys://Schema/System/SuperClass" LinkObject="{47A6B906-747D-4430-A142-924A7BF4169C}" />
+						<Object ID="{AE1DF442-68B1-4554-87EB-E0BA1A4052C3}" Class="sys://Schema/System/SuperClass" LinkObject="{657D6703-E52E-4BD1-BB78-FB2321AEA9FD}" />
 					</Object>
 					<Object ID="{E48CCC31-1DC5-4E6F-BC8E-C1E79AF42558}" Name="Thermostat" Class="sys://Schema/System/Class" Description="Device with climate controls." Icon="Thermostat.ico" >
 						<Object ID="{93E1D5F8-B159-4DAF-8ABB-37F15EDDB3DB}" Name="TemperatureController" Class="sys://Schema/System/SuperClass" LinkObject="{1C399D51-E702-40B2-A0D3-E6BC46F45758}" />
@@ -3921,7 +3808,8 @@ end if]]>
 						<Object ID="{87C8EBA6-1459-4C10-AA3D-2201FA7024BB}" Name="ClearJobQueue" Flags="0x500" Class="sys://Schema/System/Boolean" Description="Clears all jobs in the job queue." Momentary="-1" Persistent="0" />
 						<Object ID="{05DA9348-5EA6-41BA-BB77-36916A0D29B8}" Name="ResetJobCounts" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" Description="Resets job counts." />
 						<Object ID="{0687BE79-7D9C-4A21-B28A-C92748168DEE}" Name="AddDelayForNextJob" Flags="0x900" Class="sys://Schema/System/Boolean" Description="If true, a delay is added beffore processing the next job in queue." />
-						<Object ID="{638223A5-9761-4A0C-906A-D8F99A1901CE}" Name="JobTimeout" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="10" Description="Maximum allowable runtime for a Job. Default is 90 (seconds)." />
+						<Object ID="{6F6D7D34-C5D7-437C-B8F9-2F14E882D670}" Name="InitializationWait" Flags="0x900" Class="sys://Schema/System/Number" ReadOnly="-1" Description="Time in seconds to wait for device response N&quot; or N: during initialization." DefaultValue="15" />
+						<Object ID="{638223A5-9761-4A0C-906A-D8F99A1901CE}" Name="JobTimeout" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="20" Description="Maximum allowable runtime for a Job. Default is 90 (seconds)." />
 						<Object ID="{9D04A878-F36E-4BD3-B5CB-CDB38413D215}" Name="TotalJobs" Flags="0x900" Class="sys://Schema/System/Number" ReadOnly="-1" Description="Total number of Jobs executed." />
 						<Object ID="{2FB25C18-0058-41B6-9B0E-68FFA5A6CBFF}" Name="TotalFailedJobs" Flags="0x900" Class="sys://Schema/System/Number" ReadOnly="-1" Description="Total number of Jobs that failed to be acknowledged." />
 						<Object ID="{60F8F498-949E-47DE-986E-89B957AEB53D}" Name="MaxConsecutiveFailedJobs" Flags="0x900" Class="sys://Schema/System/Number" Description="Maximum number of consecutive Job failures before InterfaceFailure is set." DefaultValue="3" ReadOnly="-1" />
@@ -4100,25 +3988,50 @@ if not oJob is nothing then
 		if oJob.NodeID<>"" and oJob.NodeID < 233 then
 			this.PurgeLowPriorityJobsByNodeID oJob.NodeID
 		end if
+		
+		iDelayTime = 0
+		
+		if this.Parent.Devices.Initializing = true then
+			iDelayTime = iDelayTime + this.InitializationWait
+		end if
+		
 		if this.AddDelayForNextJob = true then
-			system.addTimer .75, "on error resume next:this.ProcessCurrentJob",1,"DELAY_" & oJobs(0).ObjectID
+			iDelayTime = iDelayTime + .75
+		end if
+		
+		if this.Parent.Devices.Initializing = true or this.AddDelayForNextJob = true then 
+			system.addTimer iDelayTime, "on error resume next:this.ProcessCurrentJob",1,"DELAY_" & this.Parent.Name
 		else
 			this.ProcessCurrentJob
 		end if
+
 	else
 		' No high-priority jobs so check for low-priority jobs generated by Polling
 		set oJobs = this.GetObjectsByTypeAndPropertyValue(Schema.Modules.Leviton.Classes.Job.Path, "Priority", false)
 
 		if oJobs.Count > 0 then
 			this.CurrentJob = oJobs(0).ObjectID
+			
+			iDelayTime = 0
+			
+			if this.Parent.Devices.Initializing = true then
+				iDelayTime = iDelayTime + this.InitializationWait
+			end if
+		
 			if this.AddDelayForNextJob = true then
-				system.addTimer .75, "on error resume next:this.ProcessCurrentJob",1,"DELAY_" & oJobs(0).ObjectID
+				iDelayTime = iDelayTime + .75
+			end if
+			
+			if this.Parent.Devices.Initializing = true or this.AddDelayForNextJob = true then 
+				system.addTimer iDelayTime, "on error resume next:this.ProcessCurrentJob",1,"DELAY_" & this.Parent.Name
 			else
 				this.ProcessCurrentJob
 			end if
 		else
 			this.CurrentJob = ""
 			this.JobIndex = 0
+			this.Parent.Devices.Initializing = false
+			
 			'debugout "No more jobs to process."
 		end if
 	end if
@@ -4130,9 +4043,15 @@ else
 end if
 
 set oJob = nothing
-
-
 ]]>
+						</Object>
+						<Object ID="{F75CB28D-5758-4F14-8DE1-60A97E790C22}" Name="ShortenJobDelayTimer" Class="sys://Schema/Scripting/SimpleClassMethod" Description="Modifies the current job delay timer to a very short interval (.75 seconds)" >
+<![CDATA[
+Script=
+'
+for each oTimer in modules.Default.Timers.GetObjectsByPropertyValue("Name","DELAY_" & this.Parent.Name, false) 
+	oTimer.Interval = .75
+next]]>
 						</Object>
 						<Object ID="{E4153782-EC00-49C0-9AD1-2D2172EFD3A3}" Name="PurgeAllJobs" Class="sys://Schema/Scripting/SimpleClassMethod" Description="Delete all Jobs in the JobQueue." >
 <![CDATA[
@@ -4681,7 +4600,7 @@ Script=
 dim oDevice
 'nodeID 995 is reserved for device name jobs
 for each oDevice in this.GetObjectsByType(Schema.Modules.Leviton.Classes.Device.Path)
-	this.Parent.SendCommand ">N" & oDevice.NodeID & "NN1" & oDevice.Name, true, 995
+	oDevice.SendCmd_SetName
 next
 
 set oDevice = nothing
@@ -4704,21 +4623,16 @@ Script=
 
 dim oDevice
 dim iInterval
-iInterval = 0
+this.Initializing = true	' jobqueue will set this to false on last job...
+
 for each oDevice in this.GetObjectsByType(Schema.Modules.Leviton.Classes.Device.Path)
 	'Skip devices of type Wakeup, as those devices are asleep and/or often don't support device naming
 	if oDevice.IsOfExplicitType(Schema.Modules.Leviton.Classes.Wakeup.Path) = false then
-		'the timer is necessary to improve name import reliability; without a time buffer, many X002
-		'transmission packets are received.
-		system.addTimer iInterval, "on error resume next: this.Parent.SendCommand '>N' & " & oDevice.NodeID & " & '?NN', true, 995", 1, oDevice.NodeID & "_" & oDevice.ObjectID
-		iInterval = iInterval + 8
-	else
-		'Ignore battery-power device.  Most don't support naming, and they are usually asleep
+		oDevice.SendCmd_GetName
 	end if
-next
-]]>
+next]]>
 						</Object>
-						<Object ID="{E96FFB50-D68C-4160-AC22-3EEB907C9059}" Name="GetDeviceLocations" Flags="0x500" Class="sys://Schema/System/Boolean" Description="Get the location of all Devices." Momentary="-1" CaptionTrue="" CaptionFalse="" Persistent="0" />
+						<Object ID="{E96FFB50-D68C-4160-AC22-3EEB907C9059}" Name="GetDeviceLocations" Flags="0x500" Class="sys://Schema/System/Boolean" Description="Sets the location of the SYS Device object to match that of the physical Z-Wave device." Momentary="-1" CaptionTrue="" CaptionFalse="" Persistent="0" />
 						<Object ID="{C1425462-606B-42D4-AC5E-B300A35649B6}" Name="OnChangeGetDeviceLocations" Class="sys://Schema/Scripting/ClassProperty" Property="{E96FFB50-D68C-4160-AC22-3EEB907C9059}" >
 <![CDATA[
 Script=
@@ -4734,12 +4648,16 @@ Script=
 ' The SYS Device Description will inherit the physical Z-Wave Device location.
 
 dim oDevice
+this.Initializing = true	' jobqueue will set this to false on last job...
+
 'NodeID 994 is reserved for location jobs
 for each oDevice in this.GetObjectsByType(Schema.Modules.Leviton.Classes.Device.Path)
-	this.Parent.SendCommand ">N" & oDevice.NodeID & "?NL", true, 994
+	if oDevice.IsOfExplicitType(Schema.Modules.Leviton.Classes.Wakeup.Path) = false then
+		oDevice.SendCmd_GetLocation
+	end if
 next]]>
 						</Object>
-						<Object ID="{B31B2DC9-BB8B-420D-9767-6A17908107F5}" Name="GetDeviceModel" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
+						<Object ID="{B31B2DC9-BB8B-420D-9767-6A17908107F5}" Name="GetDeviceModel" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" Description="Asks all devices for their model information." />
 						<Object ID="{F0760CA0-9978-4025-9E50-CB2112CBB415}" Name="ImportModel" Class="sys://Schema/Scripting/SimpleClassMethod" >
 <![CDATA[
 Script=
@@ -4747,16 +4665,16 @@ Script=
 'a MANUFACTURE_SPECIFIC report, which will contain codes for the device's manufacturer,
 'product type, and product ID.  ProcessCmd_ManufacturerSpecific will handle the report,
 'then call ConfigureDevice to determine the device's model.
+
+this.Initializing = true	' jobqueue will set this to false on last job...
+
 for each oDevice in this.GetObjectsByType(Schema.Modules.Leviton.Classes.Device.Path)
 	'Skip devices of type Wakeup, as those devices are asleep and/or often don't support device naming
 	if oDevice.IsOfExplicitType(Schema.Modules.Leviton.Classes.Wakeup.Path) = false then
 		'Send MANUFACTURER_SPECIFIC command to get manufacturer, product type, and product ID
-		system.addTimer iInterval, "on error resume next: " & gDotPath(oDevice.path) & ".SendCmd_GetManufacturerSpecific", 1, "GetModel_" & oDevice.NodeID & "__" & oDevice.ObjectID
-		iInterval = iInterval + 8
-		'oDevice.SendCmd_GetManufacturerSpecific
+		oDevice.SendCmd_GetManufacturerSpecific
 	end if
-next
-]]>
+next]]>
 						</Object>
 						<Object ID="{5C1EBF17-A920-457B-9F44-C136EEF9EE2E}" Name="OnChangeGetDeviceModel" Class="sys://Schema/Scripting/ClassProperty" Property="{B31B2DC9-BB8B-420D-9767-6A17908107F5}" >
 <![CDATA[
@@ -4764,16 +4682,16 @@ Script=
 '
 this.ImportModel]]>
 						</Object>
-						<Object ID="{E538FF20-4A40-452E-90DB-D3456C611F63}" Name="GetDeviceVersion" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
+						<Object ID="{E538FF20-4A40-452E-90DB-D3456C611F63}" Name="GetDeviceVersion" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" Description="Asks all devices for their version information." />
 						<Object ID="{BAD9F019-FCC3-4FB1-9D6D-C7E5F84E7640}" Name="ImportVersion" Class="sys://Schema/Scripting/SimpleClassMethod" >
 <![CDATA[
 Script=
+this.Initializing = true	' jobqueue will set this to false on last job...
+
 for each oDevice in this.GetObjectsByType(Schema.Modules.Leviton.Classes.Device.Path)
 	'Skip devices of type Wakeup, as those devices are asleep and/or often don't support device naming
 	if oDevice.IsOfExplicitType(Schema.Modules.Leviton.Classes.Wakeup.Path) = false then
-		system.addTimer iInterval, "on error resume next: " & gDotPath(oDevice.path) & ".SendCmd_GetVersion", 1, "GetVersion_" & oDevice.NodeID & "__" & oDevice.ObjectID
-		iInterval = iInterval + 8
-		'oDevice.SendCmd_GetVersion
+		oDevice.SendCmd_GetVersion
 	end if
 next]]>
 						</Object>
@@ -4782,6 +4700,152 @@ next]]>
 Script=
 '
 this.ImportVersion]]>
+						</Object>
+					</Object>
+					<Object ID="{FD07A77F-F9C8-4917-9A57-99804075D751}" Name="Initialization" Class="sys://Schema/System/Class" Description="Device level properties and methods to initialize each device." Virtual="-1" Icon="AgAAAD4BAAAAAAEAAQAQEBAAAAAAACgBAAAWAAAAKAAAABAAAAAgAAAAAQAEAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAAAsAAAAAAAAAC7AAAAAAAAAAuwAAAAAAAIALsAAAAAAAC7sAAAAAAAAAuwAAAAAAAAC7sAAAAAAAAAu7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD//wAA//8AAPP/AADx/wAA+P8AAPh/AAD8PwAA+B8AAPgfAAD8PwAA/B8AAP4PAAD+DwAA//8AAP//AAA=" >
+						<Object ID="{21D1E3F2-7647-47AD-9CC3-E246249D0552}" Name="GetLocation" Flags="0x500" Class="sys://Schema/System/Boolean" Momentary="-1" Persistent="0" Description="Gets the location of the device." />
+						<Object ID="{909908E3-4533-4163-9463-5BC600D69CE3}" Name="GetName" Flags="0x500" Class="sys://Schema/System/Boolean" Momentary="-1" Persistent="0" Description="Gets the z-wave name for the device that is stored in the device&apos;s memory." />
+						<Object ID="{A7E487B5-CCE5-438B-B98C-0D29DB7025EF}" Name="GetModel" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" Description="Gets the z-wave model information for the device." />
+						<Object ID="{1765CBE1-1E47-4873-9BA9-354BD85DF72D}" Name="GetVersion" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" Description="Gets the z-wave version information for the device." />
+						<Object ID="{16131B3E-D404-4114-82C7-9B5C18B86F62}" Name="SetName" Flags="0x500" Class="sys://Schema/System/Boolean" Momentary="-1" Persistent="0" />
+						<Object ID="{49AD67EE-9E5B-494B-B97F-2C3506CD01E0}" Name="SetRoute" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
+						<Object ID="{ACDDD5A8-0C04-4B5E-995D-848034C6D353}" Name="AssociateWithVRC0P" Flags="0x500" Class="sys://Schema/System/Boolean" Description="Associates device with VRC0P.  Note: you MUST first input a node id for the VRC0P." Persistent="0" Momentary="-1" />
+						<Object ID="{38AEC7CA-5EA1-4682-BA29-27D424E72A0D}" Name="SendCmd_ClearRoutes" Class="sys://Schema/Scripting/SimpleClassMethod" >
+<![CDATA[
+Script=
+' if device does not have a direct RF connection with VRC0P, we must set a route.
+' this is usually done within the primary controller's software.
+' however, for locks, this is not implemented yet in the RF Installer Tool
+' it is recommended to clear routes before setting them
+
+' EXAMPLE:
+' >RO2,0; delete all routes for the routing slave node 2.
+' >RO2,10; setup up to 4 valid routes for node 2 to node 10.
+
+command = ">RO" & this.NodeID & ",0"
+
+' clear routes
+this.Parent.Parent.SendCommand command, true, this.NodeID ' High-priority
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_SetLockState(): SET ROUTES command=" & command]]>
+						</Object>
+						<Object ID="{2F4866AA-D176-4075-AC47-54D649D7B1F0}" Name="SendCmd_GetName" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Set the name for the device
+
+'command = ">N" & this.NodeID & "?NN"
+command = ">N" & this.NodeID & "SE119,2"
+this.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_SetName(): NAME GET from node=" & this.NodeID
+
+
+]]>
+						</Object>
+						<Object ID="{40FF4258-686A-48CD-9CB3-4902F6BD2295}" Name="SendCmd_SetName" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Set the name for the device
+
+command = ">N" & this.NodeID & "NN1" & this.Name
+this.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_SetName(): NAME SET for node=" & this.NodeID
+]]>
+						</Object>
+						<Object ID="{20B53978-83BC-4330-8808-22840F170DEB}" Name="SendCmd_SetRoutes" Class="sys://Schema/Scripting/SimpleClassMethod" >
+<![CDATA[
+Script=
+'
+' if device does not have a direct RF connection with VRC0P, we must set a route.
+' this is usually done within the primary controller's software.
+' however, for locks, this is not implemented yet in the RF Installer Tool
+
+' EXAMPLE:
+' >RO2,0; delete all routes for the routing slave node 2.
+' >RO2,10; setup up to 4 valid routes for node 2 to node 10.
+
+command = ">RO" & this.NodeID & "," & this.Parent.Parent.VRC0PNodeID
+
+' clear routes
+this.Parent.Parent.SendCommand command, true, this.NodeID ' High-priority
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_SetLockState(): SET ROUTES command=" & command]]>
+						</Object>
+						<Object ID="{867715BD-39CA-404F-BA89-F6D09CFB8764}" Name="SendCmd_GetLocation" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Set the name for the device
+
+command = ">N" & this.NodeID & "?NL"
+this.Parent.Parent.SendCommand command, true, 994
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_SetName(): NAME GET from node=" & this.NodeID
+
+
+]]>
+						</Object>
+						<Object ID="{E9C451A0-ED1E-4EBA-BFD2-68C5DA405FF9}" Name="OnChangeAssociateWithVRC0P" Class="sys://Schema/Scripting/ClassProperty" Property="{ACDDD5A8-0C04-4B5E-995D-848034C6D353}" >
+<![CDATA[
+Script=
+'
+if this.Parent.Parent.VRC0PNodeID <> 0 then
+	if this.IsOfExplicitType(Modules.Leviton.Classes.Associations.Path) then
+		this.SendCmd_SetAssociation this.Parent.Parent.VRC0PNodeID, 1
+		this.SendCmd_GetAssociations 1
+	end if
+else
+	' no nodeID set for VRC0P alert user... 
+	if gViziaIsDebugOn(0) then debugout "SendCmd_SetWakeupInterval(): ERROR ViziaRF.VRC0PNodeID is not set!!!"
+	set oEvent = Events.CreateObject(Schema.System.Event.Path, "VRC0P NodeID not set")
+	with oEvent
+		.Description = this.Name & " VRC0P NodeID is not set." & VbCrLf &_
+			"Using Premise Builder, set ViziaRF.VRC0PNodeID to the NodeID of the VRC0P."
+		.Severity = 90
+		.EventTime = Now
+		.LinkObject = this
+	end with
+	set oEvent = nothing
+end if]]>
+						</Object>
+						<Object ID="{79E8E192-64D5-405A-9544-13836EFF7A60}" Name="OnChangeSetName" Class="sys://Schema/Scripting/ClassProperty" Property="{16131B3E-D404-4114-82C7-9B5C18B86F62}" >
+<![CDATA[
+Script=
+this.SendCmd_SetName]]>
+						</Object>
+						<Object ID="{228C04AA-2129-48EB-9A41-66EC65338511}" Name="OnChangeGetName" Class="sys://Schema/Scripting/ClassProperty" Property="{909908E3-4533-4163-9463-5BC600D69CE3}" >
+<![CDATA[
+Script=
+this.SendCmd_GetName]]>
+						</Object>
+						<Object ID="{1F0CADCB-56AF-493B-9C3D-C44604B9C343}" Name="OnChangeSetRoute" Class="sys://Schema/Scripting/ClassProperty" Property="{49AD67EE-9E5B-494B-B97F-2C3506CD01E0}" >
+<![CDATA[
+Script=
+'
+this.SendCmd_ClearRoutes
+system.addTimer 5,"this.SendCmd_SetRoutes",1,"SetRoutes_1" & this.ObjectID]]>
+						</Object>
+						<Object ID="{DED62570-D740-40CF-8063-F04D295C7293}" Name="OnChangeGetLocation" Class="sys://Schema/Scripting/ClassProperty" Property="{21D1E3F2-7647-47AD-9CC3-E246249D0552}" >
+<![CDATA[
+Script=
+'
+this.SendCmd_GetLocation]]>
+						</Object>
+						<Object ID="{5453B227-C771-44DC-A0EF-1944DCF6E27B}" Name="OnChangeGetModel" Class="sys://Schema/Scripting/ClassProperty" Property="{A7E487B5-CCE5-438B-B98C-0D29DB7025EF}" >
+<![CDATA[
+Script=
+'
+if this.IsOfExplicitType(Modules.Leviton.Classes.Device.Path) then
+	this.SendCmd_GetManufacturerSpecific
+end if]]>
+						</Object>
+						<Object ID="{C377642F-9CA1-408E-B8D7-BCFCFC6B111F}" Name="OnChangeGetVersion" Class="sys://Schema/Scripting/ClassProperty" Property="{1765CBE1-1E47-4873-9BA9-354BD85DF72D}" >
+<![CDATA[
+Script=
+if this.IsOfExplicitType(Modules.Leviton.Classes.Device.Path) then
+	this.SendCmd_GetVersion
+end if]]>
 						</Object>
 					</Object>
 					<Object ID="{ACC92AEA-EF8D-44E4-9262-3273555C7B57}" Name="Scenes" Class="sys://Schema/System/Class" Icon="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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAOAAH//wAD//+AB///wA///KAAAACAAAABAAAAAAQAYAAAAAACADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI+Pj7a2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2to+PjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ2dnf///9XV1e7u7v////////////////////////////////////////////////////f39+3t7f///52dnQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ2dnf///7m5uUVFRZmZmZ6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enpubm8HBwf///52dnQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ2dnf///7m5uR4eHpNsbP8AAP8AAP8AAP8AAP8AAOxtbUNDQ+EAAP8AAP8AAP8AAP8AAOMeHrm5uf///52dnQAAAAAAAAAAAAAAACkAACEAACkAACEAACkAACEAACEAAJ2dnf///7m5uR4eHpN7e/9CQv8AAP8AAP8AAP8AAOxtbUNDQ+EAAP8AAP8AAP8AAP8AAOMeHrm5uf///52dnRAAABgAAAAAAIQQAO9CKedCKedCKd5CKd5CKd5CKdY5KZ2dnf///7m5uR4eHpOTk+3JycxmZsxmZvqDg/8AAOxtbUNDQ+EAAP8AAP8AAP8AAP8AAOMeHrm5uf///52dnYQhGIQhGCEQEIwQAO/W1u+cjOeUhOeMe96UhN6Me9aMe52dnf///7m5uR4eHpOTk/n5+djY2OLi4v339//MzOzS0kNDQ+GkpP8AAP8AAP8AAP8AAOMeHrm5uf///52dnYxSSoQhGCEQEIwQAPfe1u+cjO+cjOeUhOeMe96Me96Me52dnf///7m5uR4eHpOTk+7u7unp6f/////Pz/+MjOxtbUNDQ+EAAP8AAP8AAP8AAP8AAOMeHrm5uf///52dnYxSSowpGCEQEIwQAPfe1vecjO+cjO+cjOeUhOeMe96Me52dnf///7m5uR4eHpOTk/f39/S9vf+Zmf8LC/8AAOxtbUNDQ+EAAP8AAP8AAP8AAP8AAOMeHrm5uf///52dnYxaUowxKSEQEIwQAPfe3vecjO+cjO+cjO+cjOeUhOeUhJ2dnf///7m5uR4eHpN7e/9mZv8uLv8AAP8AAP8AAOxtbUNDQ+EAAP8AAP8AAP8AAP8AAOMeHrm5uf///52dnZRaUowxKRgAAJQQAP/n3vecjPecjO+cjO+cjOecjOecjJ2dnf///7m5uR4eHh0VFTMAADMAADMAADMAADMAAIZtbUNDQy0AADMAADMAADMAADMAAEUeHrm5uf///52dnZRjY5QxIRgAAJQYCP/n5/+cjPecjPecjO+cjO+cjOecjJ2dnf///7m5uR4eHsS8vOGuruGuruGuruGuruGurt3ExLu7u9uuruGuruGuruGuruGursukpLm5uf///52dnZxjWpQpGBgAAJQYCP/n5/+clP+clPecjPecjO+cjO+cjJ2dnf///7m5uR4eHpNsbP8AAP8AAP8AAP8AAP8AAOxtbUNDQ+EAAP8AAP8AAP8AAP8AAOMeHrm5uf///52dnZxjWpwpGBgAAJQhEP/n5/+llP+llP+clPeclPeclO+cjJ2dnf///7m5uR4eHpNsbP8AAP8AAP8AAP8AAP8AAOxtbUNDQ+EAAP8AAP8AAN1CQvaQkOOUlLm5uf///52dnZxjWpwpGBgAAJwhEP/n5/+llP+llP+llPellPeclPeclJ2dnf///7m5uR4eHpNsbP8AAP8AAP8AAP8AAP8+PuzS0kNDQ+EPD+y5ubuIiK+envHx8ePj47m5uf///52dnZxjWpwpGBgAAJwpGP/v5/+lnP+lnP+lnP+lnPellPellJ2dnf///7m5uR4eHpNsbP8AAP8AAP+UlP/R0f///+zs7ENDQ+Hh4f///+zs7Orq6v39/ePj47m5uf///52dnaVjWqUxIRgAAJwxIf/n5/+lnP+tnP+tnP+lnP+tnPelnJ2dnf///7m5uR4eHpNsbP8AAP8AAP8AAP8REf+Zmey5uUNDQ+GOjv///////+Hh4ff39+Pj47m5uf///52dnaVrWqUxGBgAAKU5Kf/v5/+tnP+tpf+tpf+tpf+tpf+tnJ2dnf///7m5uR4eHpNsbP8AAP8AAP8AAP8AAP8AAOxtbUNDQ+EHB/+Ojv+4uPVcXPzk5OPj47m5uf///52dna1rY6UxISEAAKU5Kf/v5/+tpf+tpf+tpf+tpf+tpf+tpZ2dnf///7m5uR4eHpNsbP8AAP8AAP8AAP8AAP8AAOxtbUNDQ+EAAP8NDf8bG/8AAP8rK+NFRbm5uf///52dna1rY60xGBgAAKVCOf/v7/+1rf+1pf+1pf+1rf+1rf+1rZ2dnf///7m5uR4eHmZmZmtra2tra2tra2tra2tra4yMjDU1NV5eXmtra2tra2tra2tra2tra6mpqf///52dna1rY60xISEAAK1COf/v7/+1rf+9tf+1tf+9tf+9tf+1tZ2dnf///7m5uUdHRzU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NYqKiv///52dnbVzY7UxIRgAAK1KQv/v7/+9tf+9tf+9tf+9vf+9vf+9vZ2dnf///+Pj487Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzuPj4////52dnbVzY7UxISEAAK1SUv/v7/+9tf+9vf/Gvf/Gxv/Gxv/Gxp2dnf///////////////////////////////////////////////////////////////////////////52dnb1za7UxISEAALVaUv/v7//Gvf/Gvf/Gxv/Ozv/O1v/O1v/O1v/O1v/Gzv/Gxv+1tf+1rfetpe+lnO+clOeclOecjOecjN6UhNaMe9aMe86Ec857c8Z7c8Z7c8Z7a71za71za70xIRgAALVaWv/37//Gxv/Oxv/Ozv/O1v/W3v/e7//e7//e5/+91v/Gzv+9vf+1tfetpfetnO+lnOeclOecjOecjN6UhN6UhNaMe9aMe86Ec857c8Z7c8Z7a8Z7a71za70xIQAAALVjWv/v7//37//39//39//////////////////////3///39//37//v7/fn5/fn5/fe3u/e3u/W1ufW1ufOzt7Oxt7OxtbGvdbGvdbGvc61tc61tca1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bW0dHR0aGhocHBwVFRUVXFw5OTk5WlpaFxcXFxc6Fxc7OztAoaFFhYUeHh4eGxttbW0dHR0aGhocHBwVFRUVXFw5OTk5WlpaFxcXFxc6Fxc7OztAoaFABwdZWVlZWVkbGxtYWFgdGhoaHBwcFRUVXFxcXFw5WlpaWloXk5M6Ojo7Ozs/oaExhYVZGRkZWVkZV1dXFBRYVVUaGhocHBwVFRVcXFxcOTlaWlphFxcXOjo6OztBoaExhYVZGRkZWVkZV1dXFBRYVVUaGhocHBwVFRVcXFxcOTlaWlphFxcXOjo6OztBoaEwBwcZVFRUVFRUGRlXU1NTWFhVGhpWHBxWFRVcXFxcOTk5WlpaWloXOjo6Ojo/oqIwBwdUVFRUVFRUVFRUExMTU1MUVVUaVhwcFRUVFRVcXFw5WlpeWlphFxcXOjpCoaEwBwdUVFRUVFRUVFRUExMTU1MUVVUaGlYcFRUVFRVcXFw5WlpeWlphFxcXOjpCoaF1goJRGBgYUVFRUVEYpKRSU1NTVVVVGhpWVlYVFRVcXFxcOTleWlpaFxcXOjo/ERF1goJRUFCRUFBQkZFQUVFRUlJTU1NVVVUaHBwcHBwVXFxcOTk5WlpaWloXFxdqoaF1goJRUFCRUFBQkZFQUVFRUlJTU1NVVVUaHBwcHBwVXFxcOTk5WlpaWloXFxdqoaGdgoJQUFBQkJCQkJCQkJCQUlJSUlJTVVVVGhpWHBwVFRVcXFw5Xl5eWlpaFxdqoqKagoJQkJAoj4+Pj4+pqamQkZFRUlJTU1NVGhpWHBwcFRUVXFxcOTleWlpaWlpqERGagoJQkJAoj4+Pj4+pqamQkZFRUlJTU1NVGhpWHBwcFRUVXFxcOTleWlpaWlpqERFngoIoKCiPjo6rq6urq6upj4+RUVFSU1NYVVUaVlYcHBwVFRVcXFw5Xl5aWlo1oaFnBQWPJyeOq6usuLi4sbG1qamQkZFSExNTVVUaGhocHBwVFRVcXFw5Xl5eWlo1vLxnBQWPJyeOq6usuLi4sbG1qamQkZFSExNTVVUaGhocHBwVFRVcXFw5Xl5eWlo1vLxkgoIFgICAAAAAAAAAAAC5gIAFgoKBgYGGhISHg4OICAgIBgYGBgaKiooJCQm8vLxkcnIul5ekrq62AAAAt7eusLCjc3N/aGgweHh6MjI0ODg4ODhKSkpNTU1NTU28vLxkcnIul5ekrq62AAAAt7eusLCjc3N/aGgweHh6MjI0ODg4ODhKSkpNTU1NTU28vLy8YWEAj4+OrKyCAAAAurqxq6uPkJCRdXXmvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLxhgICOjIyyt7eysrKstbWPKCic6+u8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLxhgICOjIyyt7eysrKstbWPKCic6+u8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8paWArKyMrKysrKyNqamPZ2cCvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyor6+vtLSvr6+vpqZnAgK8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyor6+vtLSvr6+vpqZnAgK8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLz///////////////////////////////////////////////////////////////+AAAAAAAP//4AAAAAAA///AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAD//8AAAAAAAf//wAAAAAAB///gAAAf//////gAAD//////+AAAP//////8AAD///////8AAf///////wAB/////////////////8=" >
