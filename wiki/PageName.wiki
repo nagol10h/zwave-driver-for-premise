@@ -4,7 +4,9 @@
 This module is built for a free and very powerful home automation program called Motorola Premise.  Motorola Premise is completely object oriented and also has an SDK.  More information about Premise, including download links for Premise is found here:
 http://www.cocoontech.com/wiki/Premise
 
-This module, named ViziaRF, is meant to be fully compatible with the native home and device classes used by Premise.  It includes support for z-wave devices such as: 
+This module, named ViziaRF, is meant to be fully compatible with the native home and device classes used by Premise.  
+
+_*It includes support for z-wave devices such as:*_
 1. Switches
 2. Dimmers
 3. Humidity and Temperature sensors (Tested: HM-TS001)
@@ -20,7 +22,7 @@ Further, if the device supports hailing, full two way control is included.
 = Details =
 This project contains an XDO file that is meant for use with Premise Builder.
 
-To install:
+_*To install:*_
 1. Navigate to Modules.Leviton and delete it if you are using a previous version.
 NOTE: if you don't do this you'll end up with duplicate GUIDs and SYS (the engine that runs Premise) will crash. However, SYS is recoverable from this type of mistake.
 2. Right click on import and import the updated XDO.
