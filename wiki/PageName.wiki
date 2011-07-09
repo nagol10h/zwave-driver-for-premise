@@ -23,10 +23,9 @@ Further, if a device supports hailing, full two way control will work with Premi
 This project contains an XDO file that is meant for use with Premise Builder.
 
 ==Installation==
- # Download and install _Premise Home Control Software Version 2.1_  form this page: http://www.premisesystems.net/downloads/
+Download and install _Premise Home Control Software Version 2.1_  form this page: http://www.premisesystems.net/downloads/
 
- # Navigate to Modules.Leviton and delete it if you are using a previous version.  Ignore this step if you are doing a fresh install.
-NOTE: if you don't do this you'll end up with duplicate GUIDs and SYS (the engine that runs Premise) will crash. However, SYS is recoverable from this type of mistake.
+ # Navigate to Modules.Leviton and delete it if you are using a previous version.  Ignore this step if you are doing a fresh install.  NOTE: if you don't do this you'll end up with duplicate GUIDs and SYS (the engine that runs Premise) will crash. However, SYS is recoverable from this type of mistake.
  # Right click on import and import the updated XDO.
  # Navigate to Devices.CustomDevices
  # Right click new -> ViziaRF
