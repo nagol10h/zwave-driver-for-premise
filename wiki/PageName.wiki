@@ -6,7 +6,7 @@ http://www.cocoontech.com/wiki/Premise
 
 This module, named ViziaRF, is meant to be fully compatible with the native home and device classes used by Premise.  
 
-_*It includes support for z-wave devices such as:*_
+_*This project adds support to Premise for these z-wave devices:*_
  * Switches
  * Dimmers
  * Humidity and Temperature sensors (Tested: HM-TS001)
@@ -15,7 +15,7 @@ _*It includes support for z-wave devices such as:*_
  * Flood sensor (Tested: HM-FS001)
  * Thermostats (Tested: TZEMT400)
  * Controllers (Tested: VRCZ04-M0, VRCZ04-MR)
- * Locks (only supported on VRC0Pv3. The VRC0Pv3 has a +3 on written on it's back.)
+ * Locks (only supported on VRC0Pv3. The VRC0Pv3 has a +3 on written on it's back.  Kwikset locks have been verified to work and give two way status)
 
 Further, if a device supports hailing, full two way control will work with Premise.  This allows a device to give instant updates to Premise when a user manually actuates it.
 
@@ -23,16 +23,17 @@ Further, if a device supports hailing, full two way control will work with Premi
 This project contains an XDO file that is meant for use with Premise Builder.
 
 _*To install:*_
-1. Navigate to Modules.Leviton and delete it if you are using a previous version.
+ # Download and install _Premise Home Control Software Version 2.1_  form this page: http://www.premisesystems.net/downloads/
+
+ # Navigate to Modules.Leviton and delete it if you are using a previous version.  Ignore this step if you are doing a fresh install.
 NOTE: if you don't do this you'll end up with duplicate GUIDs and SYS (the engine that runs Premise) will crash. However, SYS is recoverable from this type of mistake.
-2. Right click on import and import the updated XDO.
-3. Navigate to Devices.CustomDevices
-4. Right click new -> ViziaRF
-5. Navigate to Devices.CustomDevices.ViziaRF
-6. Set VRC0Pv3 to true by clicking the checkbox called VRC0Pv3. If you are using an older VRC0P that does not have +3 on the back label, do not check this box.
-7. Set Network to whatever COM port you're using.
-8. Set the NodeID for the VRC0P that is connected to Premise.
+ # Right click on import and import the updated XDO.
+ # Navigate to Devices.CustomDevices
+ # Right click new -> ViziaRF
+ # Navigate to Devices.CustomDevices.ViziaRF
+ # Set VRC0Pv3 to true by clicking the checkbox called VRC0Pv3. If you are using an older VRC0P that does not have +3 on the back label, do not check this box.
+ # Set Network to whatever COM port you're using.
+ # Set the NodeID for the VRC0P that is connected to Premise.
 This is very important. This is the only NodeID that will not be automatically obtained. This NodeID can be found via your primary z-wave controller.
-9. Now navigate to Devices.CustomDevices.ViziaRF.Devices and toggle "Discover Devices."
-9.1. You should ensure that you see packets being sent back and forth between Premise and the VRC0P. From the task bar, navigate to View->Port Spy.
-10. When Discovery completes, initialization will automatically start. For each device, initialization gets the z-wave name and location, the model and version information, and lastly any current associations. It is recommended to wait until the Initializing boolean found under Devices.CustomDevices.ViziaRF.Devices is false before proceeding.
+ # Now navigate to Devices.CustomDevices.ViziaRF.Devices and toggle "Discover Devices."  You should ensure that you see packets being sent back and forth between Premise and the VRC0P. From the task bar, navigate to View->Port Spy.
+ # When Discovery completes, initialization will automatically start. For each device, initialization gets the z-wave name and location, the model and version information, and lastly any current associations. It is recommended to wait until the Initializing boolean found under Devices.CustomDevices.ViziaRF.Devices is false before proceeding.
