@@ -7,15 +7,15 @@ http://www.cocoontech.com/wiki/Premise
 This module, named ViziaRF, is meant to be fully compatible with the native home and device classes used by Premise.  
 
 _*It includes support for z-wave devices such as:*_
-*Switches
-*Dimmers
-*Humidity and Temperature sensors (Tested: HM-TS001)
-*Motion sensors (Tested: ZIR000, HSM100)
-*Door sensors (Tested: HM-DW001, HRDS1, SM103)
-*Flood sensor (Tested: HM-FS001)
-*Thermostats (Tested: TZEMT400)
-*Controllers (Tested: VRCZ04-M0, VRCZ04-MR)
-*Locks (only supported on VRC0Pv3. The VRC0Pv3 has a +3 on written on it's back.)
+ *Switches
+ *Dimmers
+ *Humidity and Temperature sensors (Tested: HM-TS001)
+ *Motion sensors (Tested: ZIR000, HSM100)
+ *Door sensors (Tested: HM-DW001, HRDS1, SM103)
+ *Flood sensor (Tested: HM-FS001)
+ *Thermostats (Tested: TZEMT400)
+ *Controllers (Tested: VRCZ04-M0, VRCZ04-MR)
+ *Locks (only supported on VRC0Pv3. The VRC0Pv3 has a +3 on written on it's back.)
 
 Further, if a device supports hailing, full two way control will work with Premise.  This allows a device to give instant updates to Premise when a user manually actuates it.
 
