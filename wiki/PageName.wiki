@@ -22,7 +22,7 @@ Further, if a device supports hailing, full two way control will work with Premi
 = Details =
 This project contains an XDO file that is meant for use with Premise Builder.
 
-_*To install:*_
+==Installation==
  # Download and install _Premise Home Control Software Version 2.1_  form this page: http://www.premisesystems.net/downloads/
 
  # Navigate to Modules.Leviton and delete it if you are using a previous version.  Ignore this step if you are doing a fresh install.
