@@ -33,7 +33,6 @@ NOTE: if you don't do this you'll end up with duplicate GUIDs and SYS (the engin
  # Navigate to Devices.CustomDevices.ViziaRF
  # Set VRC0Pv3 to true by clicking the checkbox called VRC0Pv3. If you are using an older VRC0P that does not have +3 on the back label, do not check this box.
  # Set Network to whatever COM port you're using.
- # Set the NodeID for the VRC0P that is connected to Premise.
-This is very important. This is the only NodeID that will not be automatically obtained. This NodeID can be found via your primary z-wave controller.
+ # Set the NodeID for the VRC0P that is connected to Premise. This is very important. This is the only NodeID that will not be automatically obtained. This NodeID can be found via your primary z-wave controller.
  # Now navigate to Devices.CustomDevices.ViziaRF.Devices and toggle "Discover Devices."  You should ensure that you see packets being sent back and forth between Premise and the VRC0P. From the task bar, navigate to View->Port Spy.
  # When Discovery completes, initialization will automatically start. For each device, initialization gets the z-wave name and location, the model and version information, and lastly any current associations. It is recommended to wait until the Initializing boolean found under Devices.CustomDevices.ViziaRF.Devices is false before proceeding.
