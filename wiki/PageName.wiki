@@ -20,7 +20,9 @@ _*This project adds support to Premise for these z-wave devices:*_
 Further, if a device supports hailing, full two way control will work with Premise.  This allows a device to give instant updates to Premise when a user manually actuates it.
 
 = Details =
-This project contains an XDO file that is meant for use with Premise Builder.
+This project contains an XDO file that is meant for use with Premise Builder.  Premise Builder was used to build the XDO file.  An XDO file is really just an XML file that Premise's engine called SYS (which is a windows based service) can interpret.  
+
+<p>The file was built from within Premise Builder via its easy to learn vbscript like language.  While Premise does offer an SDK that could have also been used with C++ or .net, the internal vbscript language was chosen for ease of testing and modifications.</p>
 
 ==Installation==
  # Download and install _Premise Home Control Software Version 2.1_  form this page: http://www.premisesystems.net/downloads/
@@ -33,5 +35,5 @@ This project contains an XDO file that is meant for use with Premise Builder.
  # Set VRC0Pv3 to true by clicking the checkbox called VRC0Pv3. If you are using an older VRC0P that does not have +3 on the back label, do not check this box.
  # Set Network to whatever COM port you're using.
  # Set the NodeID for the VRC0P that is connected to Premise. This is very important. This is the only NodeID that will not be automatically obtained. This NodeID can be found via your primary z-wave controller.
- # Now navigate to Devices->CustomDevices->ViziaRF.Devices and toggle "Discover Devices."  You should ensure that you see packets being sent back and forth between Premise and the VRC0P. From the task bar, navigate to View->Port Spy.
+ # Now navigate to Devices->CustomDevices->ViziaRF->Devices and toggle "Discover Devices."  You should ensure that you see packets being sent back and forth between Premise and the VRC0P. From the task bar, navigate to View->Port Spy.
  # When Discovery completes, initialization will automatically start. For each device, initialization gets the z-wave name and location, the model and version information, and lastly any current associations. It is recommended to wait until the Initializing boolean found under Devices.CustomDevices->ViziaRF->Devices is false before proceeding.
