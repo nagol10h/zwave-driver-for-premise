@@ -1,9 +1,9 @@
 <!-- Premise Systems Sys Schema Version 2.1 Build 15117 -->
-<!-- Premise Systems Sys Schema XML Version 2.0.15 -->
+<!-- Premise Systems Sys Schema XML Version 2.0.19 -->
 <Object ID="{8D692EC9-EB74-4155-9D83-315872AC9800}" Name="Premise SYS" Flags="0x120000" Class="sys://Schema/System/Object" Description="IP Camera REQUIRES IP CAMERAS EXTENSION" >
 	<Object ID="{05B46F0B-A745-4B03-81C9-624D3B3E9CD7}" Name="Schema" Flags="0x52FA0000" Class="sys://Schema/System/Schema" >
 		<Object ID="{79B9225F-8A86-42B2-9B31-78C8A2893404}" Name="Modules" Flags="0x40FA0000" Class="sys://Schema/System/ModuleFolder" Description="User-defined object types" DisplayName="Modules Folder" >
-			<Object ID="{EF6B933B-C97F-4C95-8E89-90E1ECA54527}" Name="Leviton" Class="sys://Schema/System/Module" Version="2.0.15" >
+			<Object ID="{EF6B933B-C97F-4C95-8E89-90E1ECA54527}" Name="Leviton" Class="sys://Schema/System/Module" Version="2.0.19" >
 				<Object ID="{D028F14A-A83E-4399-889C-C2A48A6339FF}" Name="Classes" Flags="0x120000" Class="sys://Schema/System/ClassFolder" >
 					<Object ID="{E0C4BD97-EAAF-4A35-8A8A-E85986FA8087}" Name="ViziaRF" Class="sys://Schema/System/Class" Icon="AgAAADYQAAAAAAEAAgAQEAAAAAAAAGgDAAAmAAAAICAAAAAAAACoDAAAjgMAACgAAAAQAAAAIAAAAAEAGAAAAAAAQAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADp+/ukoaOrqq2rqq2rqq2rqq2rqq2rqq2rqq2rqq2koaPp+/sAAAAAAAAAAAAAAAChnZ5pZFlPPCBQORxSPyRQORxSPyRQORxSPyRONRhpZFmhnZ4AAAAAAAAAAAAAAACEho1AIABUWTZrpZRRTylrpZRRTylrpZRRTyltqZk+GgCDho0AAAAAAAAAAADX5OVRUUpOKABLHABSSCBLGQBSSCBLGQBSSCBLGQBSSCBLGwBWU0rX5OUAAAAAAACqp6tPOhxSVCxxzs5PRRtxzs5PRRtxzs5PRRtxzs5PRRtxz85MMA+qp6sAAAAAAACTk5VsZVhPPB9QNhhSPyRQNhhSPyRQNhhSPyRQNhhSPyRNMhNsZViTk5UAAAAAAAC5vLyWlZecm56bmp2bmp2bmp2bmp2bmp2bmp2bmp2bmp2cm56WlZe5vLwAAAAAAAAAAACcm56RkJKFhoaFhoaFhoaFhoaFhoaFhoaFhoaFhoaRkJKcm54AAAAAAAAAAAAAAAAAAACcm56cm56cm56cm56cm56cm56cm56cm56cm56cm54AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AADAAwAAwAMAAMADAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD//wAA//8AAP//AAD//wAAKAAAACAAAABAAAAAAQAYAAAAAACADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v6SgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v6SgoICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSgoLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgKSgoAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgG5vblAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAG5vboCAgKSgoMTf3wAAAAAAAAAAAAAAAAAAAAAAALS/v4+NjXh4eD84IFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAD84IHh4eI+NjbS/vwAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgF1eXVAyAFAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAFAyAF1eXYCAgKSgoAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgENDOFAyAFAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAENDOICAgKSgoMTf3wAAAAAAAAAAAAAAALS/v4+NjW5ubkI0E1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAE05FW5ubo+NjbS/vwAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAI+NjYCAgHNzc1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAHNzc4CAgI+NjQAAAAAAAAAAAAAAAICAgICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgICAgAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAALS/v6SgoKSgoI+NjaSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoI+NjaSgoKSgoLS/vwAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////AAAA/wAAAP8AAAD+AAAAfgAAAH4AAAB8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAD4AAAB/AAAA/4AAAf////////////////////////////////////////////////" Description="Base class for the ViziaRF driver." >
 						<Object ID="{4DE7E201-5754-4D5E-BEFC-F3060B080346}" Name="OnChangeOnNewData" Class="sys://Schema/Scripting/ClassProperty" Property="{540A5FD4-C733-417F-B8B3-96CF4A82ED14}" >
@@ -22,7 +22,7 @@ dim iCnt
 dim iParms
 dim oDevice
 
-debugout this.RxTextLine
+'debugout this.RxTextLine
 
 if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 	if gViziaIsDebugOn(2) then debugout "OnChangeOnNewData(): <" & now & "> rxtextline=" & this.RxTextLine
@@ -142,9 +142,11 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 								if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process ASSOCIATION command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 								this.Devices.ProcessCmd_Association parms, iParms
 						end select
+						
 					case 32: 'BASIC
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process BASIC command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_Basic parms, iParms
+						
 					case 38: 'SWITCH_MULTILEVEL
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process SWITCH_MULTILEVEL command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_SwitchMultilevel parms, iParms
@@ -152,6 +154,7 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 					case 44: 'SCENE ACTUATOR CONFIG
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process SCENE command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_SceneActuatorConfiguration parms, iParms
+						
 					case 49: 'SENSOR_MULTILEVEL
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process SENSOR_MULTILEVEL command from node=" & aParms(0) & ", , rxText=" & this.RxTextLine
 						if  iParms = 6 and aParms(2) = 5 and aParms(3) = 1 and aParms(4) = 9 then 
@@ -221,9 +224,11 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 					case 132: 'WAKE_UP
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process WAKE_UP command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_Wake_Up parms, iParms
+						
 					case 133: 'ASSOCIATION
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process ASSOCIATION command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_Association parms, iParms
+						
 					case 134: 'VERSION
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process VERSION command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_Version parms, iParms
@@ -232,6 +237,10 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 						if gViziaIsDebugOn(0) then debugout "OnChangeOnNewData(): <" & now & "> Process MANUFACTURER_PROPRIETARY command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_ManufacturerProprietary parms, iParms
 						
+					case 152: 'SECURITY
+						'Be silent unless debugging level is high
+						if gViziaIsDebugOn(2) then debugout "OnChangeOnNewData(): <" & now & "> Unhandled SECURITY command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
+
 					case 156: 'SENSOR_ALARM
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process SENSOR_ALARM command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_SensorAlarm parms, iParms
@@ -2288,7 +2297,7 @@ this.Parent.Parent.SendCommand command, true, 995
 if gViziaIsDebugOn(1) then debugout "SendCmd_GetBatteryLevel(): BATTERY LEVEL GET from node=" & this.NodeID
 ]]>
 						</Object>
-						<Object ID="{996CFF6B-2FC0-4B93-9A68-98C5A2C29D34}" Name="RefreshBatteryLevelInterval" Flags="0x900" Class="sys://Schema/System/Number" Description="Request a battery level report after this number of seconds since last battery level report.  Default is 2 weeks." DefaultValue="1209600" />
+						<Object ID="{996CFF6B-2FC0-4B93-9A68-98C5A2C29D34}" Name="RefreshBatteryLevelInterval" Flags="0x900" Class="sys://Schema/System/Number" Description="Request a battery level report after this number of seconds since last battery level report.  Default is 1 week." DefaultValue="604800" />
 						<Object ID="{E4C4A92F-C879-4E94-A4D5-2912A38EC267}" Name="RefreshBatteryLevel" Class="sys://Schema/Scripting/SimpleClassMethod" ReturnParameter="{D2EC7E64-57F1-4FC8-A0A1-422F3BDAD873}" >
 <![CDATA[
 Script=
@@ -3900,7 +3909,7 @@ oJob.Runs = oJob.Runs + 1
 this.Parent.OutCmd.TxTextData = oJob.Description
 this.Parent.OutCmd.Send = true
 this.LastSentJob = this.Parent.OutCmd.TxTextData
-debugout oJob.Description
+'debugout oJob.Description
 this.TotalJobs = this.TotalJobs + 1
 
 this.CreateJobTimer
@@ -6022,7 +6031,7 @@ if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_OffDelay(): command=" & c
 						</Object>
 						<Object ID="{6544F45B-BF7E-465D-855B-43C3D79D59E1}" Name="Model_HM-FS001" Class="sys://Schema/System/Class" DisplayName="HM-FS001" Description="HomeManageables Flood Sensor" >
 							<Object ID="{23D98853-89EC-4559-8547-01A3875E882F}" Name="Capabilities" Flags="0x900" Class="sys://Schema/System/Text" DefaultValue="1,2" ReadOnly="-1" />
-							<Object ID="{B01ACFB7-4EAE-4EF1-9CA1-5A9EE80DFD1A}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" DefaultValue="99" ReadOnly="-1" />
+							<Object ID="{B01ACFB7-4EAE-4EF1-9CA1-5A9EE80DFD1A}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" DefaultValue="96" ReadOnly="-1" />
 							<Object ID="{29032BCC-A084-4D71-9AF3-C6C2996428F2}" Name="CodeProductType" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="11" ReadOnly="-1" />
 							<Object ID="{5276DDF6-F325-400B-804F-0D523E916F1B}" Name="CodeProductID" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="1" ReadOnly="-1" />
 							<Object ID="{DF7018E8-9978-4F06-A8A4-0BF58385D636}" Name="SendModelSpecificCommands" Class="sys://Schema/Scripting/ClassFunction" >
@@ -6426,7 +6435,7 @@ if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_OnValue(): CONFIGURATION 
 						</Object>
 						<Object ID="{312B97C2-CB25-4BAA-92A7-CFAEE0E12431}" Name="Model_HRDS1" Class="sys://Schema/System/Class" DisplayName="HRDS1" Description="Hawking Door/Window Sensor" >
 							<Object ID="{2E57B735-B572-4CEA-BFB9-A0D43DC1A3F3}" Name="Capabilities" Flags="0x900" Class="sys://Schema/System/Text" DefaultValue="1" ReadOnly="-1" />
-							<Object ID="{39EFA53E-2DCD-4E2E-B283-B1A55AAF326F}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" DefaultValue="99" ReadOnly="-1" />
+							<Object ID="{39EFA53E-2DCD-4E2E-B283-B1A55AAF326F}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" DefaultValue="96" ReadOnly="-1" />
 							<Object ID="{3E491655-9AFB-4D75-BBE0-C4F001FBA150}" Name="CodeProductType" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="514" ReadOnly="-1" />
 							<Object ID="{D6B47B8A-14EC-49DA-8714-92AF8063717A}" Name="CodeProductID" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="1" ReadOnly="-1" />
 							<Object ID="{A48766C9-661A-4DF1-BC84-A1FB7AFC4CCE}" Name="SendModelSpecificCommands" Class="sys://Schema/Scripting/ClassFunction" >
@@ -6507,7 +6516,7 @@ if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_OffDelay(): command=" & c
 						</Object>
 						<Object ID="{DECFC483-DB53-491C-938B-001C69C4106E}" Name="Model_SM103" Class="sys://Schema/System/Class" DisplayName="SM103" Description="Everspring Door/Window Sensor" >
 							<Object ID="{B614A473-A98B-4D49-B2E8-E3F819B3E9E9}" Name="Capabilities" Flags="0x900" Class="sys://Schema/System/Text" DefaultValue="1" ReadOnly="-1" />
-							<Object ID="{D164C0A6-88DD-4F58-8730-2D85259D9D78}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" DefaultValue="99" ReadOnly="-1" />
+							<Object ID="{D164C0A6-88DD-4F58-8730-2D85259D9D78}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" DefaultValue="96" ReadOnly="-1" />
 							<Object ID="{F9576FFF-D29B-4D35-B79F-C567F368FF91}" Name="CodeProductType" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="2" ReadOnly="-1" />
 							<Object ID="{602F8ED3-0926-4E71-96C6-98C8BC1E9044}" Name="CodeProductID" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="1" ReadOnly="-1" />
 							<Object ID="{1420F002-5BCC-4D0A-992D-D9419C316642}" Name="SendModelSpecificCommands" Class="sys://Schema/Scripting/ClassFunction" >
