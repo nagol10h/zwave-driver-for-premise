@@ -1,9 +1,9 @@
 <!-- Premise Systems Sys Schema Version 2.1 Build 15117 -->
-<!-- Premise Systems Sys Schema XML Version 2.0.19 -->
+<!-- Premise Systems Sys Schema XML Version 2.0.25 -->
 <Object ID="{8D692EC9-EB74-4155-9D83-315872AC9800}" Name="Premise SYS" Flags="0x120000" Class="sys://Schema/System/Object" Description="IP Camera REQUIRES IP CAMERAS EXTENSION" >
 	<Object ID="{05B46F0B-A745-4B03-81C9-624D3B3E9CD7}" Name="Schema" Flags="0x52FA0000" Class="sys://Schema/System/Schema" >
 		<Object ID="{79B9225F-8A86-42B2-9B31-78C8A2893404}" Name="Modules" Flags="0x40FA0000" Class="sys://Schema/System/ModuleFolder" Description="User-defined object types" DisplayName="Modules Folder" >
-			<Object ID="{EF6B933B-C97F-4C95-8E89-90E1ECA54527}" Name="Leviton" Class="sys://Schema/System/Module" Version="2.0.19" >
+			<Object ID="{EF6B933B-C97F-4C95-8E89-90E1ECA54527}" Name="Leviton" Class="sys://Schema/System/Module" Version="2.0.25" >
 				<Object ID="{D028F14A-A83E-4399-889C-C2A48A6339FF}" Name="Classes" Flags="0x120000" Class="sys://Schema/System/ClassFolder" >
 					<Object ID="{E0C4BD97-EAAF-4A35-8A8A-E85986FA8087}" Name="ViziaRF" Class="sys://Schema/System/Class" Icon="AgAAADYQAAAAAAEAAgAQEAAAAAAAAGgDAAAmAAAAICAAAAAAAACoDAAAjgMAACgAAAAQAAAAIAAAAAEAGAAAAAAAQAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADp+/ukoaOrqq2rqq2rqq2rqq2rqq2rqq2rqq2rqq2koaPp+/sAAAAAAAAAAAAAAAChnZ5pZFlPPCBQORxSPyRQORxSPyRQORxSPyRONRhpZFmhnZ4AAAAAAAAAAAAAAACEho1AIABUWTZrpZRRTylrpZRRTylrpZRRTyltqZk+GgCDho0AAAAAAAAAAADX5OVRUUpOKABLHABSSCBLGQBSSCBLGQBSSCBLGQBSSCBLGwBWU0rX5OUAAAAAAACqp6tPOhxSVCxxzs5PRRtxzs5PRRtxzs5PRRtxzs5PRRtxz85MMA+qp6sAAAAAAACTk5VsZVhPPB9QNhhSPyRQNhhSPyRQNhhSPyRQNhhSPyRNMhNsZViTk5UAAAAAAAC5vLyWlZecm56bmp2bmp2bmp2bmp2bmp2bmp2bmp2bmp2cm56WlZe5vLwAAAAAAAAAAACcm56RkJKFhoaFhoaFhoaFhoaFhoaFhoaFhoaFhoaRkJKcm54AAAAAAAAAAAAAAAAAAACcm56cm56cm56cm56cm56cm56cm56cm56cm56cm54AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AADAAwAAwAMAAMADAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD//wAA//8AAP//AAD//wAAKAAAACAAAABAAAAAAQAYAAAAAACADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v6SgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v6SgoICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSgoLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgKSgoAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgG5vblAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAG5vboCAgKSgoMTf3wAAAAAAAAAAAAAAAAAAAAAAALS/v4+NjXh4eD84IFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAD84IHh4eI+NjbS/vwAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgF1eXVAyAFAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAFAyAF1eXYCAgKSgoAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgENDOFAyAFAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAENDOICAgKSgoMTf3wAAAAAAAAAAAAAAALS/v4+NjW5ubkI0E1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAE05FW5ubo+NjbS/vwAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAI+NjYCAgHNzc1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAHNzc4CAgI+NjQAAAAAAAAAAAAAAAICAgICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgICAgAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAALS/v6SgoKSgoI+NjaSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoI+NjaSgoKSgoLS/vwAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////AAAA/wAAAP8AAAD+AAAAfgAAAH4AAAB8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAD4AAAB/AAAA/4AAAf////////////////////////////////////////////////" Description="Base class for the ViziaRF driver." >
 						<Object ID="{4DE7E201-5754-4D5E-BEFC-F3060B080346}" Name="OnChangeOnNewData" Class="sys://Schema/Scripting/ClassProperty" Property="{540A5FD4-C733-417F-B8B3-96CF4A82ED14}" >
@@ -5525,7 +5525,7 @@ end function
 Script=
 function gViziaIsDebugOn( dLevel )
 	'Set this to -1, 0, 1, or 2 to control the volume of debug information
-	DebugLevel = -1
+	DebugLevel = 0
 
 	gViziaIsDebugOn = false
 	if dLevel <= DebugLevel then
@@ -5589,6 +5589,7 @@ end function
 							<Object ID="{5A7AE8A7-1FAA-4F5E-A78A-501D0D93C750}" Name="TZEMT400" Class="sys://Schema/System/Enum" Value="17" />
 							<Object ID="{0DC92C33-03ED-4463-9D7B-9560C1C1841A}" Name="VRCZ4-M0" Class="sys://Schema/System/Enum" Value="18" />
 							<Object ID="{9510EFDA-A5FA-4451-9F64-BA7C204B4408}" Name="VRCZ4-MR" Class="sys://Schema/System/Enum" Value="19" />
+							<Object ID="{15D958FC-2D4A-42DB-B544-C3225AA2B1ED}" Name="ST814" Class="sys://Schema/System/Enum" Value="20" />
 						</Object>
 						<Object ID="{EB7F447C-3DDE-43DC-8F94-9D8D3F661134}" Name="Model" Class="sys://Schema/System/Class" Virtual="-1" Description="Base class for supporting manufacturer/model specific configuration parameters" >
 							<Object ID="{F4D5BA9C-3D64-43EC-A577-FBFABAE78273}" Name="SendModelSpecificCommands" Class="sys://Schema/Scripting/ClassFunction" >
@@ -6678,6 +6679,197 @@ if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_OffDelay(): command=" & c
 							<Object ID="{C42B21EF-DC1D-44A6-A51E-C4E71310282E}" Name="CodeProductType" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="4610" ReadOnly="-1" />
 							<Object ID="{6D3B7827-11B0-4F90-89C7-93E63279A7B6}" Name="CodeProductID" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="579" ReadOnly="-1" />
 							<Object ID="{58BF6803-8F7C-4754-B86D-D11070C7359F}" Class="sys://Schema/System/SuperClass" LinkObject="{EB7F447C-3DDE-43DC-8F94-9D8D3F661134}" />
+						</Object>
+						<Object ID="{07E63156-07F0-4F17-A707-652A51E16317}" Name="Model_ST814" Class="sys://Schema/System/Class" DisplayName="ST814" Description="Everspring Temperature/Humidity Sensor" >
+							<Object ID="{F0C2DB18-CEEC-4224-B1B4-8CA0B94CCD57}" Name="Capabilities" Flags="0x900" Class="sys://Schema/System/Text" DefaultValue="3,4" ReadOnly="-1" />
+							<Object ID="{3012FC92-C968-4124-84E0-EC13785CA1A9}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" DefaultValue="96" ReadOnly="-1" />
+							<Object ID="{9E6F10F5-7B1C-47EF-BFCC-4E652762A0DD}" Name="CodeProductType" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="6" ReadOnly="-1" />
+							<Object ID="{A293AEEF-7709-43B6-8A8C-371E30CA346F}" Name="CodeProductID" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="1" ReadOnly="-1" />
+							<Object ID="{FC588574-937B-45A8-8A61-AEF3B971DC20}" Name="SendModelSpecificCommands" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+if gViziaIsDebugOn(2) then debugout "ST814.SendModelSpecificCommands(): sending pending model-specific commands at " & now
+
+'AutoreportInterval
+if this.ConfigSet_AutoreportInterval = true then
+	this.ConfigSet_AutoreportInterval = false
+	this.SendCmd_ConfigSet_AutoreportInterval
+end if
+
+if this.ConfigGet_AutoreportInterval = true then
+	this.ConfigGet_AutoreportInterval = false
+	this.SendCmd_ConfigGet_AutoreportInterval
+end if
+
+'AutoreportTempChange
+if this.ConfigSet_AutoreportTempChange = true then
+	this.ConfigSet_AutoreportTempChange = false
+	this.SendCmd_ConfigSet_AutoreportTempChange
+end if
+
+if this.ConfigGet_AutoreportTempChange = true then
+	this.ConfigGet_AutoreportTempChange = false
+	this.SendCmd_ConfigGet_AutoreportTempChange
+end if
+
+'AutoreportHumidityChange
+if this.ConfigSet_AutoreportHumidityChange = true then
+	this.ConfigSet_AutoreportHumidityChange = false
+	this.SendCmd_ConfigSet_AutoreportHumidityChange
+end if
+
+if this.ConfigGet_AutoreportHumidityChange = true then
+	this.ConfigGet_AutoreportHumidityChange = false
+	this.SendCmd_ConfigGet_AutoreportHumidityChange
+end if
+]]>
+							</Object>
+							<Object ID="{1CBF3374-CF6F-4505-A173-08C30A6BE5CD}" Name="ProcessConfigurationCommand" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'The Model_NNNNNN class that inherits from this base class should override this function
+'in order to process commands specific to this device manufacturer and model (e.g. configuration parameters)
+
+select case method.parameter
+	case 6: 'AutoreportInterval
+		oldValue = this.ConfigSet_AutoreportInterval
+		this.AutoreportInterval = method.value
+		this.ConfigSet_AutoreportInterval = oldValue
+	case 7: 'AutoreportTempChange
+		oldValue = this.ConfigSet_AutoreportTempChange
+		this.AutoreportTempChange = method.value
+		this.ConfigSet_AutoreportTempChange = oldValue
+	case 8: 'AutoreportHumidityChange
+		oldValue = this.ConfigSet_AutoreportHumidityChange
+		this.AutoreportHumidityChange = method.value
+		this.ConfigSet_AutoreportHumidityChange = oldValue
+end select
+]]>
+								<Object ID="{FB1254A7-A31C-499A-B41E-9D2267BEB4BA}" Name="parameter" Flags="0x900" Class="sys://Schema/System/Number" />
+								<Object ID="{0E62887B-1B78-4BE8-9CED-B9FE6539813B}" Name="value" Flags="0x900" Class="sys://Schema/System/Number" />
+							</Object>
+							<Object ID="{EBDD2B8A-B59F-4101-9051-A8BE1888B11C}" Name="AutoreportInterval" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="60" />
+							<Object ID="{2D8E85B4-2DE8-46ED-AABB-D1730960348E}" Name="OnChangeAutoreportInterval" Class="sys://Schema/Scripting/ClassProperty" Property="{EBDD2B8A-B59F-4101-9051-A8BE1888B11C}" >
+<![CDATA[
+Script=
+'Autoreport interval is between 1-1439; 0 is disable
+if this.AutoreportInterval > 1439 then
+	this.AutoreportInterval = 1439
+end if
+this.ConfigSet_AutoreportInterval = true
+]]>
+							</Object>
+							<Object ID="{B8D55E83-DAAC-491F-9643-85E9632EECF5}" Name="ConfigSet_AutoreportInterval" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{B42DB02E-17CE-496E-BBB4-8AB59088B4FA}" Name="SendCmd_ConfigSet_AutoreportInterval" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the configuration command to set the autoreport interval
+parameterNum = 6
+numBytes = 2
+byte1 = this.AutoreportInterval mod 256
+byte2 = this.AutoreportInterval \ 256
+
+command = ">N" & this.Parent.NodeID & "SE112,4," & parameterNum & "," & numBytes & "," & byte2 & "," & byte1
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigSet_AutoreportInterval(): set interval=" & this.AutoreportInterval & ", on node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{392EFEE6-624D-43CC-A04D-5FE609CD835A}" Name="ConfigGet_AutoreportInterval" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{A71B2154-93FC-4D3F-9F61-49A54394D34B}" Name="SendCmd_ConfigGet_AutoreportInterval" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the configuration command to get the autoreport interval
+parameterNum = 6
+
+command = ">N" & this.Parent.NodeID & "SE112,5," & parameterNum
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_AutoreportInterval(): command=" & command
+]]>
+							</Object>
+							<Object ID="{6925E34E-1FC2-4FF3-85DD-5A2904B1773F}" Name="AutoreportTempChange" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="10" />
+							<Object ID="{1AA77A9E-5847-4E51-8DE7-0DA980A7D274}" Name="OnChangeAutoreportTempChange" Class="sys://Schema/Scripting/ClassProperty" Property="{6925E34E-1FC2-4FF3-85DD-5A2904B1773F}" >
+<![CDATA[
+Script=
+'AutoreportTempChange is between 1 and 70; 0 is disable
+if this.AutoreportTempChange > 70 then
+	this.AutoreportTempChange = 70
+end if
+this.ConfigSet_AutoreportTempChange = true
+]]>
+							</Object>
+							<Object ID="{20654EC7-4499-4889-A87B-3B30A864EE4C}" Name="ConfigSet_AutoreportTempChange" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{81A264D8-0BCC-479A-94C8-3A0377979E9E}" Name="SendCmd_ConfigSet_AutoreportTempChange" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send configuration command to set AutoreportTempChange
+parameterNum = 7
+numBytes = 1
+byte1 = this.AutoreportTempChange
+
+command = ">N" & this.Parent.NodeID & "SE112,4," & parameterNum & "," & numBytes & "," & byte1
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigSet_AutoreportTempChange(): set tempchange=" & byte1 & ", on node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{E688CE99-F5E2-4D92-9387-5EC5DDB89A58}" Name="ConfigGet_AutoreportTempChange" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{B47DF12F-5ACF-45E9-BE6F-DCE24B1550FE}" Name="SendCmd_ConfigGet_AutoreportTempChange" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send configuration command to get AutoreportTempChange
+parameterNum = 7
+
+command = ">N" & this.Parent.NodeID & "SE112,5," & parameterNum
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_AutoreportTempChange(): command=" & command
+]]>
+							</Object>
+							<Object ID="{1D787A86-C0F4-4F4A-BC0D-436EA065EFD5}" Name="AutoreportHumidityChange" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="10" />
+							<Object ID="{25222C77-221B-4144-9077-A452CEDA7A8A}" Name="OnChangeAutoreportHumidityChange" Class="sys://Schema/Scripting/ClassProperty" Property="{1D787A86-C0F4-4F4A-BC0D-436EA065EFD5}" >
+<![CDATA[
+Script=
+' AutoreportHumidityChange is between 5-70; 0 is disable
+if this.AutoReportHumidityChange > 70 then
+	this.AutoReportHumidityChange = 70
+end if
+if this.AutoReportHumidityChange > 0  and this.AutoreportHumidityChange < 5 then
+	this.AutoReportHumidityChange = 5
+end if
+this.ConfigSet_AutoReportHumidityChange = true
+]]>
+							</Object>
+							<Object ID="{C46C247C-C406-47D4-BF18-117165390F74}" Name="ConfigSet_AutoreportHumidityChange" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{2A842130-6BB6-4162-A3B2-03FE57BC0074}" Name="SendCmd_ConfigSet_AutoreportHumidityChange" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send configuration command to set AutoreportHumidityChange
+parameterNum = 8
+numBytes = 1
+byte1 = this.AutoreportHumidityChange
+
+command = ">N" & this.Parent.NodeID & "SE112,4," & parameterNum & "," & numBytes & "," & byte1
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigSet_AutoreportHumidityChange(): set humiditychange=" & byte1 & ", on node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{4A0746E6-85A6-4834-BADF-73E7611DA37A}" Name="ConfigGet_AutoreportHumidityChange" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{2F96AB2E-B8D9-4355-8F7B-081AE278E45B}" Name="SendCmd_ConfigGet_AutoreportHumidityChange" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send configuration command to get AutoreportHumidityChange
+parameterNum = 8
+
+command = ">N" & this.Parent.NodeID & "SE112,5," & parameterNum
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_AutoreportHumidityChange(): command=" & command
+]]>
+							</Object>
+							<Object ID="{06C46A4E-C51E-4E9C-AD53-A6766A02DFDD}" Class="sys://Schema/System/SuperClass" LinkObject="{EB7F447C-3DDE-43DC-8F94-9D8D3F661134}" />
 						</Object>
 					</Object>
 					<Object ID="{762DC62C-8C1E-42CF-8A48-BD6B5F52157D}" Name="Templates" Flags="0x120000" Class="sys://Schema/System/TemplateFolder" />
