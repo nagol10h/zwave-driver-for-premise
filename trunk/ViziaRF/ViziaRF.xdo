@@ -1,9 +1,8 @@
 <!-- Premise Systems Sys Schema Version 2.1 Build 15117 -->
-<!-- Premise Systems Sys Schema XML Version 2.0.31 -->
-<Object ID="{8D692EC9-EB74-4155-9D83-315872AC9800}" Name="Premise SYS" Flags="0x120000" Class="sys://Schema/System/Object" Description="IP Camera REQUIRES IP CAMERAS EXTENSION" >
+<Object ID="{8D692EC9-EB74-4155-9D83-315872AC9800}" Name="Premise SYS" Flags="0x120080" Class="sys://Schema/System/Object" Description="IP Camera REQUIRES IP CAMERAS EXTENSION" >
 	<Object ID="{05B46F0B-A745-4B03-81C9-624D3B3E9CD7}" Name="Schema" Flags="0x52FA0000" Class="sys://Schema/System/Schema" >
 		<Object ID="{79B9225F-8A86-42B2-9B31-78C8A2893404}" Name="Modules" Flags="0x40FA0000" Class="sys://Schema/System/ModuleFolder" Description="User-defined object types" DisplayName="Modules Folder" >
-			<Object ID="{EF6B933B-C97F-4C95-8E89-90E1ECA54527}" Name="Leviton" Class="sys://Schema/System/Module" Version="2.0.31" >
+			<Object ID="{EF6B933B-C97F-4C95-8E89-90E1ECA54527}" Name="Leviton" Class="sys://Schema/System/Module" Version="r34" >
 				<Object ID="{D028F14A-A83E-4399-889C-C2A48A6339FF}" Name="Classes" Flags="0x120000" Class="sys://Schema/System/ClassFolder" >
 					<Object ID="{E0C4BD97-EAAF-4A35-8A8A-E85986FA8087}" Name="ViziaRF" Class="sys://Schema/System/Class" Icon="AgAAADYQAAAAAAEAAgAQEAAAAAAAAGgDAAAmAAAAICAAAAAAAACoDAAAjgMAACgAAAAQAAAAIAAAAAEAGAAAAAAAQAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADp+/ukoaOrqq2rqq2rqq2rqq2rqq2rqq2rqq2rqq2koaPp+/sAAAAAAAAAAAAAAAChnZ5pZFlPPCBQORxSPyRQORxSPyRQORxSPyRONRhpZFmhnZ4AAAAAAAAAAAAAAACEho1AIABUWTZrpZRRTylrpZRRTylrpZRRTyltqZk+GgCDho0AAAAAAAAAAADX5OVRUUpOKABLHABSSCBLGQBSSCBLGQBSSCBLGQBSSCBLGwBWU0rX5OUAAAAAAACqp6tPOhxSVCxxzs5PRRtxzs5PRRtxzs5PRRtxzs5PRRtxz85MMA+qp6sAAAAAAACTk5VsZVhPPB9QNhhSPyRQNhhSPyRQNhhSPyRQNhhSPyRNMhNsZViTk5UAAAAAAAC5vLyWlZecm56bmp2bmp2bmp2bmp2bmp2bmp2bmp2bmp2cm56WlZe5vLwAAAAAAAAAAACcm56RkJKFhoaFhoaFhoaFhoaFhoaFhoaFhoaFhoaRkJKcm54AAAAAAAAAAAAAAAAAAACcm56cm56cm56cm56cm56cm56cm56cm56cm56cm54AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AADAAwAAwAMAAMADAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD//wAA//8AAP//AAD//wAAKAAAACAAAABAAAAAAQAYAAAAAACADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v6SgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v6SgoICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSgoLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgKSgoAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgG5vblAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAG5vboCAgKSgoMTf3wAAAAAAAAAAAAAAAAAAAAAAALS/v4+NjXh4eD84IFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAD84IHh4eI+NjbS/vwAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgF1eXVAyAFAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAFAyAF1eXYCAgKSgoAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgENDOFAyAFAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAENDOICAgKSgoMTf3wAAAAAAAAAAAAAAALS/v4+NjW5ubkI0E1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAE05FW5ubo+NjbS/vwAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAI+NjYCAgHNzc1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAHNzc4CAgI+NjQAAAAAAAAAAAAAAAICAgICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgICAgAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAALS/v6SgoKSgoI+NjaSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoI+NjaSgoKSgoLS/vwAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////AAAA/wAAAP8AAAD+AAAAfgAAAH4AAAB8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAD4AAAB/AAAA/4AAAf////////////////////////////////////////////////" Description="Base class for the ViziaRF driver." >
 						<Object ID="{4DE7E201-5754-4D5E-BEFC-F3060B080346}" Name="OnChangeOnNewData" Class="sys://Schema/Scripting/ClassProperty" Property="{540A5FD4-C733-417F-B8B3-96CF4A82ED14}" >
@@ -24,9 +23,10 @@ dim oDevice
 
 'debugout this.RxTextLine
 
-if sysevent.newVal = true and len(this.RxTextLine) > 0 then
+if sysevent.newVal = true then
 	if gViziaIsDebugOn(2) then debugout "OnChangeOnNewData(): <" & now & "> rxtextline=" & this.RxTextLine
 	for iCnt = 0 To this.RxLinesRemaining
+		if len(this.RxTextLine) > 0 then	' check if valid packet, if not, RxNextLine
 		sMsg = ""
 		select case gViziaPacketParser(this.RxTextLine, aParms)
 			case 0: ' Bad Packet
@@ -142,11 +142,10 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 								if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process ASSOCIATION command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 								this.Devices.ProcessCmd_Association parms, iParms
 						end select
-						
+
 					case 32: 'BASIC
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process BASIC command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_Basic parms, iParms
-						
 					case 38: 'SWITCH_MULTILEVEL
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process SWITCH_MULTILEVEL command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_SwitchMultilevel parms, iParms
@@ -154,7 +153,6 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 					case 44: 'SCENE ACTUATOR CONFIG
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process SCENE command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_SceneActuatorConfiguration parms, iParms
-						
 					case 49: 'SENSOR_MULTILEVEL
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process SENSOR_MULTILEVEL command from node=" & aParms(0) & ", , rxText=" & this.RxTextLine
 						if  iParms = 6 and aParms(2) = 5 and aParms(3) = 1 and aParms(4) = 9 then 
@@ -228,11 +226,9 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 					case 132: 'WAKE_UP
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process WAKE_UP command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_Wake_Up parms, iParms
-						
 					case 133: 'ASSOCIATION
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process ASSOCIATION command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_Association parms, iParms
-						
 					case 134: 'VERSION
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process VERSION command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_Version parms, iParms
@@ -244,7 +240,6 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 					case 152: 'SECURITY
 						'Be silent unless debugging level is high
 						if gViziaIsDebugOn(2) then debugout "OnChangeOnNewData(): <" & now & "> Unhandled SECURITY command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
-
 					case 156: 'SENSOR_ALARM
 						if gViziaIsDebugOn(1) then debugout "OnChangeOnNewData(): <" & now & "> Process SENSOR_ALARM command from node=" & aParms(0) & ", rxText=" & this.RxTextLine
 						this.Devices.ProcessCmd_SensorAlarm parms, iParms
@@ -290,6 +285,7 @@ if sysevent.newVal = true and len(this.RxTextLine) > 0 then
 		'debugout "rxTextLine: " & this.RxTextLine & " EOT"
 		'debugout "Length rxTextLine: " & len(this.RxTextLine) & "."
 		'debugout sMsg
+	end if
 		this.RxNextLine = true
 	next
 end if]]>
@@ -1600,18 +1596,20 @@ dim oDevice
 set oDevice = this.GetDeviceByNodeID( aParms(0) )
 if not oDevice is nothing then
 	oDevice.ReceivingUpdate = true
-	if aParms(2) = 0 and aParms(3) = 29 and aParms(4) = 12 and aParms(6) = 0 then
-		if oDevice.IsOfExplicitType(Schema.Modules.Leviton.Classes.Controller.Path) then
-			' VRC0P implementation for third party control of controller buttons
-			' <N064:145,000,029,012,003,000
-			' <N064:145,000,029,012,007,000
+	if ubound(aParms) >= 6 then
+		if aParms(2) = 0 and aParms(3) = 29 and aParms(4) = 12 and aParms(6) = 0 then
+			if oDevice.IsOfExplicitType(Schema.Modules.Leviton.Classes.Controller.Path) then
+				' VRC0P implementation for third party control of controller buttons
+				' <N064:145,000,029,012,003,000
+				' <N064:145,000,029,012,007,000
 		
-			' pass aParms(5) to correct controller button
-			for each oButton in this.GetObjectsByTypeAndPropertyValue(modules.Leviton.Classes.Button.Path, "Address",aParms(5),true)
-				'oButton.PressReceived = true
-				oButton.ButtonState = 1
-				'system.addTimer .1, "oButton.ButtonState = 0",1, "Release_" & this.ObjectID
-			next
+				' pass aParms(5) to correct controller button
+				for each oButton in oDevice.GetObjectsByTypeAndPropertyValue(modules.Leviton.Classes.Button.Path, "Address",aParms(5),true)
+					'oButton.PressReceived = true
+					oButton.ButtonState = 1
+					'system.addTimer .1, "oButton.ButtonState = 0",1, "Release_" & this.ObjectID
+				next
+			end if
 		end if
 	end if
 	oDevice.ReceivingUpdate = false
@@ -2086,7 +2084,7 @@ Script=
 ' Due to the importance of all devices working, we set a higher than normal event severity
 
 if sysevent.newVal >= this.MaxFailedJobs then
-	this.Parent.SetEventNotification this.NodeID, 70, "", "has failed to respond " & this.Parent.Parent.JobQueue.MaxConsecutiveFailedJobs * this.FailedJobs & " times."
+	this.Parent.SetEventNotification this.NodeID, 70, this.Class.Name, "has failed to respond " & this.Parent.Parent.JobQueue.MaxConsecutiveFailedJobs * this.FailedJobs & " times."
 end if]]>
 						</Object>
 						<Object ID="{9285F9FE-11CC-4682-906E-AB0652104263}" Name="SetInit" Class="sys://Schema/Scripting/SimpleClassMethod" Description="Runs following discovery." >
@@ -2697,6 +2695,37 @@ Script=
 this.SendCmd_GetTamperProof]]>
 						</Object>
 					</Object>
+					<Object ID="{A5F251AB-4585-4CBF-9FDB-3A2D790C6C31}" Name="LocalManipulationsBase" Class="sys://Schema/System/Class" Description="Base class for tracking local manipulations." Virtual="-1" Icon="AgAAAD4BAAAAAAEAAQAQEBAAAAAAACgBAAAWAAAAKAAAABAAAAAgAAAAAQAEAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAAAAAACAAAAAAAAACqgAAAAAAACqqAAAAAAACqqAAAAAAACqqAAAAAAACqqAAAAAAACqqAAAAAAACqqAAAAAgACqqAAAAAKICqqAAAAAAqiqqAAAAAACqqqAAAAAAAKqqIAAAAAAAqqqiAAAAAACqqqoAAAAAAAAAAAAAAAAP/7AAC20QAAqqEAALbDAAD/hwAAtgsAAFQVAAC0GwAAuH8AAJD/AACB/wAAg/8AAIP/AACB/wAAgf8AAP//AAA=" >
+						<Object ID="{81346BD9-E8E1-4B3B-8CE0-57A4139588F8}" Name="LocallyManipulated" Flags="0xB00" Class="sys://Schema/System/Boolean" Bindable="-1" ReadOnly="-1" Description="Binds to a device property for tracking local manipulations.  " />
+						<Object ID="{D7A394C0-81A7-4E94-AE82-2768A5F4A48D}" Name="LocalManipulations" Flags="0xB00" Class="sys://Schema/System/Number" Bindable="-1" ReadOnly="-1" Description="Keeps a tally of all local switch manipulations." />
+						<Object ID="{79B06E07-BE90-4B8B-93F5-3CDA53448CA5}" Name="TimePeriod" Flags="0xB00" Class="sys://Schema/System/Number" Bindable="-1" Description="Time in seconds for incrementing LocalManipulationsInTimePeriod.  Defualt is 6 seconds." DefaultValue="6" />
+						<Object ID="{89085854-40FC-4FAC-892A-87B81C5BF624}" Name="LocalManipulationsInTimePeriod" Flags="0xB00" Class="sys://Schema/System/Number" Bindable="-1" ReadOnly="-1" Description="Incremented over a time period x, then reset to zero.  OnChange scripts under the LocalManipulations Home object can then perform some action." />
+					</Object>
+					<Object ID="{62FC8FCC-97E0-47C3-B7DC-2CC7781EAF49}" Name="ZWaveLocalManipulations" Class="sys://Schema/System/Class" Description="Home class to track local manipulations of ZWave switches and dimmers." Icon="AgAAAD4BAAAAAAEAAQAQEBAAAAAAACgBAAAWAAAAKAAAABAAAAAgAAAAAQAEAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAAAAAACAAAAAAAAACqgAAAAAAACqqAAAAAAACqqAAAAAAACqqAAAAAAACqqAAAAAAACqqAAAAAAACqqAAAAAgACqqAAAAAKICqqAAAAAAqiqqAAAAAACqqqAAAAAAAKqqIAAAAAAAqqqiAAAAAACqqqoAAAAAAAAAAAAAAAAP/7AAC20QAAqqEAALbDAAD/hwAAtgsAAFQVAAC0GwAAuH8AAJD/AACB/wAAg/8AAIP/AACB/wAAgf8AAP//AAA=" >
+						<Object ID="{C1FFFED7-63EC-46A8-B336-F72D7BEFBA7E}" Name="GetTimerName" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+' function returning a unique name for occupancy timers
+method.GetTimerName = this.Parent.Name & "_" & this.Name & "_" & "LocalManipluationTimer" & "_" & this.ObjectID]]>
+						</Object>
+						<Object ID="{4627F643-B41D-411B-AFD1-4758D75033DF}" Name="OnChangeLocallyManipulated" Class="sys://Schema/Scripting/ClassProperty" Property="{81346BD9-E8E1-4B3B-8CE0-57A4139588F8}" Description="Used for incrementing local manipulations over a time period." >
+<![CDATA[
+Script=
+'
+'if lights are toggled in x seconds increment local manipulations for x seconds, then reset to zero
+if this.LocalManipulationsInTimePeriod = 0 then
+	'on first local manipulation set a timer
+	addTimer this.TimePeriod, "this.LocalManipulationsInTimePeriod = 0", 1, this.GetTimerName()
+end if
+
+this.LocalManipulationsInTimePeriod = this.LocalManipulationsInTimePeriod + 1
+]]>
+						</Object>
+						<Object ID="{1D0FA838-06D5-43EC-A26E-AD1911C5EA04}" Class="sys://Schema/System/SuperClass" LinkObject="{715AEEF4-AD93-4E35-977A-3EE090F7BD9A}" />
+						<Object ID="{33C3DD6C-8952-4D65-BC13-A304A8FDB2CD}" Class="sys://Schema/System/SuperClass" LinkObject="{5E0AED69-EC35-4F91-B043-5597E8410EDE}" />
+						<Object ID="{7F64B174-B17E-4253-A79A-76A580F8C083}" Class="sys://Schema/System/SuperClass" LinkObject="{A4B96DD4-D15E-4D61-8495-FD8175A11CDC}" />
+						<Object ID="{CC992DF5-E015-4AC7-9A37-6A0D67FBD4B0}" Class="sys://Schema/System/SuperClass" LinkObject="{A5F251AB-4585-4CBF-9FDB-3A2D790C6C31}" />
+					</Object>
 					<Object ID="{47A6B906-747D-4430-A142-924A7BF4169C}" Name="Associations" Class="sys://Schema/System/Class" Icon="AgAAAH4DAAAAAAEAAQAQEAAAAAAAAGgDAAAWAAAAKAAAABAAAAAgAAAAAQAYAAAAAABAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKWSc/+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Oa/+Oa/+OawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Oa/+Oa/+Oa/+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+Oa/+Oa/+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+Oa/+Oa/+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+Oa/+Oa/+OawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Oa/+Oa/+OawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ytf+ytaWScwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD/jwAA//MAAP/7AAD/xwAA/4cAAP8PAAD/nwAA+f8AAPD/AADh/wAA4/8AAN//AADP/wAA8f8AAP//AAA=" Virtual="-1" Description="Device level association commands and properties." >
 						<Object ID="{C345FF94-FC77-4EC6-A0AF-7FD404D8DDBD}" Name="GetNumberSupportedAssociations" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
 						<Object ID="{AE73676F-5E90-4E3F-8D14-77C20D17231C}" Name="Groups" Flags="0x900" Class="sys://Schema/System/Number" Description="Maximum number of supported groups.  Corresponds to the number of buttons on a zone/scene controller." ReadOnly="-1" />
@@ -2723,14 +2752,26 @@ Script=
 ' >N8SE133,4,1
 ' Pass groupID (aka button number)
 
+iGroups = this.Groups
 sSendType = "SE"
 
 if this.IsOfExplicitType(Schema.Modules.Leviton.Classes.Secure.Path) and this.Parent.Parent.VRC0Pv3 = true then
 	sSendType = "SS"
 end if
 
+if this.IsOfExplicitType(schema.Modules.Leviton.Classes.Controller.Path) then
+	' check for up or down button press
+	if this.UpDown = true then
+		' this is to account for a special case for Leviton zone controllers 
+		' where physical up down buttons exist on the controller.
+		' while the up and down buttons are not reported as a potential association,
+		' they can be associated with, giving an additional set of buttons to use with Premise 
+		iGroups = this.Groups + 1
+	end if
+end if
+
 ' if the groupID is supported, go ahead and remove association
-if method.GroupID <= this.Groups and method.GroupID <> 0 then
+if method.GroupID <= iGroups and method.GroupID <> 0 then
 	command = ">N" & this.NodeID & sSendType & "133,4," & method.GroupID
 	this.Parent.Parent.SendCommand command, true, 995
 	
@@ -2750,14 +2791,26 @@ Script=
 ' Pass NodeID for device to be associated to group
 ' Pass groupID
 
+iGroups = this.Groups
 sSendType = "SE"
 
 if this.IsOfExplicitType(Schema.Modules.Leviton.Classes.Secure.Path) and this.Parent.Parent.VRC0Pv3 = true then
 	sSendType = "SS"
 end if
 
+if this.IsOfExplicitType(schema.Modules.Leviton.Classes.Controller.Path) then
+	' check for up or down button press
+	if this.UpDown = true then
+		' this is to account for a special case for Leviton zone controllers 
+		' where physical up down buttons exist on the controller.
+		' while the up and down buttons are not reported as a supported association,
+		' they can be associated with, giving an additional set of buttons to use with Premise 
+		iGroups = this.Groups + 1
+	end if
+end if
+
 ' if the groupID is supported, go ahead and remove association
-if method.NodeID <> 0 and method.GroupID <= this.Groups  and method.GroupID <> 0 then
+if method.NodeID <> 0 and method.GroupID <= iGroups and method.GroupID <> 0 then
 	command = ">N" & this.NodeID & sSendType & "133,4," & method.GroupID & "," & method.NodeID
 	this.Parent.Parent.SendCommand command, true, 995
 		
@@ -2779,13 +2832,25 @@ Script=
 ' Pass groupID
 
 sSendType = "SE"
+iGroups = this.Groups
 
 if this.IsOfExplicitType(Schema.Modules.Leviton.Classes.Secure.Path) and this.Parent.Parent.VRC0Pv3 = true then
 	sSendType = "SS"
 end if
 
+if this.IsOfExplicitType(schema.Modules.Leviton.Classes.Controller.Path) then
+	' check for up or down button press
+	if this.UpDown = true then
+		' this is to account for a special case for Leviton zone controllers 
+		' where physical up down buttons exist on the controller.
+		' while the up and down buttons are not reported as a supported association,
+		' they can be associated with, giving an additional set of buttons to use with Premise 
+		iGroups = this.Groups + 1
+	end if
+end if
+
 ' if the groupID is supported, go ahead and set association
-if method.NodeID <> 0 and method.GroupID <= this.Groups  and method.GroupID <> 0 then
+if method.NodeID <> 0 and method.GroupID <= iGroups and method.GroupID <> 0 then
 	command = ">N" & this.NodeID & sSendType & "133,1," & method.GroupID & "," & method.NodeID
 	this.Parent.Parent.SendCommand command, true, 995
 		
@@ -2995,11 +3060,10 @@ if this.ReceivingUpdate = false then
 end if
 ]]>
 						</Object>
-						<Object ID="{AAD8F23E-2250-4C65-8533-8819F2F6F78D}" Name="LocallyManipulated" Flags="0xB00" Class="sys://Schema/System/Boolean" Description="Toggles as a switch or dimmer is locally manipulated.  Only applies to Vizia RF and RF+ switches and dimmers." Bindable="-1" ReadOnly="-1" />
-						<Object ID="{D7A394C0-81A7-4E94-AE82-2768A5F4A48D}" Name="LocalManipulations" Flags="0xB00" Class="sys://Schema/System/Number" Bindable="-1" ReadOnly="-1" />
 						<Object ID="{B3D3795A-10E7-4043-841B-405F2674DCBC}" Name="PowerStateChanging" Flags="0x900" Class="sys://Schema/System/Boolean" ReadOnly="-1" Browsable="0" />
 						<Object ID="{8328FBDC-4A53-4046-84F8-564E2AB81D56}" Class="sys://Schema/System/SuperClass" LinkObject="{47A6B906-747D-4430-A142-924A7BF4169C}" />
 						<Object ID="{042C418B-1C43-4C2E-AA0C-8EE493ECBBD5}" Class="sys://Schema/System/SuperClass" LinkObject="{657D6703-E52E-4BD1-BB78-FB2321AEA9FD}" />
+						<Object ID="{F8EE8709-BE60-4448-865F-1A4E50F2B0F3}" Class="sys://Schema/System/SuperClass" LinkObject="{A5F251AB-4585-4CBF-9FDB-3A2D790C6C31}" />
 					</Object>
 					<Object ID="{AB7FA3E9-D2BA-4C94-A228-2376FA5793FB}" Name="Dimmer" Class="sys://Schema/System/Class" Description="Device with brightness control." >
 						<Object ID="{3858CFAF-9EB3-423B-A705-FA89D6F942AC}" Class="sys://Schema/System/SuperClass" LinkObject="{DEB24C93-9143-4030-86FF-29C7626BC9E3}" />
@@ -3239,6 +3303,8 @@ if gViziaIsDebugOn(2) then debugout "SendCmd_GetThermostatFanState(): THERMOSTAT
 						<Object ID="{5A8ED358-2B5F-46D0-AB8C-356BC5CC1D04}" Class="sys://Schema/System/SuperClass" LinkObject="{481B56A8-3D5E-49FA-B6E2-F7527B6D300B}" />
 						<Object ID="{625BECBB-3624-4044-827E-2D4E3F207620}" Name="Buttons" Flags="0x900" Class="sys://Schema/System/Number" Description="Number of buttons on keypad." />
 						<Object ID="{03A98E7A-B8F4-418F-B327-EA094D892977}" Name="UpDown" Flags="0x900" Class="sys://Schema/System/Boolean" Description="If true, controller is modeled with bright/dim buttons." />
+						<Object ID="{3FF0E4BE-497F-4665-BD08-740125A4F576}" Name="AssociateAllButtonsWithVRC0P" Flags="0x500" Class="sys://Schema/System/Boolean" Description="You must have VRC0PNodeID filled out prior to toggeling." Momentary="-1" Persistent="0" />
+						<Object ID="{DF758792-8231-49A4-93A8-3C992825CD68}" Name="RemoveAllButtonAssociations" Flags="0x500" Class="sys://Schema/System/Boolean" Description="Removes all button associations." Persistent="0" Momentary="-1" />
 						<Object ID="{B473325A-6E20-4A20-AFD7-58A408F013A1}" Name="BuildButtons" Class="sys://Schema/Scripting/SimpleClassMethod" Description="Build buttons for a controller." >
 <![CDATA[
 Script=
@@ -3274,11 +3340,18 @@ for iCnt = 1 to this.Buttons
 		if iCnt = this.Buttons then
 			sCommand = "Down"
 			iButton = ""
-			iNum = 0
+			' map Down to 999
+			' this is because Leviton did not fully implement the up/down buttons for associations
+			' however, during tests it appears that the VRC0P can be associated with them
+			' eventhough the association number is 5, and only 4 possible associations are reported
+			' we use address 998 so that a proprietary Leviton method can be used to toggle Down 
+			iNum = 999
 		elseif iCnt = this.Buttons - 1 then
 			sCommand = "Up"
 			iButton = ""
-			iNum = 0
+			' map Up to 998
+			' See above for additional comments (treat similar to Down button)
+			iNum = 998
 		end if
 	end if
 	
@@ -3290,7 +3363,11 @@ for iCnt = 1 to this.Buttons
 		'oButton.SetValue "Flags", 1179648 ' Object cannot be deleted and its name cannot be modified.
 		oButton.SetValue "Flags", 1048576 ' Objects name cannot be modified.
 		oButton.Address = iNum
-		if iButton <> "" then oButton.GroupID = iButton
+		if iButton <> "" then 
+			oButton.GroupID = iButton
+		else ' must be up or down
+			oButton.GroupID = this.Buttons/2
+		end if
 	end if
 	'increment unit on even iCnt
 	if iCnt mod 2 = 0 then
@@ -3349,7 +3426,8 @@ Script=
 ' a DOWN button press on a VRCZ4 looks like this:
 ' <N064:038,004,000,000
 
-' for the VRCZ4, up/down buttons repeat command as they are held down
+' for the VRCZ4, up or down buttons may send repeating commands depending on the particular model 
+' as up or down are held down
 
 bBlock = false
 
@@ -3359,10 +3437,10 @@ end if
 
 if bBlock = false then
 	if sysevent.newVal = .64 then
-		if this.UpDown then this.ButtonUp.ButtonState = 1
+		if this.UpDown then this.ButtonDown.ButtonState = 1
 		this.BlockRepeat = true
 	elseif sysevent.newVal = 0 then
-		if this.UpDown then this.ButtonDown.ButtonState = 1
+		if this.UpDown then this.ButtonUp.ButtonState = 1
 		this.BlockRepeat = true
 	end if
 end if]]>
@@ -3399,15 +3477,51 @@ end if
 						<Object ID="{C79BF735-7B28-4FBD-AA3D-0DD70F8718E2}" Name="AssociateButtons" Class="sys://Schema/Scripting/SimpleClassMethod" >
 <![CDATA[
 Script=
-' for each button go ahead and associate it with the VRC0P
-' this is necessary for the brightness and dim buttons to work
-' this is NOT necessary if your zone controller does not have up and down buttons  
+' for each button go ahead and associate it with the VRC0P 
 for each oButton in this.GetObjectsByType(modules.Leviton.Classes.Button.Path,true)
-	'
 	if oButton.Address <> 0 and oButton.Address <= this.Groups then
 		this.SendCmd_SetAssociation this.Parent.Parent.VRC0PNodeID, oButton.Address
 	end if
-next]]>
+next
+
+if this.UpDown = true then
+	this.SendCmd_SetAssociation this.Parent.Parent.VRC0PNodeID, this.Buttons/2
+end if
+]]>
+						</Object>
+						<Object ID="{ACEB3567-1333-4309-BBAE-24144AEA0C06}" Name="RemoveButtonAssociations" Class="sys://Schema/Scripting/SimpleClassMethod" >
+<![CDATA[
+Script=
+' for each button go ahead and remove all button associations
+' we can pass button address because we filter out addresses that are not supported associations (e.g. valid GroupID) 
+for each oButton in this.GetObjectsByType(modules.Leviton.Classes.Button.Path,true)
+	if oButton.Address <> 0 and oButton.Address <= this.Groups then
+		this.SendCmd_RemoveAssociations oButton.Address
+	end if
+next
+
+if this.UpDown = true then
+	this.SendCmd_RemoveAssociations this.Buttons/2
+end if]]>
+						</Object>
+						<Object ID="{8DFDCE4B-4F8D-40DD-8DF8-91E3E3A6AFDA}" Name="OnChangeAssociateAllButtonsWithVRC0P" Class="sys://Schema/Scripting/ClassProperty" Property="{3FF0E4BE-497F-4665-BD08-740125A4F576}" >
+<![CDATA[
+Script=
+' Associate each button with the VRC0P
+' This will allow one to bind the buttons to keypad buttons under Home in Premise
+' The idea then is that scripts would be written for each button to perform tasks in Premise
+
+' once again ensure that Leviton proprietary command is set
+' allows Leviton zone and scene controllers to essentially become keypads
+' that send button status to the VRC0P
+this.SendCmd_SetManufacturerProprietaryThridPartyControl
+this.AssociateButtons]]>
+						</Object>
+						<Object ID="{8D72E9D8-6213-4500-BB41-420984FF31CD}" Name="OnChangeRemoveAllButtonAssociations" Class="sys://Schema/Scripting/ClassProperty" Property="{DF758792-8231-49A4-93A8-3C992825CD68}" >
+<![CDATA[
+Script=
+'
+this.RemoveButtonAssociations]]>
 						</Object>
 					</Object>
 					<Object ID="{788DBBAC-7C68-4708-9576-CADB85ABA2DF}" Name="Button" Class="sys://Schema/System/Class" >
@@ -3605,21 +3719,23 @@ if sysevent.newVal then
 end if]]>
 						</Object>
 					</Object>
-					<Object ID="{7DAE75E4-DD7A-4A0E-8D41-79A6505E33B3}" Name="Lock" Class="sys://Schema/System/Class" Icon="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Gx0fHx8fHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxsbGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGxsoGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGygrHSsAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGxsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGxobHR0dHR0dAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGxsdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGx0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////////8////+P////D////g////wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///g////8P////j////8/////////////w==" ValueProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
-						<Object ID="{096484D0-E3D2-42EF-818F-D4CF6C91B73F}" Class="sys://Schema/System/SuperClass" LinkObject="{FEA6B57D-0272-48AE-B247-89CC8EF012D1}" />
+					<Object ID="{8229BDA2-003E-47EA-B3D7-1D72DFED2550}" Name="LockBase" Class="sys://Schema/System/Class" Icon="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Gx0fHx8fHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxsbGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGxsoGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGygrHSsAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGxsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGxobHR0dHR0dAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGxsdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGx0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////////8////+P////D////g////wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///g////8P////j////8/////////////w==" Description="Based used for Device and Home lock objects." Virtual="-1" ValueProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
+						<Object ID="{D093CE60-6F8C-493D-BC10-4FC91DE1379C}" Name="LockState" Flags="0xB00" Class="sys://Schema/System/MultiValue" Filter="{3F852468-04F4-46F3-B1C7-B0F92201F3D2}" Description="Current state of the lock." ReadOnly="-1" Bindable="-1" />
 						<Object ID="{03837068-5F94-4854-998A-C578EC719870}" Name="LastUserNumber" Flags="0xB00" Class="sys://Schema/System/Number" ReadOnly="-1" Bindable="-1" />
 						<Object ID="{DB0A0D39-1DB0-48D3-A963-1B4176F96274}" Name="LastUserName" Flags="0xB00" Class="sys://Schema/System/Text" ReadOnly="-1" Bindable="-1" />
 						<Object ID="{4D4B8064-17B0-40A1-A206-B42FFECB23C7}" Name="LastActuated" Flags="0xB00" Class="sys://Schema/System/DateTime" DefaultValue="1/1/2011" ReadOnly="-1" Bindable="-1" />
-						<Object ID="{D093CE60-6F8C-493D-BC10-4FC91DE1379C}" Name="LockState" Flags="0xB00" Class="sys://Schema/System/MultiValue" Filter="{3F852468-04F4-46F3-B1C7-B0F92201F3D2}" Description="Current state of the lock." ReadOnly="-1" Bindable="-1" />
 						<Object ID="{0CF20689-581C-45EF-84FC-5E32BAFC8DA6}" Name="Failure" Flags="0xB00" Class="sys://Schema/System/Boolean" ReadOnly="-1" Description="Set to true when a failure occurs (probably due to door alignment)." Bindable="-1" />
 						<Object ID="{AE68E51C-B383-4383-A6A6-146A5AC8DF96}" Name="LastFailure" Flags="0xB00" Class="sys://Schema/System/DateTime" DefaultValue="1/1/2011" ReadOnly="-1" Bindable="-1" />
+						<Object ID="{591CB56D-7EF2-4DC0-BC75-2432B3C829C3}" Name="DoorSensor" Flags="0xB00" Class="sys://Schema/System/ObjectRef" Description="Bind to a Home level DoorSensor to prevent locking while door is open." Location="{4F846CA8-6603-4675-AC66-05A0AF6A8ACD}" Filter="{06366689-71AC-4C21-8929-F089E4BB43F3}" Bindable="-1" />
 						<Object ID="{B56C9E54-280C-444E-B5FE-2967A2D7137D}" Name="TooManyBadEntries" Flags="0xB00" Class="sys://Schema/System/Boolean" ReadOnly="-1" Description="Someone may be trying to guess the locks combination." Bindable="-1" />
 						<Object ID="{012F162A-FE23-4BBB-ADA3-01E756729118}" Name="LastTooManyBadEntries" Flags="0xB00" Class="sys://Schema/System/DateTime" DefaultValue="1/1/2011" ReadOnly="-1" Bindable="-1" />
-						<Object ID="{30F3511D-5C69-412A-A4EB-0ADDF4EA78FC}" Name="Initialize" Flags="0x500" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" />
-						<Object ID="{240898D0-31CE-42C7-A430-92F730B8E31A}" Name="SetUnlock" Flags="0x500" Class="sys://Schema/System/Boolean" Description="Set to true to unlock the door." Persistent="0" Momentary="-1" />
-						<Object ID="{E8973B09-13A8-4206-A839-235DC2A8C846}" Name="SetLock" Flags="0x500" Class="sys://Schema/System/Boolean" Description="Set to true to lock the door." Persistent="0" Momentary="-1" />
-						<Object ID="{91DF2ABE-E1C5-447A-94DD-318D17241571}" Name="GetLockState" Flags="0x500" Class="sys://Schema/System/Boolean" Description="Set to true to get current lock state." Persistent="0" Momentary="-1" />
-						<Object ID="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" Name="Unlocked" Flags="0xB00" Class="sys://Schema/System/Boolean" Description="Set following confirmation of lock state (e.g. receipt of a status packet)." Bindable="-1" />
+						<Object ID="{240898D0-31CE-42C7-A430-92F730B8E31A}" Name="SetUnlock" Flags="0x700" Class="sys://Schema/System/Boolean" Description="Set to true to unlock the door." Persistent="0" Momentary="-1" Bindable="-1" />
+						<Object ID="{E8973B09-13A8-4206-A839-235DC2A8C846}" Name="SetLock" Flags="0x700" Class="sys://Schema/System/Boolean" Description="Set to true to lock the door." Persistent="0" Momentary="-1" Bindable="-1" />
+						<Object ID="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" Name="Unlocked" Flags="0xB00" Class="sys://Schema/System/Boolean" Description="If OneWay is true, set following confirmation of lock state.  Otherwise, shows last requested lock state." Bindable="-1" ReadOnly="-1" />
+						<Object ID="{91DF2ABE-E1C5-447A-94DD-318D17241571}" Name="GetLockState" Flags="0x700" Class="sys://Schema/System/Boolean" Description="Set to true to get current lock state." Persistent="0" Momentary="-1" Bindable="-1" />
+					</Object>
+					<Object ID="{7DAE75E4-DD7A-4A0E-8D41-79A6505E33B3}" Name="Lock" Class="sys://Schema/System/Class" Icon="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Gx0fHx8fHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxsbGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGxsoGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGygrHSsAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGhsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcaGxobHQAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxobGhsdAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXGxsaGx0AAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGxobHR0dHR0dAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGxsdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbGx0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////////8////+P////D////g////wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///AB///wAf//8AH///g////8P////j////8/////////////w==" ValueProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
+						<Object ID="{096484D0-E3D2-42EF-818F-D4CF6C91B73F}" Class="sys://Schema/System/SuperClass" LinkObject="{FEA6B57D-0272-48AE-B247-89CC8EF012D1}" />
 						<Object ID="{B4D9F61D-D01B-4225-88FE-A9C8518DF42E}" Name="SendCmd_SetUnlocked" Class="sys://Schema/Scripting/ClassFunction" >
 <![CDATA[
 Script=
@@ -3674,7 +3790,19 @@ if this.ReceivingUpdate = false then
 			system.addTimer 10, "on error resume next: this.SendCmd_GetLockState",1,"SendCmd_GetLockState_" & this.Name & this.ObjectID
 		end if
 	else
-		this.SendCmd_SetUnlocked false  ' lock
+		' if door sensor is not nothing and open then don't lock 
+		' (because if you do dead bolt will prevent closing the door)
+		if not this.DoorSensor is nothing then
+			if this.DoorSensor.DoorOpened = false then
+				this.SendCmd_SetUnlocked false  ' lock
+			else ' do nothing and set unlocked back to true
+				this.ReceivingUpdate = true
+				this.Unlocked = true
+				this.ReceivingUpdate = false
+			end if
+		else ' lock without checking door sensor
+			this.SendCmd_SetUnlocked false  ' lock
+		end if
 		if this.OneWay = true then
 			' in 10 seconds check to ensure door is locked even if it's not oneway
 			system.addTimer 10, "on error resume next: this.SendCmd_GetLockState",1,"SendCmd_GetLockState_" & this.Name & this.ObjectID
@@ -3829,7 +3957,7 @@ if sysevent.newVal then
 	this.LastFailure = now
 	' set an event of highest severity
 	' see events handler example in help file to handle events
-	this.Parent.SetEventNotification this.NodeID, 10, "", "has failed to lock."
+	this.Parent.SetEventNotification this.NodeID, 10, "Lock", "has failed to lock."
 end if]]>
 						</Object>
 						<Object ID="{346EE6CD-7B3E-4EAE-8E3C-BB8CDA2DF720}" Name="OnChangeTooManyBadEntries" Class="sys://Schema/Scripting/ClassProperty" Property="{B56C9E54-280C-444E-B5FE-2967A2D7137D}" >
@@ -3838,11 +3966,202 @@ Script=
 '
 if sysevent.newVal then
 	this.LastTooManyBadEntries = now
-	this.Parent.SetEventNotification this.NodeID, 10, "", "has had too many incorrect code entries."
+	this.Parent.SetEventNotification this.NodeID, 10, "Lock", "has had too many incorrect code entries."
 end if]]>
 						</Object>
 						<Object ID="{DDF96288-24C0-45B1-9666-EFB996807E45}" Class="sys://Schema/System/SuperClass" LinkObject="{47A6B906-747D-4430-A142-924A7BF4169C}" />
 						<Object ID="{CBFCD5F5-8B83-46F9-A3BD-973CBD36A80D}" Class="sys://Schema/System/SuperClass" LinkObject="{657D6703-E52E-4BD1-BB78-FB2321AEA9FD}" />
+						<Object ID="{05CD1A7B-5AC6-4B1B-9741-9D915A456A8F}" Class="sys://Schema/System/SuperClass" LinkObject="{8229BDA2-003E-47EA-B3D7-1D72DFED2550}" />
+						<Object ID="{30F3511D-5C69-412A-A4EB-0ADDF4EA78FC}" Name="Initialize" Flags="0x700" Class="sys://Schema/System/Boolean" Persistent="0" Momentary="-1" Bindable="-1" />
+					</Object>
+					<Object ID="{76836D2C-0FDA-4329-B3FC-1D8549459AAD}" Name="ZWaveLock" Class="sys://Schema/System/Class" Description="Home class to be bound with a ViziaRF Device object of type Lock." Icon="AgAAAD4BAAAAAAEAAQAQEBAAAAAAACgBAAAWAAAAKAAAABAAAAAgAAAAAQAEAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAAAAAAAAAAAAAAZmZmQAAAAAAGZmZAAAAAAABmZkAAAAAABmZmQAAAAABmZGZAAAAABmZABkAAAABmZAAAQAAABmZAAAAAAABmZAAAAAAABmZAAAAAAABmZAAAAAAABmZAAAAAAAAmZAAAAAAAACZAAAAAAAAAAAAAAAAAAAP//AAC2AQAAqoEAALbBAAD/gQAAtgEAAFQRAAC0GQAA+H8AAPD/AADh/wAAw/8AAIf/AACP/wAAn/8AAP//AAA=" ValueProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
+						<Object ID="{3F465204-99DF-498C-826B-AA36D22312F8}" Name="Binding" Class="sys://Schema/System/SuperClass" LinkObject="{715AEEF4-AD93-4E35-977A-3EE090F7BD9A}" />
+						<Object ID="{F9AB5E6E-37F3-41A7-B615-CC69D00BE412}" Name="Tag" Class="sys://Schema/System/SuperClass" LinkObject="{5E0AED69-EC35-4F91-B043-5597E8410EDE}" />
+						<Object ID="{6061BE06-5200-41F0-9E66-8A053BA95011}" Name="Product" Class="sys://Schema/System/SuperClass" LinkObject="{A4B96DD4-D15E-4D61-8495-FD8175A11CDC}" />
+						<Object ID="{392DF328-5C09-44C9-A398-5C5D25943168}" Name="CheckCode" Class="sys://Schema/Scripting/SimpleClassMethod" ReturnParameter="{30086A60-A063-4D28-80A3-F21F07EE37F9}" >
+<![CDATA[
+Script=
+' checkCode returns User with UserCode matching InputCode of parent Lock.
+' if code is invalid, nothing is returned.
+
+dim oUser
+set method.User = nothing
+
+' do nothing if Code is not at least four digits...
+if len(method.Code) >= 4 then
+	for each oUser in this.BoundObject.GetObjectsByType(Schema.Modules.Leviton.Classes.User.Path)
+		' ensure user code is at least four digits...
+		if len(oUser.UserCode) >= 4 then
+			' ensure proper length from Code (necesary because of AB keypad buffer) before checking
+			if oUser.UserCode = Right(method.Code,len(oUser.UserCode)) then
+				set method.User = oUser
+				' found user exit loop and code is valid so exit
+				exit for
+			end if
+		end if
+	next
+end if
+set oUser = nothing]]>
+							<Object ID="{7E7C2488-F73D-481F-ACD2-6CAB00E9E4E3}" Name="Code" Flags="0x900" Class="sys://Schema/System/Text" Password="-1" />
+							<Object ID="{30086A60-A063-4D28-80A3-F21F07EE37F9}" Name="User" Flags="0x900" Class="sys://Schema/System/ObjectRef" />
+						</Object>
+						<Object ID="{074D8399-8BAB-4136-AA3D-98735867F214}" Name="Unlock" Class="sys://Schema/Scripting/SimpleClassMethod" Description="If passed valid code, unlock and store username." >
+<![CDATA[
+Script=
+'
+' if user with code is found, unlock the lock and store username as last user
+
+dim oUser
+set oUser = nothing
+
+' test input code and get Device's User object
+set oUser = this.CheckCode(method.Code)
+
+if not oUser is nothing then
+	this.LastUserNumber = oUser.UserNumber
+	this.LastUserName = oUser.Name
+	this.LastActuated = now
+	this.LockState = 0	' unlocked
+	
+	oUser.LastAccessDate = now
+	oUser.LastAction = "Unlock"
+	oUser.AccessCount = oUser.AccessCount + 1
+	
+	' unlock
+	this.SetUnlock = true
+end if]]>
+							<Object ID="{29B77897-0EA9-42E4-93B8-4910C55074FA}" Name="Code" Flags="0x900" Class="sys://Schema/System/Text" Password="-1" />
+							<Object ID="{D17EBF6D-E99A-4F58-B341-2373D288EE77}" Name="ForceState" Flags="0x900" Class="sys://Schema/System/Boolean" ReadOnly="-1" />
+						</Object>
+						<Object ID="{843C9B2A-0FB1-4444-9C13-B03F4A080227}" Name="Lock" Class="sys://Schema/Scripting/SimpleClassMethod" Description="If passed a valid code, lock and store username." >
+<![CDATA[
+Script=
+'
+' if user with code is found, lock the lock and store username as last user to the device object
+
+dim oUser
+set oUser = nothing
+
+' test input code and get Device's User object
+set oUser = this.CheckCode(method.Code)
+
+if not oUser is nothing then
+	this.LastUserNumber = oUser.UserNumber
+	this.LastUserName = oUser.Name
+	this.LastActuated = now
+	this.LockState = 1	' locked
+	
+	oUser.LastAccessDate = now
+	oUser.LastAction = "Lock"
+	oUser.AccessCount = oUser.AccessCount + 1
+
+	' lock
+	this.SetLock = true
+end if]]>
+							<Object ID="{785D19C4-9E4F-41AC-AB5B-F512CD7B5F6C}" Name="Code" Flags="0x900" Class="sys://Schema/System/Text" Password="-1" />
+							<Object ID="{C963CD80-9941-4157-83B9-7CBC6EAD5F25}" Name="ForceState" Flags="0x900" Class="sys://Schema/System/Boolean" ReadOnly="-1" />
+						</Object>
+						<Object ID="{C16B78C0-18CC-450E-A4AB-C95DF6195C2C}" Class="sys://Schema/System/SuperClass" LinkObject="{8229BDA2-003E-47EA-B3D7-1D72DFED2550}" />
+						<Object ID="{EDE75C9F-7387-44D7-98CB-4EAA9E155A44}" Name="mbRenderPage" Class="sys://Schema/Scripting/ClassFunction" Description="Render the Lock." >
+<![CDATA[
+Script=
+' NOTE: you must first install the ViziaRF module to use this module.
+' it will generate a keypad to lock/unlock doors.
+
+dim oTmp: set oTmp = nothing
+
+sHTML = gMBRenderHeader()
+
+set oDevice = nothing
+set oDevice = this.BoundObject
+
+' if there's an object bound to the home object, do something!
+if not oDevice is nothing then
+	
+	' get lock status and set bgcolor of table to match
+	sbgcolor = "gray"
+	
+	if this.Unlocked then 
+		sbgcolor = "red"
+	else
+		sbgcolor = "green"
+	end if
+
+	if sysevent.ClientSession.UIAdvanced then
+		' Do something fancier
+	else
+		select case sysevent.ClientSession.UIID
+			' show full width no matter what template is used
+			case 0: sWidth="100%"
+			case 1: sWidth="100%"
+			case 2: sWidth="100%"
+			case else: sWidth="100%"
+		end select
+		sHTML = sHTML & ("<script type=""text/javascript"">")
+		sHTML = sHTML & ("function doZWAddKeyPress(key){ var code = document.forms[0].code; if(code.value.length < 10){ code.value = code.value + key; }}")
+		sHTML = sHTML & ("function doZWrefreshShortly(){ setTimeout( ""refresh()"",3000); }")
+		sHTML = sHTML & ("function doZWLock(){ parent.location=""/sys/" & this.objectID &_
+		"?d??mbZWaveLock(0,""+ document.forms[0].code.value +"")""; }")
+		sHTML = sHTML & ("function doZWUnlock(){ parent.location=""/sys/" & this.objectID &_
+		"?d??mbZWaveUnlock(0,""+ document.forms[0].code.value +"")""; }")
+		sHTML = sHTML & ("</script>")
+
+		' define input box to be used by javascript functions defined in the header (see GlobalScripts MiniBrowserFunctions
+		sInputBox = "<form><input type=""text"" name=""code"" value="""" maxlength=""4"" class=""display"" readonly=""readonly"" size=""8"" style=""border: 0px; color: white; font-size: 30px; background-color: " & sbgcolor & ";"" /></form>"
+		
+		
+		sHTML = sHTML & ("<BR><CENTER><TABLE border=""0"" cellpadding=""0"" cellspacing=""3"" margin=""0"">")
+		
+		sHTML = sHTML & ("<TR><TD align=""center"" colspan=""3"">" & sInputBox & "</TD></TR>")
+		
+		sHTML = sHTML& ("<TR><TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/One.gif"" onclick=""doZWAddKeyPress(1)"" border=""0""></a></TD>")
+		sHTML = sHTML& ("<TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/Two.gif"" onclick=""doZWAddKeyPress(2)"" border=""0""></a></TD>")
+		sHTML = sHTML& ("<TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/Three.gif"" onclick=""doZWAddKeyPress(3)"" border=""0""></a></TD></TR>")
+
+		sHTML = sHTML& ("<TR><TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/Four.gif"" onclick=""doZWAddKeyPress(4)"" border=""0""></a></TD>")
+		sHTML = sHTML& ("<TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/Five.gif"" onclick=""doZWAddKeyPress(5)"" border=""0""></a></TD>")
+		sHTML = sHTML& ("<TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/Six.gif"" onclick=""doZWAddKeyPress(6)"" border=""0""></a></TD></TR>")
+
+		sHTML = sHTML& ("<TR><TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/Seven.gif"" onclick=""doZWAddKeyPress(7)"" border=""0""></a></TD>")
+		sHTML = sHTML& ("<TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/Eight.gif"" onclick=""doZWAddKeyPress(8)"" border=""0""></a></TD>")
+		sHTML = sHTML& ("<TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/Nine.gif"" onclick=""doZWAddKeyPress(9)"" border=""0""></a></TD></TR>")
+
+		' if cancel is pressed, clear the form data by calling the javascript clearKeyPresses(), but also clear the code usind doKeypadEnter
+		sHTML = sHTML& ("<TR><TD align=""center""><INPUT TYPE=""image"" SRC=""/Plugins/Images/Unlock.gif"" onClick=""doZWUnlock()""></TD>")
+		sHTML = sHTML& ("<TD align=center><a href=""#""><IMG SRC=""/Plugins/Images/Zero.gif"" onclick=""doZWAddKeyPress(0)"" border=""0""></a></TD>")
+
+		' doKeypadEnter will get keypad value from form input called code, then pass it to SYS method mbKeypadEnter which will lock the door
+		sHTML = sHTML& ("<TD align=""center""><INPUT TYPE=""image"" SRC=""/Plugins/Images/Lock.gif"" onClick=""doZWLock()""></TD></TR>")
+		sHTML = sHTML & "</TABLE></CENTER>"
+	end if
+else
+	' no device connected, tell user to configure
+	sHTML = sHTML & "No Device is currently configured for this lock"
+end if
+
+method.mbRenderPage  = sHTML & gMBRenderFooter()]]>
+						</Object>
+						<Object ID="{3A450B57-AE91-43B4-BF3C-4025D62202A6}" Name="mbZWaveUnlock" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+' clears the disarm code on mb page
+' called by the onclick method for the cancel button (e.g. unlock button)
+' unlock if input code is correct
+this.Unlock(method.iNum)
+method.mbZWaveUnlock = this.mbRenderPage()]]>
+							<Object ID="{CF1F10D4-4698-41DD-AE9F-04DC2492A886}" Name="Mode" Flags="0x900" Class="sys://Schema/System/Number" />
+							<Object ID="{FA63703F-C731-4170-941B-D09822876000}" Name="iNum" Flags="0x900" Class="sys://Schema/System/Number" />
+						</Object>
+						<Object ID="{BC7464F2-338C-48AA-B71A-642BC8F19F73}" Name="mbZWaveLock" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+' called by javascript doKeypadEnter() function from mb header
+' engage lock (will only work if input code matches that of a user object)
+this.Lock(method.iNum)
+method.mbZWaveLock = this.mbRenderPage()]]>
+							<Object ID="{1866D74F-CC49-4EE3-A15A-3972D9865A81}" Name="Mode" Flags="0x900" Class="sys://Schema/System/Number" />
+							<Object ID="{8F6CF6ED-6AA8-4A4E-A0D8-4FD6831FFBE1}" Name="iNum" Flags="0x900" Class="sys://Schema/System/Number" />
+						</Object>
 					</Object>
 					<Object ID="{EE68A964-B94E-44AB-9C90-EA4BAA695FC8}" Name="JobQueue" Class="sys://Schema/System/Class" Description="Generic FIFO Queue" >
 						<Object ID="{E9544933-22AF-4F55-AFB5-4142D3FDCE09}" Name="Container" Class="sys://Schema/System/SuperClass" LinkObject="{DD124036-E4EE-4354-9253-BE8E38337936}" />
@@ -4222,12 +4541,13 @@ dim sCmd: sCmd = ""
 dim sState: sState = "ON"
 dim sDevices: sDevices = ""
 
+' set boolean flag used to prevent onchangebrightness from triggering
+this.PowerStateChanging = true
+
 if this.PowerState = false then sState = "OF"
 
-' Ignore requests from Brightness changes because OnChangeBrightness will handle 
-' the task of turning a dimmer on or off.
-' Also ignore requests from objects with a Trigger property (used in SmartPalmPad)
-if sysevent.srcProperty.name <> "Brightness" and sysevent.srcProperty.name <> "Trigger" then
+' Ignore requests from Brightness changes because OnChangeBrightness will handle  the task of turning a dimmer on or off.
+if this.BrightnessChanging = false then
 
 	this.Brightness = abs(this.PowerState)
 
@@ -4242,6 +4562,9 @@ if sysevent.srcProperty.name <> "Brightness" and sysevent.srcProperty.name <> "T
 		this.SendCommandToAllMembers sState & ",UP", "Switch"
 	end if
 end if
+
+' reset boolean flag
+this.PowerStateChanging = false
 ]]>
 						</Object>
 						<Object ID="{303ABDEE-AED3-4DFD-90F2-FAFA90113C01}" Name="OnChangeBrightness" Class="sys://Schema/Scripting/ClassProperty" Property="{18F4096C-D72B-40E1-89A9-892E619BAD01}" >
@@ -4254,9 +4577,11 @@ dim sCmd: sCmd = ""
 dim sDevices: sDevices = ""
 dim iLevel: iLevel = round(sysevent.newVal * 100)
 
+' set boolean logic flag
+this.BrightnessChanging = true
+
 ' Ignore requests from PowerState.
-' Also ignore requests from objects with a Trigger property (used in SmartPalmPad)
-if sysevent.srcProperty.name <> "PowerState" and sysevent.srcProperty.name <> "Trigger" then
+if this.PowerStateChanging = false then
 	this.PowerState = cbool(iLevel)
 	
 	' Convert Brightness level from Premise range 1-100 to ViziaRF range 1-99
@@ -4270,7 +4595,10 @@ if sysevent.srcProperty.name <> "PowerState" and sysevent.srcProperty.name <> "T
 		' Control all members individually
 		this.SendCommandToAllMembers "L" & iLevel & ",UP", "Dimmer"
 	end if
-end if]]>
+end if
+
+' reset boolean flag
+this.BrightnessChanging = false]]>
 						</Object>
 						<Object ID="{FB1034CC-A2EE-4DCA-B21A-AB99185EB5E0}" Name="GroupID" Flags="0x900" Class="sys://Schema/System/Number" Description="Group Identifier.  GroupID is stored in the RZC0P. Range is 0-999. Zero indicates the GroupID will not be used to represent this Group." />
 						<Object ID="{BC012F70-E824-4083-BE89-D984A2721F5D}" Name="OnChangeGroupID" Class="sys://Schema/Scripting/ClassProperty" Property="{FB1034CC-A2EE-4DCA-B21A-AB99185EB5E0}" >
@@ -4371,6 +4699,8 @@ set oDevice = nothing]]>
 							<Object ID="{A1F9ED64-689B-423D-A2EA-46D6EFDE3F60}" Name="Cmd" Flags="0x900" Class="sys://Schema/System/Text" ReadOnly="-1" />
 							<Object ID="{65DD5E12-7FC0-4994-BC38-E19652CCE6B3}" Name="DeviceClassType" Flags="0x900" Class="sys://Schema/System/Text" />
 						</Object>
+						<Object ID="{81D74215-AC1D-46B5-83C6-48E00227E592}" Name="BrightnessChanging" Flags="0x900" Class="sys://Schema/System/Boolean" ReadOnly="-1" Browsable="0" />
+						<Object ID="{F272D8F2-CD28-40A1-BA03-B39C2F89EC8B}" Name="PowerStateChanging" Flags="0x900" Class="sys://Schema/System/Boolean" ReadOnly="-1" Browsable="0" />
 					</Object>
 					<Object ID="{A4531371-5550-4B80-A124-FF11240CEF55}" Name="GroupMember" Class="sys://Schema/System/Class" Icon="AgAAADYEAAAAAAEAAgAgIBAAAAAAAOgCAAAmAAAAEBAQAAAAAAAoAQAADgMAACgAAAAgAAAAQAAAAAEABAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIAAAAAAiIiIiIiIiIiIiIiAAAAACIiIiIiIiIiIiIiIgAAAAIiIiIiIiIiIiIiIiIAAAAiIiIiIiIiIiIiIiIiAAACIiIiIiIiIiIiIiIiIgAAIiIAAiIiIiIiIiIiIiIAACIgAAAiIiIiIiIiIiIiAAAiAAAAAiIiIiIiIiIiIgAAIgAAAAIiIiIiIiIiIiIAACIAAAACIiIiIiIiIiIiAAAiIAAAIiIiIiIiIiIiIgAAIiIAAiIiIiIiIiIiIiIAAAIiIiIiIiIiIiIiIiIiAAAAIiIiIiIiIiIiIiIiIgAAAAIiIiIiIiIiIiIiIiIAAAAAIiIiIiIiIiIiIiIiAAAAAAIiIiIiIiIiIiIiIgAAAAAAIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAH+AAAB/AAAAfgAAAHwAAAB4AAAAcAAAAGAAAABg4AAAYfAAAGHwAABh8AAAYOAAAGAAAABwAAAAeAAAAHwAAAB+AAAAfwAAAH+AAAB/wAAAf///////////////////////////////ygAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiAAACIiIiIiIAACIiIAAgAgACIAIiIiIiAAIAACACAAIAAgAAIiIiIgACIAIgAAICAAAiIiIiIiIAAAIiICAAAgAAACIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAPABAADgAQAAwAEAAIABAAAAAQAAGAEAABgBAAAAAQAAgAEAAMABAADgAQAA8AEAAP//AAD//wAA" >
 						<Object ID="{AD2C07F7-0378-4F67-85ED-3F707F8C8C31}" Name="ClassConstructor" Class="sys://Schema/Scripting/ClassConstructor" >
@@ -4831,11 +5161,25 @@ if gViziaIsDebugOn(2) then debugout "SendCmd_SetName(): NAME GET from node=" & t
 						<Object ID="{E9C451A0-ED1E-4EBA-BFD2-68C5DA405FF9}" Name="OnChangeAssociateWithVRC0P" Class="sys://Schema/Scripting/ClassProperty" Property="{ACDDD5A8-0C04-4B5E-995D-848034C6D353}" >
 <![CDATA[
 Script=
-'
+' Note this.SendCmd_SetAssociation will automatically call
+' this.SendCmd_GetAssociation
+
 if this.Parent.Parent.VRC0PNodeID <> 0 then
-	if this.IsOfExplicitType(Modules.Leviton.Classes.Associations.Path) then
-		this.SendCmd_SetAssociation this.Parent.Parent.VRC0PNodeID, 1
-		this.SendCmd_GetAssociations 1
+	if this.IsOfExplicitType(schema.Modules.Leviton.Classes.Controller.Path) then
+		' for each button go ahead and associate it with the VRC0P 
+		for each oButton in this.GetObjectsByType(modules.Leviton.Classes.Button.Path,true)
+			if oButton.Address <> 0 and oButton.Address <= this.Groups then
+				this.SendCmd_SetAssociation this.Parent.Parent.VRC0PNodeID, oButton.Address
+			end if
+		next
+
+		if this.UpDown = true then
+			this.SendCmd_SetAssociation this.Parent.Parent.VRC0PNodeID, this.Buttons/2
+		end if
+	else
+		if this.IsOfExplicitType(Modules.Leviton.Classes.Associations.Path) then
+			this.SendCmd_SetAssociation this.Parent.Parent.VRC0PNodeID, 1
+		end if
 	end if
 else
 	' no nodeID set for VRC0P alert user... 
@@ -4843,7 +5187,7 @@ else
 	set oEvent = Events.CreateObject(Schema.System.Event.Path, "VRC0P NodeID not set")
 	with oEvent
 		.Description = this.Name & " VRC0P NodeID is not set." & VbCrLf &_
-			"Using Premise Builder, set ViziaRF.VRC0PNodeID to the NodeID of the VRC0P."
+		"Using Premise Builder, set ViziaRF.VRC0PNodeID to the NodeID of the VRC0P."
 		.Severity = 90
 		.EventTime = Now
 		.LinkObject = this
@@ -4928,6 +5272,7 @@ if sysevent.newVal and this.SceneID > 0 then
 	' Set light level for each member
 	for each oMember in this.GetObjectsByType(Schema.Modules.Leviton.Classes.SceneMember.Path, false)
 	    set oDevice = oMember.Device
+		' set each device to scene's values...  this must be done before setting it
 	    if oDevice.IsOfExplicitType(Schema.Modules.Leviton.Classes.Dimmer.Path) then ' Dimmer
 	        this.Parent.Parent.SendCommand ">N" & oDevice.NodeID & "L" & this.ConvertBrightness(oMember.Brightness), true, 998 & this.SceneID
 	    else ' Switch
@@ -5587,6 +5932,36 @@ end function
 				<Object ID="{956F9D7B-43DD-4900-8F62-5617209D497A}" Name="Macros" Flags="0x120000" Class="sys://Schema/System/MacroHolder" >
 					<Object ID="{FB0D705C-A6CF-48FB-809C-A486C289139F}" Name="Delays" Class="sys://Schema/System/MacroFolder" >
 						<Object ID="{3030096F-4E14-4EFB-9D07-02640FF4B6E6}" Name="JobDelay" Class="sys://Schema/System/DelayMacro" DelayTime="5000" Description="Used for VRC0Pv3 to prevent serial buffer overflow." />
+					</Object>
+					<Object ID="{BA0A75BD-5D23-41D1-88EF-B262C1AC25AE}" Name="ZWaveLock" Class="sys://Schema/System/MacroFolder" >
+						<Object ID="{1B245D6C-5A3C-409F-AE2D-313B79D3A3D0}" Name="UninstallCallMonitor" Class="sys://Schema/Scripting/ScriptMacro" Enabled="0" >
+<![CDATA[
+Script=
+'
+' WARNING
+' Since the plugins are automatically installed when you import the VRC0P,
+' This script should be used to remove the plugins and the VRC0P module completely.
+
+' By default, this script is disabled.
+' To run this script:
+' Ensure its Enabled property is set to True.
+' Click the Trigger property and the script will execute.
+
+' Stuff was installed into these directories so remove it:
+' sys://Schema/Modules/Plugins/ControlsLibrary/ZWaveLock
+' sys://Schema/Modules/Plugins/Selectors/ClasslessSelector/ZWaveLock
+' sys://Schema/Modules/Leviton
+
+with Schema.Modules
+	.Plugins.Selectors.ClasslessSelector.DeleteObject "ZWaveLock"
+	.Plugins.ControlsLibrary.DeleteObject "ZWaveLock"
+	.DeleteObject "Leviton"
+end with
+
+
+
+]]>
+						</Object>
 					</Object>
 				</Object>
 				<Object ID="{BE2910F1-2782-482E-9B15-D482678EECA3}" Name="Models" Class="sys://Schema/System/Module" >
@@ -6969,6 +7344,172 @@ Script=
 					<Object ID="{59984F7B-663A-4B5A-A2AE-018DBC5C435B}" Name="Variables" Flags="0x120000" Class="sys://Schema/System/VariableFolder" />
 					<Object ID="{69BCF7AC-F61C-48F1-96A5-ADBA98064715}" Name="Timers" Flags="0x120000" Class="sys://Schema/Timers/TimerFolder" />
 					<Object ID="{CDF3E6E3-3C6C-4248-AB5B-588418F2CB76}" Name="Macros" Flags="0x120000" Class="sys://Schema/System/MacroHolder" />
+				</Object>
+			</Object>
+			<Object ID="{09E26030-A897-4BFA-B8CF-19E25CBAB541}" Name="Plugins" Flags="0x100080" Class="sys://Schema/Modules/AutomationBrowser/Core/Classes/PluginFolder" >
+				<Object ID="{8B04D26E-9559-4923-8BD1-8F1B10502CB7}" Name="Selectors" Flags="0x120000" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/SelectionMenuFolder" TargetClass="{3EBAB050-9EA3-4DB8-8942-47CA6AD99AA3}" >
+					<Object ID="{C49FBF6F-BE97-4507-9D49-F428D85EF663}" Name="ClasslessSelector" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/SelectionMenuFolder" >
+						<Object ID="{06721914-C74D-4402-94C4-1054FE4DDBF5}" Name="ZWaveLock" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/SelectionMenuFolder" Description="Defines the appearance for a lock." TargetClass="{76836D2C-0FDA-4329-B3FC-1D8549459AAD}" >
+							<Object ID="{F45FF61C-CE7A-4E93-B15C-53661D3562EB}" Name="Image" Class="sys://Schema/Modules/AutomationBrowser/Core/Classes/Image" Image="%SYSROOT%web\Images\ClassImages\DoorLock.gif" />
+							<Object ID="{24107F55-80D5-460B-99CD-714E329FD336}" Name="LockControlPanel" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" >
+								<Object ID="{0D6051E6-8F3E-4F6B-A139-C286FA98C664}" Name="FunctionControls" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" BackgroundColor="Transparent" Top="-20px" Width="175px" Height="268px" BorderColor="Transparent" tagType="div" ShowNavBar="0" >
+									<Object ID="{2BEC88A4-D4BB-46B5-9266-D4A878EF4D80}" Name="StateIndicator" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" Width="165px" Height="60px" Color="SeaShell" FontFamily="Tahoma" FontSize="14pt" ShadowStrength="2" FontWeight="bold" BackgroundColor="Green" BorderColor="DarkGray" TextAlign="center" tagType="div" CompositeControl="{8D7EDD22-6288-4CF6-89D9-71C5F5B3DAD5}" Position="relative" BorderStyle="inset" ShowNavBar="0" Left="5px" Top="5px" />
+									<Object ID="{B24E339E-7ED1-477B-B6AD-A515F969DD70}" Name="Keypad" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" CompositeControl="{206AEE9B-01A3-411E-A499-A8D7D8C4E01A}" Width="180px" Height="" Top="70px" />
+								</Object>
+							</Object>
+							<Object ID="{09C95CFB-5B97-42CB-8566-373065D09149}" Name="ShowStatus" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/StatusScript" TargetProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
+<![CDATA[
+Script=
+'
+set oGrid = sys.GetObject("sys://Schema/Modules/Plugins/Components/RoomList")
+sUnLocked = "Unlocked"
+sTextColor = GetHTMLColor(oGrid.OnStateColor)
+sBackColor = GetHTMLColor(oGrid.OnStateBackgroundColor)
+if sysevent.ClientSession.DisplayMode = 0 then sTag = "DIV" else sTag = "SPAN"
+	if not this.CurrentObject.Unlocked then
+		sUnLocked = "Locked"
+		'sTextColor = GetHTMLColor(oGrid.OffStateColor)
+		'sBackColor = GetHTMLColor(oGrid.OffStateBackgroundColor)
+	end if
+set oGrid = nothing
+
+this.Output = "&nbsp;&nbsp;<" & sTag & " style=""color:" & sTextColor
+this.Output = this.Output & (";background-color:" & sBackColor)
+this.Output = this.Output & (";"">" & sUnlocked &  "</" & sTag & ">")]]>
+							</Object>
+						</Object>
+					</Object>
+				</Object>
+				<Object ID="{850BA1EC-B179-490E-BD89-07F2DE9D9705}" Name="ControlsLibrary" Flags="0x120000" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ControlsLibrary" >
+					<Object ID="{6803D6E2-CAFF-411B-BD03-C72319DA4505}" Name="ZWaveLock" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlsContainer" >
+						<Object ID="{206AEE9B-01A3-411E-A499-A8D7D8C4E01A}" Name="Numbers" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControl" >
+							<Object ID="{A66CD34A-7104-45A2-BF1B-C02F118FA9DD}" Name="One" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\One.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("1")]]>
+							</Object>
+							<Object ID="{C8B7BE55-752F-4262-BD46-9B8EFAD6A731}" Name="Two" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Two.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("2")]]>
+							</Object>
+							<Object ID="{4681720E-67BF-4ECE-B8C7-FC60B7C46B01}" Name="Three" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Three.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("3")]]>
+							</Object>
+							<Object ID="{158FBD15-F077-46F1-97D3-859EF46F195A}" Name="RowSeparator1" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/RowSeparator" />
+							<Object ID="{F041FF5E-464E-40D3-B627-A5034E4FBA67}" Name="Four" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Four.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("4")]]>
+							</Object>
+							<Object ID="{85A36285-4839-400C-8D70-9F731C78C7BC}" Name="Five" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Five.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("5")]]>
+							</Object>
+							<Object ID="{DAA1F543-6482-4937-9BFD-B05EC44E50BB}" Name="Six" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Six.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("6")]]>
+							</Object>
+							<Object ID="{DEE0D38E-5C39-46EB-8E9B-188A686F7CF0}" Name="RowSeparator2" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/RowSeparator" />
+							<Object ID="{9BB665CD-BF76-4BA5-BE69-3167F1697102}" Name="Seven" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Seven.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("7")]]>
+							</Object>
+							<Object ID="{779B8789-A79B-43B3-A614-B814A3189D5E}" Name="Eight" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Eight.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("8")]]>
+							</Object>
+							<Object ID="{E96A1BE9-72B9-4BA1-AC40-3627C9C0EB8F}" Name="Nine" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Nine.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("9")]]>
+							</Object>
+							<Object ID="{78633234-05BE-42BF-AE1F-4A03B25D4857}" Name="RowSeparator3" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/RowSeparator" />
+							<Object ID="{04FA9678-2937-486E-86DF-A29F3B5BF988}" Name="Unlock" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\Images\Unlock.gif" >
+<![CDATA[
+Script=
+set SelectedDevice = sysevent.ClientSession.CurrentLocation
+	if not SelectedDevice is nothing then
+		if SelectedDevice.IsOfExplicitType("sys://Schema/Modules/Leviton/Classes/ZWaveLock") then
+			if sysevent.ClientSession.KeyboardBuffer <> "" then
+				on error resume next
+					' pass keyboard buffer to home objects unlock method
+					sysevent.ClientSession.CurrentLocation.Unlock(sysevent.ClientSession.KeyboardBuffer)
+				on error goto 0
+			end if
+		end if
+	end if
+set sysevent.ClientSession.KeypadMode = nothing
+
+' clear the buffer
+sysevent.ClientSession.KeyboardBuffer = ""]]>
+							</Object>
+							<Object ID="{3FD0420F-3CE0-4DC4-BAF2-9AF8E88C4BF9}" Name="Zero" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Zero.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("0")]]>
+							</Object>
+							<Object ID="{2B3597B1-1E8A-497C-AB82-30754406AC72}" Name="Lock" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\Images\Lock.gif" >
+<![CDATA[
+Script=
+set SelectedDevice = sysevent.ClientSession.CurrentLocation
+	if not SelectedDevice is nothing then
+		if SelectedDevice.IsOfExplicitType(modules.Leviton.Classes.ZWaveLock.Path) then
+			if sysevent.ClientSession.KeyboardBuffer <> "" then
+				on error resume next
+					' unlock if input code matches one of the user's codes
+					sysevent.ClientSession.CurrentLocation.Lock(sysevent.ClientSession.KeyboardBuffer)
+				on error goto 0
+			end if
+		end if
+	end if
+set sysevent.ClientSession.KeypadMode = nothing
+
+' clear the buffer
+sysevent.ClientSession.KeyboardBuffer = ""
+]]>
+							</Object>
+						</Object>
+						<Object ID="{8D7EDD22-6288-4CF6-89D9-71C5F5B3DAD5}" Name="LockStateIndicator" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControl" >
+							<Object ID="{42605361-71A7-4FAE-BAB2-D5FA5B3CB03E}" Name="FunctionState" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/BoundPropertyControl" Image="%SYSROOT%web\Plugins\Images\keypadbtn.gif" TargetProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
+								<Object ID="{C7B13924-5E9B-440E-B285-B275F91D1F9E}" Name="OnRenderValue" Class="sys://Schema/Scripting/ObjectMethod" Method="{ED08A2A6-5620-45F8-A6DC-1AD2680919B2}" >
+<![CDATA[
+Script=
+NewColor = "Black"
+sOutput = ""
+
+if not sysevent.ClientSession.CurrentLocation is nothing then
+	with sysevent.ClientSession.CurrentLocation
+		' lock is unlocked, make red 
+		if .Unlocked then
+			NewColor = "#C80000" 'Red
+			sOutput = "Unlocked" & "<br>by " & .LastUserName
+		elseif not .Unlocked then
+			NewColor = "#008000" 'Green
+			sOutput = "Locked" & "<br>by " & .LastUserName
+		end if
+	end with
+end if
+
+with sysevent.ClientSession.currentPanel.FunctionControls
+	CurrentColor = GetHTMLColor(.StateIndicator.BackgroundColor)
+	if CurrentColor <> NewColor then
+		.StateIndicator.BackgroundColor = NewColor
+	end if
+end with
+
+' pass the string output to the automation browser
+method.Output = sOutput]]>
+								</Object>
+							</Object>
+						</Object>
+					</Object>
 				</Object>
 			</Object>
 		</Object>
