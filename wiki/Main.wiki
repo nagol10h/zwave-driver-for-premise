@@ -1,7 +1,7 @@
 #summary Background and general information on how to get started.
 
 = Introduction =
-This module is built for a free and very powerful home automation program called Motorola Premise.  Motorola Premise is completely object oriented and also has an SDK.  More information about Premise, including download links for Premise is found here:
+This module is built for a free and very powerful home automation program called Premise Home Control Server, aka SYS for short.  Premise is completely object oriented and also has an SDK.  More information about Premise, including download links for Premise is found here:
 http://www.cocoontech.com/wiki/Premise
 
 The module only works with the VRC0P or VRC0Pv3 (aka +3).  It will not work generically with the Zensys Serial API used by other serial and USB controllers as the Zensys Serial API is proprietary and would have required us to sign a Non-disclosure Agreement.  Consequently, since an open easily modifiable module was the goal, the VRC0P controller was chosen.
