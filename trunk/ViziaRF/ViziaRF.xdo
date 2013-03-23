@@ -2,6 +2,172 @@
 <Object ID="{8D692EC9-EB74-4155-9D83-315872AC9800}" Name="Premise SYS" Flags="0x120080" Class="sys://Schema/System/Object" Description="IP Camera REQUIRES IP CAMERAS EXTENSION" >
 	<Object ID="{05B46F0B-A745-4B03-81C9-624D3B3E9CD7}" Name="Schema" Flags="0x52FA0000" Class="sys://Schema/System/Schema" >
 		<Object ID="{79B9225F-8A86-42B2-9B31-78C8A2893404}" Name="Modules" Flags="0x40FA0000" Class="sys://Schema/System/ModuleFolder" Description="User-defined object types" DisplayName="Modules Folder" >
+			<Object ID="{09E26030-A897-4BFA-B8CF-19E25CBAB541}" Name="Plugins" Flags="0x100080" Class="sys://Schema/Modules/AutomationBrowser/Core/Classes/PluginFolder" >
+				<Object ID="{8B04D26E-9559-4923-8BD1-8F1B10502CB7}" Name="Selectors" Flags="0x120000" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/SelectionMenuFolder" TargetClass="{3EBAB050-9EA3-4DB8-8942-47CA6AD99AA3}" >
+					<Object ID="{C49FBF6F-BE97-4507-9D49-F428D85EF663}" Name="ClasslessSelector" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/SelectionMenuFolder" >
+						<Object ID="{06721914-C74D-4402-94C4-1054FE4DDBF5}" Name="ZWaveLock" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/SelectionMenuFolder" Description="Defines the appearance for a lock." TargetClass="{76836D2C-0FDA-4329-B3FC-1D8549459AAD}" >
+							<Object ID="{F45FF61C-CE7A-4E93-B15C-53661D3562EB}" Name="Image" Class="sys://Schema/Modules/AutomationBrowser/Core/Classes/Image" Image="%SYSROOT%web\Images\ClassImages\DoorLock.gif" />
+							<Object ID="{24107F55-80D5-460B-99CD-714E329FD336}" Name="LockControlPanel" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" >
+								<Object ID="{0D6051E6-8F3E-4F6B-A139-C286FA98C664}" Name="FunctionControls" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" BackgroundColor="Transparent" Top="-20px" Width="175px" Height="268px" BorderColor="Transparent" tagType="div" ShowNavBar="0" >
+									<Object ID="{2BEC88A4-D4BB-46B5-9266-D4A878EF4D80}" Name="StateIndicator" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" Width="165px" Height="60px" Color="SeaShell" FontFamily="Tahoma" FontSize="14pt" ShadowStrength="2" FontWeight="bold" BackgroundColor="Green" BorderColor="DarkGray" TextAlign="center" tagType="div" CompositeControl="{8D7EDD22-6288-4CF6-89D9-71C5F5B3DAD5}" Position="relative" BorderStyle="inset" ShowNavBar="0" Left="5px" Top="5px" />
+									<Object ID="{B24E339E-7ED1-477B-B6AD-A515F969DD70}" Name="Keypad" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" CompositeControl="{206AEE9B-01A3-411E-A499-A8D7D8C4E01A}" Width="180px" Height="" Top="70px" />
+								</Object>
+							</Object>
+							<Object ID="{09C95CFB-5B97-42CB-8566-373065D09149}" Name="ShowStatus" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/StatusScript" TargetProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
+<![CDATA[
+Script=
+'
+set oGrid = sys.GetObject("sys://Schema/Modules/Plugins/Components/RoomList")
+sUnLocked = "Unlocked"
+sTextColor = GetHTMLColor(oGrid.OnStateColor)
+sBackColor = GetHTMLColor(oGrid.OnStateBackgroundColor)
+if sysevent.ClientSession.DisplayMode = 0 then sTag = "DIV" else sTag = "SPAN"
+	if not this.CurrentObject.Unlocked then
+		sUnLocked = "Locked"
+		'sTextColor = GetHTMLColor(oGrid.OffStateColor)
+		'sBackColor = GetHTMLColor(oGrid.OffStateBackgroundColor)
+	end if
+set oGrid = nothing
+
+this.Output = "&nbsp;&nbsp;<" & sTag & " style=""color:" & sTextColor
+this.Output = this.Output & (";background-color:" & sBackColor)
+this.Output = this.Output & (";"">" & sUnlocked &  "</" & sTag & ">")]]>
+							</Object>
+						</Object>
+					</Object>
+				</Object>
+				<Object ID="{850BA1EC-B179-490E-BD89-07F2DE9D9705}" Name="ControlsLibrary" Flags="0x120000" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ControlsLibrary" >
+					<Object ID="{6803D6E2-CAFF-411B-BD03-C72319DA4505}" Name="ZWaveLock" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlsContainer" >
+						<Object ID="{206AEE9B-01A3-411E-A499-A8D7D8C4E01A}" Name="Numbers" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControl" >
+							<Object ID="{A66CD34A-7104-45A2-BF1B-C02F118FA9DD}" Name="One" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\One.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("1")]]>
+							</Object>
+							<Object ID="{C8B7BE55-752F-4262-BD46-9B8EFAD6A731}" Name="Two" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Two.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("2")]]>
+							</Object>
+							<Object ID="{4681720E-67BF-4ECE-B8C7-FC60B7C46B01}" Name="Three" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Three.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("3")]]>
+							</Object>
+							<Object ID="{158FBD15-F077-46F1-97D3-859EF46F195A}" Name="RowSeparator1" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/RowSeparator" />
+							<Object ID="{F041FF5E-464E-40D3-B627-A5034E4FBA67}" Name="Four" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Four.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("4")]]>
+							</Object>
+							<Object ID="{85A36285-4839-400C-8D70-9F731C78C7BC}" Name="Five" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Five.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("5")]]>
+							</Object>
+							<Object ID="{DAA1F543-6482-4937-9BFD-B05EC44E50BB}" Name="Six" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Six.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("6")]]>
+							</Object>
+							<Object ID="{DEE0D38E-5C39-46EB-8E9B-188A686F7CF0}" Name="RowSeparator2" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/RowSeparator" />
+							<Object ID="{9BB665CD-BF76-4BA5-BE69-3167F1697102}" Name="Seven" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Seven.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("7")]]>
+							</Object>
+							<Object ID="{779B8789-A79B-43B3-A614-B814A3189D5E}" Name="Eight" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Eight.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("8")]]>
+							</Object>
+							<Object ID="{E96A1BE9-72B9-4BA1-AC40-3627C9C0EB8F}" Name="Nine" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Nine.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("9")]]>
+							</Object>
+							<Object ID="{78633234-05BE-42BF-AE1F-4A03B25D4857}" Name="RowSeparator3" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/RowSeparator" />
+							<Object ID="{04FA9678-2937-486E-86DF-A29F3B5BF988}" Name="Unlock" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\Images\Unlock.gif" >
+<![CDATA[
+Script=
+set SelectedDevice = sysevent.ClientSession.CurrentLocation
+	if not SelectedDevice is nothing then
+		if SelectedDevice.IsOfExplicitType("sys://Schema/Modules/Leviton/Classes/ZWaveLock") then
+			if sysevent.ClientSession.KeyboardBuffer <> "" then
+				on error resume next
+					' pass keyboard buffer to home objects unlock method
+					sysevent.ClientSession.CurrentLocation.Unlock(sysevent.ClientSession.KeyboardBuffer)
+				on error goto 0
+			end if
+		end if
+	end if
+set sysevent.ClientSession.KeypadMode = nothing
+
+' clear the buffer
+sysevent.ClientSession.KeyboardBuffer = ""]]>
+							</Object>
+							<Object ID="{3FD0420F-3CE0-4DC4-BAF2-9AF8E88C4BF9}" Name="Zero" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Zero.gif" >
+<![CDATA[
+Script=
+OnClickNumericPad("0")]]>
+							</Object>
+							<Object ID="{2B3597B1-1E8A-497C-AB82-30754406AC72}" Name="Lock" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\Images\Lock.gif" >
+<![CDATA[
+Script=
+set SelectedDevice = sysevent.ClientSession.CurrentLocation
+	if not SelectedDevice is nothing then
+		if SelectedDevice.IsOfExplicitType(modules.Leviton.Classes.ZWaveLock.Path) then
+			if sysevent.ClientSession.KeyboardBuffer <> "" then
+				on error resume next
+					' unlock if input code matches one of the user's codes
+					sysevent.ClientSession.CurrentLocation.Lock(sysevent.ClientSession.KeyboardBuffer)
+				on error goto 0
+			end if
+		end if
+	end if
+set sysevent.ClientSession.KeypadMode = nothing
+
+' clear the buffer
+sysevent.ClientSession.KeyboardBuffer = ""
+]]>
+							</Object>
+						</Object>
+						<Object ID="{8D7EDD22-6288-4CF6-89D9-71C5F5B3DAD5}" Name="LockStateIndicator" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControl" >
+							<Object ID="{42605361-71A7-4FAE-BAB2-D5FA5B3CB03E}" Name="FunctionState" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/BoundPropertyControl" Image="%SYSROOT%web\Plugins\Images\keypadbtn.gif" TargetProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
+								<Object ID="{C7B13924-5E9B-440E-B285-B275F91D1F9E}" Name="OnRenderValue" Class="sys://Schema/Scripting/ObjectMethod" Method="{ED08A2A6-5620-45F8-A6DC-1AD2680919B2}" >
+<![CDATA[
+Script=
+NewColor = "Black"
+sOutput = ""
+
+if not sysevent.ClientSession.CurrentLocation is nothing then
+	with sysevent.ClientSession.CurrentLocation
+		' lock is unlocked, make red 
+		if .Unlocked then
+			NewColor = "#C80000" 'Red
+			sOutput = "Unlocked" & "<br>by " & .LastUserName
+		elseif not .Unlocked then
+			NewColor = "#008000" 'Green
+			sOutput = "Locked" & "<br>by " & .LastUserName
+		end if
+	end with
+end if
+
+with sysevent.ClientSession.currentPanel.FunctionControls
+	CurrentColor = GetHTMLColor(.StateIndicator.BackgroundColor)
+	if CurrentColor <> NewColor then
+		.StateIndicator.BackgroundColor = NewColor
+	end if
+end with
+
+' pass the string output to the automation browser
+method.Output = sOutput]]>
+								</Object>
+							</Object>
+						</Object>
+					</Object>
+				</Object>
+			</Object>
 			<Object ID="{EF6B933B-C97F-4C95-8E89-90E1ECA54527}" Name="Leviton" Class="sys://Schema/System/Module" Version="r34" >
 				<Object ID="{D028F14A-A83E-4399-889C-C2A48A6339FF}" Name="Classes" Flags="0x120000" Class="sys://Schema/System/ClassFolder" >
 					<Object ID="{E0C4BD97-EAAF-4A35-8A8A-E85986FA8087}" Name="ViziaRF" Class="sys://Schema/System/Class" Icon="AgAAADYQAAAAAAEAAgAQEAAAAAAAAGgDAAAmAAAAICAAAAAAAACoDAAAjgMAACgAAAAQAAAAIAAAAAEAGAAAAAAAQAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADp+/ukoaOrqq2rqq2rqq2rqq2rqq2rqq2rqq2rqq2koaPp+/sAAAAAAAAAAAAAAAChnZ5pZFlPPCBQORxSPyRQORxSPyRQORxSPyRONRhpZFmhnZ4AAAAAAAAAAAAAAACEho1AIABUWTZrpZRRTylrpZRRTylrpZRRTyltqZk+GgCDho0AAAAAAAAAAADX5OVRUUpOKABLHABSSCBLGQBSSCBLGQBSSCBLGQBSSCBLGwBWU0rX5OUAAAAAAACqp6tPOhxSVCxxzs5PRRtxzs5PRRtxzs5PRRtxzs5PRRtxz85MMA+qp6sAAAAAAACTk5VsZVhPPB9QNhhSPyRQNhhSPyRQNhhSPyRQNhhSPyRNMhNsZViTk5UAAAAAAAC5vLyWlZecm56bmp2bmp2bmp2bmp2bmp2bmp2bmp2bmp2cm56WlZe5vLwAAAAAAAAAAACcm56RkJKFhoaFhoaFhoaFhoaFhoaFhoaFhoaFhoaRkJKcm54AAAAAAAAAAAAAAAAAAACcm56cm56cm56cm56cm56cm56cm56cm56cm56cm54AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AADAAwAAwAMAAMADAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD//wAA//8AAP//AAD//wAAKAAAACAAAABAAAAAAQAYAAAAAACADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v6SgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v6SgoICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSgoLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgKSgoAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgG5vblAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAG5vboCAgKSgoMTf3wAAAAAAAAAAAAAAAAAAAAAAALS/v4+NjXh4eD84IFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAD84IHh4eI+NjbS/vwAAAAAAAAAAAAAAAAAAAAAAAKSgoICAgF1eXVAyAFAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAFAyAF1eXYCAgKSgoAAAAAAAAAAAAAAAAAAAAMTf36SgoICAgENDOFAyAFAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAENDOICAgKSgoMTf3wAAAAAAAAAAAAAAALS/v4+NjW5ubkI0E1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAE05FW5ubo+NjbS/vwAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGPByo7//2PBylAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAKSgoICAgGJiYlAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAFAyAF2WjVAyAFAyAGJiYoCAgKSgoAAAAAAAAAAAAAAAAI+NjYCAgHNzc1AyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAFAyAHNzc4CAgI+NjQAAAAAAAAAAAAAAAICAgICAgICAgHNzc2JiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYnNzc4CAgICAgICAgAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAALS/v6SgoKSgoI+NjaSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoKSgoI+NjaSgoKSgoLS/vwAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAALS/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTf37S/v4CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS/v8Tf3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////AAAA/wAAAP8AAAD+AAAAfgAAAH4AAAB8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAD4AAAB/AAAA/4AAAf////////////////////////////////////////////////" Description="Base class for the ViziaRF driver." >
@@ -1025,9 +1191,8 @@ if not oDevice is nothing then
 	oDevice.ReceivingUpdate = true
 	
 	select case method.State
-		case 0: ' Off
-			iMode = 4
-			oDevice.CurrentSetpoint = empty
+		case 0:	' Idle
+			'Do nothing, keep current state
 			
 		case 1, 3:' Heat or PendingHeat
 			iMode = 1
@@ -1037,6 +1202,8 @@ if not oDevice is nothing then
 			iMode = 2
 			oDevice.CurrentSetpoint = oDevice.CoolingSetPoint
 
+		case 3:	' Fan only
+			oDevice.TemperatureMode = 0
 	end select
 	oDevice.HeatingStatus = iMode
 
@@ -5999,6 +6166,8 @@ end with
 							<Object ID="{0DC92C33-03ED-4463-9D7B-9560C1C1841A}" Name="VRCZ4-M0" Class="sys://Schema/System/Enum" Value="18" />
 							<Object ID="{9510EFDA-A5FA-4451-9F64-BA7C204B4408}" Name="VRCZ4-MR" Class="sys://Schema/System/Enum" Value="19" />
 							<Object ID="{15D958FC-2D4A-42DB-B544-C3225AA2B1ED}" Name="ST814" Class="sys://Schema/System/Enum" Value="20" />
+							<Object ID="{DCA90B21-F8B6-4279-94BB-B591ABCC8DAB}" Name="VRP03-Plus" Class="sys://Schema/System/Enum" Value="21" />
+							<Object ID="{B788C592-4AFF-4263-8F95-109469E6FA97}" Name="HSM100-A" Class="sys://Schema/System/Enum" Value="22" />
 						</Object>
 						<Object ID="{EB7F447C-3DDE-43DC-8F94-9D8D3F661134}" Name="Model" Class="sys://Schema/System/Class" Virtual="-1" Description="Base class for supporting manufacturer/model specific configuration parameters" >
 							<Object ID="{F4D5BA9C-3D64-43EC-A577-FBFABAE78273}" Name="SendModelSpecificCommands" Class="sys://Schema/Scripting/ClassFunction" >
@@ -6330,6 +6499,18 @@ end if
 if this.ConfigGet_OffDelay = true then
 	this.ConfigGet_OffDelay = false
 	this.SendCmd_ConfigGet_OffDelay
+end if
+
+
+'Awake Duration
+if this.ConfigSet_AwakeDuration = true then
+	this.ConfigSet_AwakeDuration = false
+	this.SendCmd_ConfigSet_AwakeDuration
+end if
+
+if this.ConfigGet_AwakeDuration = true then
+	this.ConfigGet_AwakeDuration = false
+	this.SendCmd_ConfigGet_AwakeDuration
 end if
 ]]>
 							</Object>
@@ -7280,6 +7461,395 @@ if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_AutoreportHumidityChange(
 							</Object>
 							<Object ID="{06C46A4E-C51E-4E9C-AD53-A6766A02DFDD}" Class="sys://Schema/System/SuperClass" LinkObject="{EB7F447C-3DDE-43DC-8F94-9D8D3F661134}" />
 						</Object>
+						<Object ID="{6EF9BEF8-B9D8-482A-8877-8615F4FCF987}" Name="Model_VRP03-Plus" Class="sys://Schema/System/Class" Description="Leviton VRP03-1LW Plug In Lamp Module (Secure)" DisplayName="VRP03-Plus" >
+							<Object ID="{FC7AD171-55CC-4FD4-BA1C-34A93A860DB2}" Name="Capabilities" Flags="0x900" Class="sys://Schema/System/Text" ReadOnly="-1" />
+							<Object ID="{05283AC4-3FE1-469B-9474-8B18E1A5F60E}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" DefaultValue="29" ReadOnly="-1" />
+							<Object ID="{8DB897D3-0337-4AB7-9904-17086A9794C6}" Name="CodeProductType" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="514" ReadOnly="-1" />
+							<Object ID="{8AA9F92F-B655-4C81-B001-0A1D1AB37ACD}" Name="CodeProductID" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="779" ReadOnly="-1" />
+							<Object ID="{B765B6DC-6745-40C1-8647-B4F49E778B2D}" Class="sys://Schema/System/SuperClass" LinkObject="{EB7F447C-3DDE-43DC-8F94-9D8D3F661134}" />
+						</Object>
+						<Object ID="{BED61462-1AE6-4208-A7D6-99AEBE63B346}" Name="Model_HSM100-A" Class="sys://Schema/System/Class" Description="Homeseer motion, light, and temperature sensor" DisplayName="HSM100" >
+							<Object ID="{255EA576-976F-4D13-88E3-C034B45B61C6}" Name="Capabilities" Flags="0x900" Class="sys://Schema/System/Text" DefaultValue="1,3,5" ReadOnly="-1" />
+							<Object ID="{63E2A04C-1F59-432F-8F97-35F7C3DF4908}" Name="CodeManufacturer" Flags="0x900" Class="sys://Schema/System/MultiValue" Filter="{E2757022-ABD7-4180-AC22-CCFA3DF6FB96}" DefaultValue="30" ReadOnly="-1" />
+							<Object ID="{79907F4C-CBFE-4A6C-88D2-0A8DA0616E9E}" Name="CodeProductType" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="2" ReadOnly="-1" />
+							<Object ID="{D6DA33C7-7090-4CA2-B12C-F64BF0BF2724}" Name="CodeProductID" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="2" ReadOnly="-1" />
+							<Object ID="{D16CFC13-A121-4DDA-8EB2-6A921A5DD686}" Name="SendModelSpecificCommands" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+if gViziaIsDebugOn(2) then debugout "HSM100.SendModelSpecificCommands(): sending pending model-specific commands at " & now
+
+'SensorMultiInstance Get
+if this.SensorMultiInstanceGet = true then
+	this.SendCmd_SensorMultiInstanceGet
+end if
+
+'Sensitivity
+if this.ConfigSet_Sensitivity = true then
+	this.ConfigSet_Sensitivity = false
+	this.SendCmd_ConfigSet_Sensitivity
+end if
+
+if this.ConfigGet_Sensitivity = true then
+	this.ConfigGet_Sensitivity = false
+	this.SendCmd_ConfigGet_Sensitivity
+end if
+
+'OnTime
+if this.ConfigSet_OnTime = true then
+	this.ConfigSet_OnTime = false
+	this.SendCmd_ConfigSet_OnTime
+end if
+
+if this.ConfigGet_OnTime = true then
+	this.ConfigGet_OnTime = false
+	this.SendCmd_ConfigGet_OnTime
+end if
+
+'LEDOnOff
+if this.ConfigSet_LEDOnOff = true then
+	this.ConfigSet_LEDOnOff = false
+	this.SendCmd_ConfigSet_LEDOnOff
+end if
+
+if this.ConfigGet_LEDOnOff = true then
+	this.ConfigGet_LEDOnOff = false
+	this.SendCmd_ConfigGet_LEDOnOff
+end if
+
+'LightThreshold
+if this.ConfigSet_LightThreshold = true then
+	this.ConfigSet_LightThreshold = false
+	this.SendCmd_ConfigSet_LightThreshold
+end if
+
+if this.ConfigGet_LightThreshold = true then
+	this.ConfigGet_LightThreshold = false
+	this.SendCmd_ConfigGet_LightThreshold
+end if
+
+'StayAwake
+if this.ConfigSet_StayAwake = true then
+	this.ConfigSet_StayAwake = false
+	this.SendCmd_ConfigSet_StayAwake
+end if
+
+if this.ConfigGet_StayAwake = true then
+	this.ConfigGet_StayAwake = false
+	this.SendCmd_ConfigGet_StayAwake
+end if
+
+'OnValue
+if this.ConfigSet_OnValue = true then
+	this.ConfigSet_OnValue = false
+	this.SendCmd_ConfigSet_OnValue
+end if
+
+if this.ConfigGet_OnValue = true then
+	this.ConfigGet_OnValue = false
+	this.SendCmd_ConfigGet_OnValue
+end if
+]]>
+							</Object>
+							<Object ID="{6C7F8C2E-8234-432E-97DA-4F407A0D9BC4}" Name="ProcessConfigurationCommand" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+if gViziaIsDebugOn(2) then debugout "HSM100.ProcessConfigurationCommand(): parameter" & method.parameter & "=" & method.value
+
+select case method.parameter
+	case 1: 'Sensitivity
+		oldValue = this.ConfigSet_Sensitivity
+		this.Sensitivity = method.value
+		this.ConfigSet_Sensitivity = oldValue
+	case 2: 'OnTime
+		oldValue = this.ConfigSet_OnTime
+		this.OnTime = method.value
+		this.ConfigSet_OnTime = oldValue
+	case 3: 'LEDOnOff
+		oldValue = this.ConfigSet_LEDOnOff
+		this.LEDOnOff = method.value
+		this.ConfigSet_LEDOnOff = oldValue
+	case 4: 'LightThreshold
+		oldValue = this.ConfigSet_LightThreshold
+		this.LightThreshold = method.value
+		this.ConfigSet_LightThreshold = oldValue
+	case 5: 'StayAwake
+		oldValue = this.ConfigSet_StayAwake
+		this.StayAwake = method.value
+		this.ConfigSet_StayAwake = oldValue
+	case 6: 'OnValue
+		oldValue = this.ConfigSet_OnValue
+		this.OnValue = method.value	
+		this.ConfigSet_OnValue = oldValue
+end select
+]]>
+								<Object ID="{6E195BB3-6364-434B-9743-6A936CE01BC3}" Name="parameter" Flags="0x900" Class="sys://Schema/System/Number" />
+								<Object ID="{BA78F405-D473-44DA-A617-F04DA238ADEF}" Name="value" Flags="0x900" Class="sys://Schema/System/Number" />
+							</Object>
+							<Object ID="{40C0188F-6C84-46C6-9AFB-86F82B354FE8}" Name="SensorMultiInstanceGet" Flags="0xB00" Class="sys://Schema/System/Boolean" DisplayName="Read Sensor" DefaultValue="-1" Bindable="-1" Description="Use this to request the sensor multilevel report from the device" />
+							<Object ID="{1CDC7E6D-3F99-45A9-B9AD-79F208A7B5C1}" Name="SendCmd_SensorMultiInstanceGet" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the SensorMultilevel ENCAP GET commands to get the temp and luminance reports from the sensor
+iDelay = 1
+
+'MULTI_INSTANCE GET LUMINANCE (instance 2)
+command = ">N" & this.Parent.NodeID & "SE96,6,2,49,4"
+'this.Parent.Parent.Parent.SendCommand command, true, 995
+system.addTimer iDelay, "on error resume next: this.Parent.Parent.Parent.SendCommand '" & command & "', true, 995", 1, this.Parent.NodeID & "__" & command
+if gViziaIsDebugOn(1) then debugout "SendCmd_SensorMultilevelGet(): MULTI_INSTANCE ENCAP GET LUMINANCE from node=" & this.Parent.NodeID
+
+'MULTI_INSTANCE GET TEMP (instance 3)
+command = ">N" & this.Parent.NodeID & "SE96,6,3,49,4"
+'this.Parent.Parent.Parent.SendCommand command, true, 995
+system.addTimer iDelay*2, "on error resume next: this.Parent.Parent.Parent.SendCommand '" & command & "', true, 995", 1, this.Parent.NodeID & "__" & command
+if gViziaIsDebugOn(1) then debugout "SendCmd_SensorMultilevelGet(): MULTI_INSTANCE ENCAP GET TEMPERATURE from node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{62D08531-FE5F-4026-BAFC-5CFAF6B11505}" Name="Sensitivity" Flags="0x900" Class="sys://Schema/System/Number" Description="The amount of motion required for the sensor to detect motion." DefaultValue="100" />
+							<Object ID="{35CA5787-6B18-446B-A5E5-F01EB17814BD}" Name="OnChangeSensitivity" Class="sys://Schema/Scripting/ClassProperty" Property="{62D08531-FE5F-4026-BAFC-5CFAF6B11505}" >
+<![CDATA[
+Script=
+'Sensitivity is between 10-200
+if this.Sensitivity > 200 then
+	this.Sensitivity = 200
+end if
+if this.Sensitivity < 10 then
+	this.Sensitivity = 10
+end if
+this.ConfigSet_Sensitivity = true
+]]>
+							</Object>
+							<Object ID="{F1BCE5C8-27C1-4AD6-A489-3EBD06C2B1D4}" Name="ConfigSet_Sensitivity" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{A2BB72C6-7EB8-4BA8-9618-4472BE2C53D6}" Name="SendCmd_ConfigSet_Sensitivity" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the config command to set the Sensitivity device parameter
+parameterNum = 1
+numBytes = 1
+byte1 = this.Sensitivity
+
+command = ">N" & this.Parent.NodeID & "SE112,4," & parameterNum & "," & numBytes & "," & byte1
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigSet_Sensitivity(): CONFIGURATION SET value=" & byte1 & ", on node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{DFAF7200-F6F2-41F8-BFCA-69167E88422A}" Name="ConfigGet_Sensitivity" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{02232D8F-FD2D-4332-B161-C34BB79B5607}" Name="SendCmd_ConfigGet_Sensitivity" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the configuration command to get the Sensitivity
+parameterNum = 1
+
+command = ">N" & this.Parent.NodeID & "SE112,5," & parameterNum
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_Sensitivity(): CONFIGURATION GET command=" & command
+]]>
+							</Object>
+							<Object ID="{4EC8C986-2C74-4E74-9017-56C5DB8F556A}" Name="OnTime" Flags="0x900" Class="sys://Schema/System/Number" Description="The number of minutes the lights stay on after motion has been detected." DefaultValue="20" />
+							<Object ID="{8204324A-EAE7-4967-AAD0-DD93F3289450}" Name="OnChangeOnTime" Class="sys://Schema/Scripting/ClassProperty" Property="{4EC8C986-2C74-4E74-9017-56C5DB8F556A}" >
+<![CDATA[
+Script=
+'OnTime can be between 0-255
+'0 is a special case, which results in a BASIC SET command whenever motion is detected
+if this.OnTime > 255 then
+	this.OnTime = 255
+end if
+this.ConfigSet_OnTime = true
+]]>
+							</Object>
+							<Object ID="{D999E0CF-E492-4546-B76D-1B023961E8D0}" Name="ConfigSet_OnTime" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{A67E3C26-1D72-4A3F-96B0-B6142066B18F}" Name="SendCmd_ConfigSet_OnTime" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the config command to set the OnTime device parameter
+parameterNum = 2
+numBytes = 1
+byte1 = this.OnTime
+
+command = ">N" & this.Parent.NodeID & "SE112,4," & parameterNum & "," & numBytes & "," & byte1
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigSet_OnTime(): CONFIGURATION SET value=" & byte1 & ", on node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{8EC328CD-6D90-49B4-86B4-C9E00D081F98}" Name="ConfigGet_OnTime" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{31DCE94A-6EEE-4263-BD87-83B06401A96A}" Name="SendCmd_ConfigGet_OnTime" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the configuration command to get the OnTime
+parameterNum = 2
+
+command = ">N" & this.Parent.NodeID & "SE112,5," & parameterNum
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_OnTime(): CONFIGURATION GET command=" & command
+]]>
+							</Object>
+							<Object ID="{C55279DF-91EF-40AC-8E7C-200D431B4ADB}" Name="LEDOnOff" Flags="0x900" Class="sys://Schema/System/Number" />
+							<Object ID="{C49F7651-1B38-4C6A-903B-DF3FCF941906}" Name="OnChangeLEDOnOff" Class="sys://Schema/Scripting/ClassProperty" Property="{C55279DF-91EF-40AC-8E7C-200D431B4ADB}" >
+<![CDATA[
+Script=
+'The paremeter value can be 0 or 255
+if this.LEDOnOff = 0 then
+	this.LEDOnOff = 0
+else
+	this.LEDOnOff = 255
+end if
+this.ConfigSet_LEDOnOff = true
+]]>
+							</Object>
+							<Object ID="{84B868C4-D837-412E-94C1-46637273C9BA}" Name="ConfigSet_LEDOnOff" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{2F1DC83F-1F6F-4077-9D7F-0D55ED012B2F}" Name="SendCmd_ConfigSet_LEDOnOff" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the config command to set the LEDOnOff device parameter
+parameterNum = 3
+numBytes = 1
+byte1 = this.LEDOnOff
+
+command = ">N" & this.Parent.NodeID & "SE112,4," & parameterNum & "," & numBytes & "," & byte1
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigSet_LEDOnOff(): set LEDOnOff=" & byte1 & ", on node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{7A5C55BC-4563-4EBF-BB72-5DCD4422036C}" Name="ConfigGet_LEDOnOff" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{5E23F70C-3C44-4B3B-888E-A31D85CA86ED}" Name="SendCmd_ConfigGet_LEDOnOff" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the configuration command to get the LEDOnOff parameter
+parameterNum = 3
+
+command = ">N" & this.Parent.NodeID & "SE112,5," & parameterNum
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_LEDOnOff(): CONFIGURATION GET command=" & command
+]]>
+							</Object>
+							<Object ID="{ABB6472A-93D4-4FA9-A390-C7F7128CB000}" Name="LightThreshold" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="10" />
+							<Object ID="{78491E97-5223-4CFF-A75F-79A6C4343381}" Name="OnChangeLightThreshold" Class="sys://Schema/Scripting/ClassProperty" Property="{ABB6472A-93D4-4FA9-A390-C7F7128CB000}" >
+<![CDATA[
+Script=
+'The paremeter value can be 0 or 100
+if this.LightThreshold > 100 then
+	this.LightThreshold = 100
+end if
+this.ConfigSet_LightThreshold = true
+]]>
+							</Object>
+							<Object ID="{6F874685-618E-4819-8C6F-2351E309A9E5}" Name="ConfigSet_LightThreshold" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{6C471546-A79A-4E36-A1B6-A2E4A3700307}" Name="SendCmd_ConfigSet_LightThreshold" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the config command to set the LightThreshold device parameter
+parameterNum = 4
+numBytes = 1
+byte1 = this.LightThreshold
+
+command = ">N" & this.Parent.NodeID & "SE112,4," & parameterNum & "," & numBytes & "," & byte1
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigSet_LightThreshold(): set LightThreshold=" & byte1 & ", on node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{4099FDF2-58E0-4EBC-95ED-37E99FBEAB0B}" Name="ConfigGet_LightThreshold" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{2710F650-EAB0-4F9F-B124-EE1E94B7D5FC}" Name="SendCmd_ConfigGet_LightThreshold" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the configuration command to get the LightThreshold parameter
+parameterNum = 4
+
+command = ">N" & this.Parent.NodeID & "SE112,5," & parameterNum
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_LightThreshold(): CONFIGURATION GET command=" & command
+]]>
+							</Object>
+							<Object ID="{6915512F-72B5-4E22-B23F-452AFF95374A}" Name="StayAwake" Flags="0x900" Class="sys://Schema/System/Number" />
+							<Object ID="{735F71D2-6740-478B-B0A5-A941D0F3D8BF}" Name="OnChangeStayAwake" Class="sys://Schema/Scripting/ClassProperty" Property="{6915512F-72B5-4E22-B23F-452AFF95374A}" >
+<![CDATA[
+Script=
+'The paremeter value can be 0 to 255
+if this.StayAwake > 255 then
+	this.StayAwake = 255
+end if
+this.ConfigSet_StayAwake = true
+]]>
+							</Object>
+							<Object ID="{71DB3633-EB5B-4C81-B920-BC88B9BBD1F5}" Name="ConfigSet_StayAwake" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{CA34B04F-65D4-4EEC-8A40-AF9653ADAE18}" Name="SendCmd_ConfigSet_StayAwake" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the config command to set the StayAwake device parameter
+parameterNum = 5
+numBytes = 1
+byte1 = this.StayAwake
+
+command = ">N" & this.Parent.NodeID & "SE112,4," & parameterNum & "," & numBytes & "," & byte1
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigSet_StayAwake(): set StayAwake=" & byte1 & ", on node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{FAA8F18D-6E50-4DC4-9D0D-554A14C6B13B}" Name="ConfigGet_StayAwake" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{AAE42776-9511-4CAF-B3CC-03932D375ECE}" Name="SendCmd_ConfigGet_StayAwake" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the configuration command to get the StayAwake parameter
+parameterNum = 5
+
+command = ">N" & this.Parent.NodeID & "SE112,5," & parameterNum
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_StayAwake(): CONFIGURATION GET command=" & command
+]]>
+							</Object>
+							<Object ID="{E1FAC8EA-CB88-4C71-BC53-C3FC0EE86638}" Name="OnValue" Flags="0x900" Class="sys://Schema/System/Number" DefaultValue="255" DisplayName="OnValue" Description="Value of 1-100 sets the dim level percent. 255 turns on.  Don&apos;t use 0." />
+							<Object ID="{61A97193-1ED7-4216-8B01-E0D83EC411C9}" Name="OnChangeOnValue" Class="sys://Schema/Scripting/ClassProperty" Property="{E1FAC8EA-CB88-4C71-BC53-C3FC0EE86638}" >
+<![CDATA[
+Script=
+'The parameter value can be 1 to 255
+if this.OnValue > 100 then
+	this.OnValue = 255
+end if
+if this.OnValue = 0 then
+	this.OnValue = 1
+end if
+this.ConfigSet_OnValue = true
+]]>
+							</Object>
+							<Object ID="{73296743-D65E-4577-BE4C-48E82F899589}" Name="ConfigSet_OnValue" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{2B5F5A03-897D-48DA-8472-0DD494654941}" Name="SendCmd_ConfigSet_OnValue" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the config command to set the OnValue device parameter
+parameterNum = 4
+numBytes = 1
+byte1 = this.OnValue
+
+command = ">N" & this.Parent.NodeID & "SE112,4," & parameterNum & "," & numBytes & "," & byte1
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigSet_OnValue(): set OnValue=" & byte1 & ", on node=" & this.Parent.NodeID
+]]>
+							</Object>
+							<Object ID="{0E525442-0B0F-4B2C-B3F4-2D5B885C97D0}" Name="ConfigGet_OnValue" Flags="0x900" Class="sys://Schema/System/Boolean" />
+							<Object ID="{AE92925D-2807-4537-95CB-08CDC08EB408}" Name="SendCmd_ConfigGet_OnValue" Class="sys://Schema/Scripting/ClassFunction" >
+<![CDATA[
+Script=
+'Send the configuration command to get the OnValue parameter
+parameterNum = 6
+
+command = ">N" & this.Parent.NodeID & "SE112,5," & parameterNum
+this.Parent.Parent.Parent.SendCommand command, true, 995
+
+if gViziaIsDebugOn(2) then debugout "SendCmd_ConfigGet_OnValue(): CONFIGURATION GET command=" & command
+]]>
+							</Object>
+							<Object ID="{8021D1D9-3976-4839-84CF-135185BB3FE9}" Class="sys://Schema/System/SuperClass" LinkObject="{EB7F447C-3DDE-43DC-8F94-9D8D3F661134}" />
+						</Object>
 					</Object>
 					<Object ID="{762DC62C-8C1E-42CF-8A48-BD6B5F52157D}" Name="Templates" Flags="0x120000" Class="sys://Schema/System/TemplateFolder" />
 					<Object ID="{6B57BBC3-B22F-4D96-A81D-0F4A16D2F467}" Name="GlobalScripts" Flags="0x120000" Class="sys://Schema/Scripting/GlobalScriptFolder" >
@@ -7344,172 +7914,6 @@ Script=
 					<Object ID="{59984F7B-663A-4B5A-A2AE-018DBC5C435B}" Name="Variables" Flags="0x120000" Class="sys://Schema/System/VariableFolder" />
 					<Object ID="{69BCF7AC-F61C-48F1-96A5-ADBA98064715}" Name="Timers" Flags="0x120000" Class="sys://Schema/Timers/TimerFolder" />
 					<Object ID="{CDF3E6E3-3C6C-4248-AB5B-588418F2CB76}" Name="Macros" Flags="0x120000" Class="sys://Schema/System/MacroHolder" />
-				</Object>
-			</Object>
-			<Object ID="{09E26030-A897-4BFA-B8CF-19E25CBAB541}" Name="Plugins" Flags="0x100080" Class="sys://Schema/Modules/AutomationBrowser/Core/Classes/PluginFolder" >
-				<Object ID="{8B04D26E-9559-4923-8BD1-8F1B10502CB7}" Name="Selectors" Flags="0x120000" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/SelectionMenuFolder" TargetClass="{3EBAB050-9EA3-4DB8-8942-47CA6AD99AA3}" >
-					<Object ID="{C49FBF6F-BE97-4507-9D49-F428D85EF663}" Name="ClasslessSelector" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/SelectionMenuFolder" >
-						<Object ID="{06721914-C74D-4402-94C4-1054FE4DDBF5}" Name="ZWaveLock" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/SelectionMenuFolder" Description="Defines the appearance for a lock." TargetClass="{76836D2C-0FDA-4329-B3FC-1D8549459AAD}" >
-							<Object ID="{F45FF61C-CE7A-4E93-B15C-53661D3562EB}" Name="Image" Class="sys://Schema/Modules/AutomationBrowser/Core/Classes/Image" Image="%SYSROOT%web\Images\ClassImages\DoorLock.gif" />
-							<Object ID="{24107F55-80D5-460B-99CD-714E329FD336}" Name="LockControlPanel" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" >
-								<Object ID="{0D6051E6-8F3E-4F6B-A139-C286FA98C664}" Name="FunctionControls" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" BackgroundColor="Transparent" Top="-20px" Width="175px" Height="268px" BorderColor="Transparent" tagType="div" ShowNavBar="0" >
-									<Object ID="{2BEC88A4-D4BB-46B5-9266-D4A878EF4D80}" Name="StateIndicator" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" Width="165px" Height="60px" Color="SeaShell" FontFamily="Tahoma" FontSize="14pt" ShadowStrength="2" FontWeight="bold" BackgroundColor="Green" BorderColor="DarkGray" TextAlign="center" tagType="div" CompositeControl="{8D7EDD22-6288-4CF6-89D9-71C5F5B3DAD5}" Position="relative" BorderStyle="inset" ShowNavBar="0" Left="5px" Top="5px" />
-									<Object ID="{B24E339E-7ED1-477B-B6AD-A515F969DD70}" Name="Keypad" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlPanel" CompositeControl="{206AEE9B-01A3-411E-A499-A8D7D8C4E01A}" Width="180px" Height="" Top="70px" />
-								</Object>
-							</Object>
-							<Object ID="{09C95CFB-5B97-42CB-8566-373065D09149}" Name="ShowStatus" Class="sys://Schema/Modules/AutomationBrowser/TaskList/Classes/StatusScript" TargetProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
-<![CDATA[
-Script=
-'
-set oGrid = sys.GetObject("sys://Schema/Modules/Plugins/Components/RoomList")
-sUnLocked = "Unlocked"
-sTextColor = GetHTMLColor(oGrid.OnStateColor)
-sBackColor = GetHTMLColor(oGrid.OnStateBackgroundColor)
-if sysevent.ClientSession.DisplayMode = 0 then sTag = "DIV" else sTag = "SPAN"
-	if not this.CurrentObject.Unlocked then
-		sUnLocked = "Locked"
-		'sTextColor = GetHTMLColor(oGrid.OffStateColor)
-		'sBackColor = GetHTMLColor(oGrid.OffStateBackgroundColor)
-	end if
-set oGrid = nothing
-
-this.Output = "&nbsp;&nbsp;<" & sTag & " style=""color:" & sTextColor
-this.Output = this.Output & (";background-color:" & sBackColor)
-this.Output = this.Output & (";"">" & sUnlocked &  "</" & sTag & ">")]]>
-							</Object>
-						</Object>
-					</Object>
-				</Object>
-				<Object ID="{850BA1EC-B179-490E-BD89-07F2DE9D9705}" Name="ControlsLibrary" Flags="0x120000" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ControlsLibrary" >
-					<Object ID="{6803D6E2-CAFF-411B-BD03-C72319DA4505}" Name="ZWaveLock" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControlsContainer" >
-						<Object ID="{206AEE9B-01A3-411E-A499-A8D7D8C4E01A}" Name="Numbers" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControl" >
-							<Object ID="{A66CD34A-7104-45A2-BF1B-C02F118FA9DD}" Name="One" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\One.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("1")]]>
-							</Object>
-							<Object ID="{C8B7BE55-752F-4262-BD46-9B8EFAD6A731}" Name="Two" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Two.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("2")]]>
-							</Object>
-							<Object ID="{4681720E-67BF-4ECE-B8C7-FC60B7C46B01}" Name="Three" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Three.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("3")]]>
-							</Object>
-							<Object ID="{158FBD15-F077-46F1-97D3-859EF46F195A}" Name="RowSeparator1" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/RowSeparator" />
-							<Object ID="{F041FF5E-464E-40D3-B627-A5034E4FBA67}" Name="Four" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Four.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("4")]]>
-							</Object>
-							<Object ID="{85A36285-4839-400C-8D70-9F731C78C7BC}" Name="Five" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Five.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("5")]]>
-							</Object>
-							<Object ID="{DAA1F543-6482-4937-9BFD-B05EC44E50BB}" Name="Six" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Six.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("6")]]>
-							</Object>
-							<Object ID="{DEE0D38E-5C39-46EB-8E9B-188A686F7CF0}" Name="RowSeparator2" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/RowSeparator" />
-							<Object ID="{9BB665CD-BF76-4BA5-BE69-3167F1697102}" Name="Seven" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Seven.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("7")]]>
-							</Object>
-							<Object ID="{779B8789-A79B-43B3-A614-B814A3189D5E}" Name="Eight" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Eight.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("8")]]>
-							</Object>
-							<Object ID="{E96A1BE9-72B9-4BA1-AC40-3627C9C0EB8F}" Name="Nine" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Nine.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("9")]]>
-							</Object>
-							<Object ID="{78633234-05BE-42BF-AE1F-4A03B25D4857}" Name="RowSeparator3" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/RowSeparator" />
-							<Object ID="{04FA9678-2937-486E-86DF-A29F3B5BF988}" Name="Unlock" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\Images\Unlock.gif" >
-<![CDATA[
-Script=
-set SelectedDevice = sysevent.ClientSession.CurrentLocation
-	if not SelectedDevice is nothing then
-		if SelectedDevice.IsOfExplicitType("sys://Schema/Modules/Leviton/Classes/ZWaveLock") then
-			if sysevent.ClientSession.KeyboardBuffer <> "" then
-				on error resume next
-					' pass keyboard buffer to home objects unlock method
-					sysevent.ClientSession.CurrentLocation.Unlock(sysevent.ClientSession.KeyboardBuffer)
-				on error goto 0
-			end if
-		end if
-	end if
-set sysevent.ClientSession.KeypadMode = nothing
-
-' clear the buffer
-sysevent.ClientSession.KeyboardBuffer = ""]]>
-							</Object>
-							<Object ID="{3FD0420F-3CE0-4DC4-BAF2-9AF8E88C4BF9}" Name="Zero" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\images\Zero.gif" >
-<![CDATA[
-Script=
-OnClickNumericPad("0")]]>
-							</Object>
-							<Object ID="{2B3597B1-1E8A-497C-AB82-30754406AC72}" Name="Lock" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/ScriptButton" Image="%SYSROOT%web\Plugins\Images\Lock.gif" >
-<![CDATA[
-Script=
-set SelectedDevice = sysevent.ClientSession.CurrentLocation
-	if not SelectedDevice is nothing then
-		if SelectedDevice.IsOfExplicitType(modules.Leviton.Classes.ZWaveLock.Path) then
-			if sysevent.ClientSession.KeyboardBuffer <> "" then
-				on error resume next
-					' unlock if input code matches one of the user's codes
-					sysevent.ClientSession.CurrentLocation.Lock(sysevent.ClientSession.KeyboardBuffer)
-				on error goto 0
-			end if
-		end if
-	end if
-set sysevent.ClientSession.KeypadMode = nothing
-
-' clear the buffer
-sysevent.ClientSession.KeyboardBuffer = ""
-]]>
-							</Object>
-						</Object>
-						<Object ID="{8D7EDD22-6288-4CF6-89D9-71C5F5B3DAD5}" Name="LockStateIndicator" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/CompositeControl" >
-							<Object ID="{42605361-71A7-4FAE-BAB2-D5FA5B3CB03E}" Name="FunctionState" Class="sys://Schema/Modules/AutomationBrowser/ControlPanelManager/Classes/BoundPropertyControl" Image="%SYSROOT%web\Plugins\Images\keypadbtn.gif" TargetProperty="{A8F41B3B-F64E-4B34-B730-4AAAE37E29DE}" >
-								<Object ID="{C7B13924-5E9B-440E-B285-B275F91D1F9E}" Name="OnRenderValue" Class="sys://Schema/Scripting/ObjectMethod" Method="{ED08A2A6-5620-45F8-A6DC-1AD2680919B2}" >
-<![CDATA[
-Script=
-NewColor = "Black"
-sOutput = ""
-
-if not sysevent.ClientSession.CurrentLocation is nothing then
-	with sysevent.ClientSession.CurrentLocation
-		' lock is unlocked, make red 
-		if .Unlocked then
-			NewColor = "#C80000" 'Red
-			sOutput = "Unlocked" & "<br>by " & .LastUserName
-		elseif not .Unlocked then
-			NewColor = "#008000" 'Green
-			sOutput = "Locked" & "<br>by " & .LastUserName
-		end if
-	end with
-end if
-
-with sysevent.ClientSession.currentPanel.FunctionControls
-	CurrentColor = GetHTMLColor(.StateIndicator.BackgroundColor)
-	if CurrentColor <> NewColor then
-		.StateIndicator.BackgroundColor = NewColor
-	end if
-end with
-
-' pass the string output to the automation browser
-method.Output = sOutput]]>
-								</Object>
-							</Object>
-						</Object>
-					</Object>
 				</Object>
 			</Object>
 		</Object>
